@@ -1015,42 +1015,63 @@ footer {
   /* 2. TEXT — force white on all dark navy backgrounds */
 
   /* Hero stats & subtitle */
-  .hero-subhead { color: #ffffff !important; }
-  .stat-label { color: rgba(255,255,255,0.9) !important; }
+  .hero-subhead { color: #ffffff !important; font-size: 1rem !important; }
+  .stat-label { color: #ffffff !important; font-size: 0.75rem !important; }
 
   /* Problem / pc1 card */
-  .pc-text { color: #ffffff !important; }
+  .pc-text { color: #ffffff !important; font-size: 0.9rem !important; }
 
   /* Solution features */
-  .feature-desc { color: #ffffff !important; }
+  .feature-desc { color: #ffffff !important; font-size: 0.9rem !important; }
 
   /* Homeowner grid */
-  .homeowner-cell-body { color: #ffffff !important; }
+  .homeowner-cell-body { color: #ffffff !important; font-size: 0.9rem !important; }
 
-  /* Developments */
-  .dev-card-body { color: #ffffff !important; }
-  .section-body.light { color: #ffffff !important; }
+  /* Developments — cards */
+  .dev-card-body { color: #ffffff !important; font-size: 0.9rem !important; }
+  .dev-card-invest { font-size: 0.85rem !important; }
+  .dev-card-signal { font-size: 0.85rem !important; }
+  .section-body.light { color: #ffffff !important; font-size: 0.9rem !important; }
+  .section-body { font-size: 0.9rem !important; }
 
-  /* Authority metrics */
-  .metric-label { color: #ffffff !important; }
+  /* Authority / The Brief */
+  .metric-label { color: #ffffff !important; font-size: 0.9rem !important; }
+  .metric-value { font-size: 1.5rem !important; }
+  .authority-quote { font-size: 1.3rem !important; }
 
   /* ADU */
-  .adu-num-label { color: rgba(255,255,255,0.9) !important; }
+  .adu-num-label { color: #ffffff !important; font-size: 0.75rem !important; }
+  .adu-body p { font-size: 0.9rem !important; color: #ffffff !important; }
 
   /* Community Capital */
-  .cc-subhead { color: #ffffff !important; }
-  .cc-stat-label { color: rgba(255,255,255,0.9) !important; }
-  .cc-service-item span:last-child { color: #ffffff !important; }
-  .cc-serve-text { color: #ffffff !important; }
-  .cc-contact-value { color: #ffffff !important; }
-  .cc-contact-note { color: rgba(255,255,255,0.8) !important; }
-  .cc-cta-sub { color: rgba(255,255,255,0.8) !important; }
+  .cc-subhead { color: #ffffff !important; font-size: 0.9rem !important; }
+  .cc-stat-label { color: #ffffff !important; font-size: 0.75rem !important; }
+  .cc-service-item span:last-child { color: #ffffff !important; font-size: 0.9rem !important; }
+  .cc-serve-text { color: #ffffff !important; font-size: 0.9rem !important; }
+  .cc-callout p { font-size: 0.9rem !important; color: rgba(17,32,48,0.9) !important; }
+  .cc-contact-value { color: #ffffff !important; font-size: 0.9rem !important; }
+  .cc-contact-note { color: rgba(255,255,255,0.85) !important; font-size: 0.85rem !important; }
+  .cc-cta-sub { color: rgba(255,255,255,0.85) !important; font-size: 0.85rem !important; }
+  .cc-body-title { font-size: 0.75rem !important; }
+  .cc-org-name { font-size: 1.2rem !important; }
+
+  /* FAQ */
+  .faq-answer-inner { font-size: 0.9rem !important; color: #333 !important; }
+  .faq-q-text { font-size: 1rem !important; }
 
   /* Final CTA section */
-  .cta-body { color: #ffffff !important; }
-  .contact-label { color: rgba(255,255,255,0.75) !important; }
+  .cta-body { color: #ffffff !important; font-size: 0.9rem !important; }
+  .contact-label { color: rgba(255,255,255,0.85) !important; font-size: 0.75rem !important; }
 
   /* Footer */
-  .footer-dre { color: rgba(255,255,255,0.75) !important; }
-  .footer-disc { color: rgba(255,255,255,0.55) !important; }
+  .footer-dre { color: rgba(255,255,255,0.75) !important; font-size: 0.75rem !important; }
+  .footer-disc { color: rgba(255,255,255,0.55) !important; font-size: 0.75rem !important; }
+
+  /* Global minimum — no body text smaller than 0.85rem */
+  p, li, span, div { min-font-size: 0; } /* reset — use explicit rules above */
+  .pain-desc { font-size: 0.9rem !important; color: #ffffff !important; }
+  .pain-title { font-size: 0.9rem !important; }
+  .step-desc { font-size: 0.9rem !important; }
+  .homeowner-cell-body { font-size: 0.9rem !important; }
+  .faq-answer-inner { font-size: 0.9rem !important; }
 }
