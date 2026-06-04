@@ -994,59 +994,60 @@ footer {
    ============================================ */
 @media(max-width:768px) {
 
-  /* 1. HERO IMAGE — brighter, more visible on mobile */
+  /* 1. HERO IMAGE — remove ALL overlays, max brightness */
   .hero-sketch-scene {
-    width: 100%; right: 0; left: 0; top: 0; height: 100%; opacity: 1;
+    width: 100% !important; right: 0 !important; left: 0 !important;
+    top: 0 !important; height: 100% !important; opacity: 1 !important;
   }
   .hero-sketch-scene img {
-    filter: sepia(8%) saturate(90%) brightness(1.15) contrast(1.05);
-    -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 40%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.45) 68%, rgba(0,0,0,0) 100%);
-    mask-image: radial-gradient(ellipse 100% 100% at 50% 40%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.45) 68%, rgba(0,0,0,0) 100%);
+    filter: brightness(1.3) contrast(1.1) saturate(1.05) !important;
+    -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 38%, black 0%, black 35%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.2) 80%, transparent 100%) !important;
+    mask-image: radial-gradient(ellipse 100% 100% at 50% 38%, black 0%, black 35%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.2) 80%, transparent 100%) !important;
   }
-  .hero-sketch-scene::before {
-    background: linear-gradient(to right, rgba(10,21,32,0.55) 0%, rgba(10,21,32,0.3) 30%, rgba(10,21,32,0.1) 60%, rgba(10,21,32,0) 100%);
-  }
-  .hero-sketch-scene::after {
-    background: linear-gradient(to bottom, rgba(10,21,32,0.5) 0%, rgba(10,21,32,0.05) 20%, rgba(10,21,32,0) 50%, rgba(10,21,32,0.05) 75%, rgba(10,21,32,0.45) 100%);
-  }
-  .hero-sketch-overlay { background: rgba(17,32,48,0.05); }
+  .hero-sketch-scene::before { background: none !important; }
+  .hero-sketch-scene::after { background: none !important; }
+  .hero-sketch-overlay { background: none !important; }
+  .hero-sketch-roof { background: none !important; }
 
-  /* 2. TEXT READABILITY — white text on dark navy backgrounds */
+  /* 2. TEXT — force white on all dark navy backgrounds */
 
-  /* Hero */
-  .stat-label { color: rgba(255,255,255,.75); }
-  .hero-subhead { color: rgba(255,255,255,.9); }
+  /* Hero stats & subtitle */
+  .hero-subhead { color: #ffffff !important; }
+  .stat-label { color: rgba(255,255,255,0.9) !important; }
 
-  /* Problem section (navy card) */
-  .pc-text { color: rgba(255,255,255,.9); }
+  /* Problem / pc1 card */
+  .pc-text { color: #ffffff !important; }
 
-  /* Features / solution section */
-  .feature-desc { color: rgba(255,255,255,.88); }
-  .homeowner-cell-body { color: rgba(255,255,255,.88); }
+  /* Solution features */
+  .feature-desc { color: #ffffff !important; }
 
-  /* Dev cards */
-  .dev-card-body { color: #ffffff; }
-  .section-body.light { color: rgba(255,255,255,.9); }
+  /* Homeowner grid */
+  .homeowner-cell-body { color: #ffffff !important; }
 
-  /* Authority / metrics */
-  .metric-label { color: rgba(255,255,255,.88); }
+  /* Developments */
+  .dev-card-body { color: #ffffff !important; }
+  .section-body.light { color: #ffffff !important; }
 
-  /* ADU section */
-  .adu-num-label { color: rgba(255,255,255,.8); }
+  /* Authority metrics */
+  .metric-label { color: #ffffff !important; }
+
+  /* ADU */
+  .adu-num-label { color: rgba(255,255,255,0.9) !important; }
 
   /* Community Capital */
-  .cc-subhead { color: rgba(255,255,255,.88); }
-  .cc-stat-label { color: rgba(255,255,255,.8); }
-  .cc-service-item span:last-child { color: rgba(255,255,255,.9); }
-  .cc-serve-text { color: rgba(255,255,255,.9); }
-  .cc-contact-note { color: rgba(255,255,255,.75); }
-  .cc-cta-sub { color: rgba(255,255,255,.7); }
+  .cc-subhead { color: #ffffff !important; }
+  .cc-stat-label { color: rgba(255,255,255,0.9) !important; }
+  .cc-service-item span:last-child { color: #ffffff !important; }
+  .cc-serve-text { color: #ffffff !important; }
+  .cc-contact-value { color: #ffffff !important; }
+  .cc-contact-note { color: rgba(255,255,255,0.8) !important; }
+  .cc-cta-sub { color: rgba(255,255,255,0.8) !important; }
 
-  /* Final CTA */
-  .cta-body { color: rgba(255,255,255,.88); }
-  .contact-label { color: rgba(255,255,255,.65); }
+  /* Final CTA section */
+  .cta-body { color: #ffffff !important; }
+  .contact-label { color: rgba(255,255,255,0.75) !important; }
 
   /* Footer */
-  .footer-dre { color: rgba(255,255,255,.65); }
-  .footer-disc { color: rgba(255,255,255,.45); }
+  .footer-dre { color: rgba(255,255,255,0.75) !important; }
+  .footer-disc { color: rgba(255,255,255,0.55) !important; }
 }
