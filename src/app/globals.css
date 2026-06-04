@@ -994,20 +994,23 @@ footer {
    ============================================ */
 @media(max-width:768px) {
 
-  /* 1. HERO IMAGE — remove ALL overlays, max brightness */
+  /* 1. HERO IMAGE — balanced brightness, subtle overlay for text legibility */
   .hero-sketch-scene {
     width: 100% !important; right: 0 !important; left: 0 !important;
     top: 0 !important; height: 100% !important; opacity: 1 !important;
   }
   .hero-sketch-scene img {
-    filter: brightness(1.3) contrast(1.1) saturate(1.05) !important;
+    filter: brightness(1.05) contrast(1.08) saturate(1.0) !important;
     -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 38%, black 0%, black 35%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.2) 80%, transparent 100%) !important;
     mask-image: radial-gradient(ellipse 100% 100% at 50% 38%, black 0%, black 35%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.2) 80%, transparent 100%) !important;
   }
   .hero-sketch-scene::before { background: none !important; }
   .hero-sketch-scene::after { background: none !important; }
-  .hero-sketch-overlay { background: none !important; }
+  .hero-sketch-overlay { background: rgba(10,20,35,0.45) !important; mix-blend-mode: normal !important; }
   .hero-sketch-roof { background: none !important; }
+
+  /* 2. HEADLINE text shadow for legibility over image */
+  .hero-headline { text-shadow: 0 2px 8px rgba(0,0,0,0.8) !important; }
 
   /* 2. TEXT — force white on all dark navy backgrounds */
 
