@@ -988,3 +988,65 @@ footer {
   nav { padding: 12px 20px; }
   .nav-logo { font-size: .95rem; }
 }
+
+/* ============================================
+   MOBILE-ONLY FIXES (max-width: 768px)
+   ============================================ */
+@media(max-width:768px) {
+
+  /* 1. HERO IMAGE — brighter, more visible on mobile */
+  .hero-sketch-scene {
+    width: 100%; right: 0; left: 0; top: 0; height: 100%; opacity: 1;
+  }
+  .hero-sketch-scene img {
+    filter: sepia(8%) saturate(90%) brightness(1.15) contrast(1.05);
+    -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 40%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.45) 68%, rgba(0,0,0,0) 100%);
+    mask-image: radial-gradient(ellipse 100% 100% at 50% 40%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 40%, rgba(0,0,0,0.45) 68%, rgba(0,0,0,0) 100%);
+  }
+  .hero-sketch-scene::before {
+    background: linear-gradient(to right, rgba(10,21,32,0.55) 0%, rgba(10,21,32,0.3) 30%, rgba(10,21,32,0.1) 60%, rgba(10,21,32,0) 100%);
+  }
+  .hero-sketch-scene::after {
+    background: linear-gradient(to bottom, rgba(10,21,32,0.5) 0%, rgba(10,21,32,0.05) 20%, rgba(10,21,32,0) 50%, rgba(10,21,32,0.05) 75%, rgba(10,21,32,0.45) 100%);
+  }
+  .hero-sketch-overlay { background: rgba(17,32,48,0.05); }
+
+  /* 2. TEXT READABILITY — white text on dark navy backgrounds */
+
+  /* Hero */
+  .stat-label { color: rgba(255,255,255,.75); }
+  .hero-subhead { color: rgba(255,255,255,.9); }
+
+  /* Problem section (navy card) */
+  .pc-text { color: rgba(255,255,255,.9); }
+
+  /* Features / solution section */
+  .feature-desc { color: rgba(255,255,255,.88); }
+  .homeowner-cell-body { color: rgba(255,255,255,.88); }
+
+  /* Dev cards */
+  .dev-card-body { color: #ffffff; }
+  .section-body.light { color: rgba(255,255,255,.9); }
+
+  /* Authority / metrics */
+  .metric-label { color: rgba(255,255,255,.88); }
+
+  /* ADU section */
+  .adu-num-label { color: rgba(255,255,255,.8); }
+
+  /* Community Capital */
+  .cc-subhead { color: rgba(255,255,255,.88); }
+  .cc-stat-label { color: rgba(255,255,255,.8); }
+  .cc-service-item span:last-child { color: rgba(255,255,255,.9); }
+  .cc-serve-text { color: rgba(255,255,255,.9); }
+  .cc-contact-note { color: rgba(255,255,255,.75); }
+  .cc-cta-sub { color: rgba(255,255,255,.7); }
+
+  /* Final CTA */
+  .cta-body { color: rgba(255,255,255,.88); }
+  .contact-label { color: rgba(255,255,255,.65); }
+
+  /* Footer */
+  .footer-dre { color: rgba(255,255,255,.65); }
+  .footer-disc { color: rgba(255,255,255,.45); }
+}
