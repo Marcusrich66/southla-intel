@@ -1067,11 +1067,31 @@ footer {
   .footer-dre { color: rgba(255,255,255,0.75) !important; font-size: 0.75rem !important; }
   .footer-disc { color: rgba(255,255,255,0.55) !important; font-size: 0.75rem !important; }
 
-  /* Global minimum — no body text smaller than 0.85rem */
-  p, li, span, div { min-font-size: 0; } /* reset — use explicit rules above */
-  .pain-desc { font-size: 0.9rem !important; color: #ffffff !important; }
-  .pain-title { font-size: 0.9rem !important; }
-  .step-desc { font-size: 0.9rem !important; }
-  .homeowner-cell-body { font-size: 0.9rem !important; }
-  .faq-answer-inner { font-size: 0.9rem !important; }
+  /* Global body text bump — across the board */
+  .pain-desc { font-size: 1rem !important; color: #ffffff !important; }
+  .pain-title { font-size: 1rem !important; }
+  .step-desc { font-size: 1rem !important; }
+  .homeowner-cell-body { font-size: 1rem !important; }
+  .faq-answer-inner { font-size: 1rem !important; color: var(--steel) !important; }
+  .faq-q-text { font-size: 1.05rem !important; }
+  .hero-subhead { font-size: 1.05rem !important; color: #ffffff !important; }
+  .stat-label { font-size: 0.8rem !important; color: #ffffff !important; }
+  .section-body { font-size: 1rem !important; }
+  .section-body.light { font-size: 1rem !important; color: #ffffff !important; }
+  .dev-card-body { font-size: 1rem !important; color: #ffffff !important; }
+  .dev-card-invest { font-size: 0.9rem !important; }
+  .dev-card-signal { font-size: 0.9rem !important; }
+  .feature-desc { font-size: 1rem !important; color: #ffffff !important; }
+  .pc-text { font-size: 0.95rem !important; color: #ffffff !important; }
+  .metric-label { font-size: 0.95rem !important; color: #ffffff !important; }
+  .adu-num-label { font-size: 0.8rem !important; color: #ffffff !important; }
+  .cc-subhead { font-size: 1rem !important; color: #ffffff !important; }
+  .cc-stat-label { font-size: 0.8rem !important; color: #ffffff !important; }
+  .cc-service-item span:last-child { font-size: 1rem !important; color: #ffffff !important; }
+  .cc-serve-text { font-size: 1rem !important; color: #ffffff !important; }
+  .cc-callout p { font-size: 1rem !important; }
+  .cc-contact-value { font-size: 0.95rem !important; color: #ffffff !important; }
+  .cc-contact-note { font-size: 0.9rem !important; }
+  .cta-body { font-size: 1rem !important; color: #ffffff !important; }
+  .authority-quote { font-size: 1.4rem !important; }
 }
