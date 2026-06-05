@@ -205,7 +205,7 @@ nav {
 .hero-tag::before { content: ''; display: block; width: 40px; height: 1px; background: var(--gold-base); }
 .hero-headline {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(2.8rem,7vw,6rem); font-weight: 700; line-height: 1.0;
+  font-size: clamp(2.8rem,5.5vw,4.5rem); font-weight: 700; line-height: 1.05;
   color: var(--white); max-width: min(920px,100%); margin-bottom: 8px;
   opacity: 0; animation: fadeUp .9s .35s ease forwards;
 }
