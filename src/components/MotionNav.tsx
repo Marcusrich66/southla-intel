@@ -33,7 +33,7 @@ export default function MotionNav() {
         animate={mounted ? { y: 0, opacity: 1 } : { y: -6, opacity: 1 }}
         transition={{ type: "spring", stiffness: 80, damping: 20, delay: 0.1 }}
       >
-        <div className="nav-logo">Marcus Rich<span> Realty</span></div>
+        <div className="nav-logo">South LA<span> Media</span></div>
 
         {/* Desktop links */}
         <ul className="nav-links">

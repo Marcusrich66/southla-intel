@@ -8,6 +8,7 @@ import MotionNav from "@/components/MotionNav";
 import HeroHeadline from "@/components/HeroHeadline";
 import HeroStats from "@/components/HeroStats";
 import RenderingButton from "@/components/RenderingButton";
+import HeroRenderBar from "@/components/HeroRenderBar";
 import Reveal from "@/components/Reveal";
 import MotionLink from "@/components/MotionLink";
 
@@ -74,6 +75,8 @@ export default function Home() {
             <MotionLink href="#final-cta" className="btn-primary">Request Property Analysis →</MotionLink>
             <MotionLink href="#developments" className="btn-secondary">Explore All 35+ Projects</MotionLink>
           </div>
+
+          <HeroRenderBar />
         </div>
       </section>
 
@@ -401,7 +404,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer>
         <div className="footer-dre">
-          © 2026 Marcus Rich Realty · DRE #01497912 · Equal Housing Opportunity<br />
+          © 2026 South LA Media · Produced by Marcus Rich Realty · DRE #01497912 · Equal Housing Opportunity<br />
           <span style={{ color: "rgba(207,174,109,.35)", letterSpacing: ".12em" }}>Research &amp; Editorial Direction by South LA Media</span>
         </div>
         <div className="footer-disc">This page is for informational purposes only and does not constitute legal, financial, or investment advice. Timelines, costs, and project details are based on publicly available information as of May 2026 and are subject to change. Always consult qualified professionals before making investment decisions.</div>
