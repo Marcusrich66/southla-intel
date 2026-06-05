@@ -922,7 +922,7 @@ footer {
   .hero-actions { flex-direction: column; gap: 10px; align-items: flex-start; }
   .btn-primary, .btn-secondary { width: auto; min-width: 220px; justify-content: center; padding: 12px 20px; font-size: .6rem; }
   .hero-view-btn { display: none; }
-  .hero-view-btn-mobile { display: flex; }
+  .hero-view-btn-mobile { display: none !important; }
   .container { padding: 0 24px; }
   #problem,#solution,#homeowner,#developments,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
   .section-headline { font-size: clamp(1.8rem,6vw,2.6rem); }
