@@ -1026,7 +1026,7 @@ footer {
   .section-body         { font-size: 1rem !important; }
   .section-body.light   { color: #ffffff !important; font-size: 1rem !important; }
   .pain-title           { color: #ffffff !important; font-size: 1rem !important; }
-  .pain-desc            { color: #ffffff !important; font-size: 1rem !important; }
+  .pain-desc            { color: #1a2f45 !important; font-size: 1rem !important; }
 
   /* ── SOLUTION / FEATURE CARDS ───────────── */
   .feature-desc         { color: #ffffff !important; font-size: 1rem !important; }
@@ -1035,7 +1035,7 @@ footer {
   .homeowner-cell-body  { color: #ffffff !important; font-size: 1rem !important; }
 
   /* ── DEVELOPMENTS ───────────────────────── */
-  .dev-card-body        { color: #ffffff !important; font-size: 1rem !important; }
+  .dev-card-body        { color: #4a5a6d !important; font-size: 1rem !important; }
   .dev-card-invest      { font-size: 0.9rem !important; }
   .dev-card-signal      { font-size: 0.9rem !important; }
 
