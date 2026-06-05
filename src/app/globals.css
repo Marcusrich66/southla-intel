@@ -990,168 +990,83 @@ footer {
 }
 
 /* ============================================
-   MOBILE-ONLY FIXES (max-width: 768px)
+   MOBILE FIXES — SINGLE SOURCE OF TRUTH
+   max-width: 768px only — desktop untouched
    ============================================ */
 @media(max-width:768px) {
 
-  /* 1. HERO IMAGE — balanced brightness, subtle overlay for text legibility */
+  /* ── HERO IMAGE ─────────────────────────── */
   .hero-sketch-scene {
-    width: 100% !important; right: 0 !important; left: 0 !important;
-    top: 0 !important; height: 100% !important; opacity: 1 !important;
+    width: 100% !important;
+    right: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    height: 100% !important;
+    opacity: 1 !important;
   }
   .hero-sketch-scene img {
-    filter: brightness(1.05) contrast(1.08) saturate(1.0) !important;
-    -webkit-mask-image: radial-gradient(ellipse 100% 100% at 50% 38%, black 0%, black 35%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.2) 80%, transparent 100%) !important;
-    mask-image: radial-gradient(ellipse 100% 100% at 50% 38%, black 0%, black 35%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.2) 80%, transparent 100%) !important;
+    filter: brightness(0.75) contrast(1.05) saturate(0.9) !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
   }
   .hero-sketch-scene::before { background: none !important; }
   .hero-sketch-scene::after { background: none !important; }
-  .hero-sketch-overlay { background: rgba(10,20,35,0.45) !important; mix-blend-mode: normal !important; }
+  .hero-sketch-overlay {
+    background: rgba(8, 16, 28, 0.62) !important;
+    mix-blend-mode: normal !important;
+  }
   .hero-sketch-roof { background: none !important; }
+  .hero-headline {
+    text-shadow: 0 2px 12px rgba(0,0,0,0.9) !important;
+  }
 
-  /* 2. HEADLINE text shadow for legibility over image */
-  .hero-headline { text-shadow: 0 2px 8px rgba(0,0,0,0.8) !important; }
+  /* ── GLOBAL BODY TEXT MINIMUM ───────────── */
+  .hero-subhead         { color: #ffffff !important; font-size: 1rem !important; }
+  .stat-label           { color: #ffffff !important; font-size: 0.9rem !important; }
+  .section-body         { font-size: 1rem !important; }
+  .section-body.light   { color: #ffffff !important; font-size: 1rem !important; }
+  .pain-title           { color: #ffffff !important; font-size: 1rem !important; }
+  .pain-desc            { color: #ffffff !important; font-size: 1rem !important; }
 
-  /* 2. TEXT — force white on all dark navy backgrounds */
+  /* ── SOLUTION / FEATURE CARDS ───────────── */
+  .feature-desc         { color: #ffffff !important; font-size: 1rem !important; }
 
-  /* Hero stats & subtitle */
-  .hero-subhead { color: #ffffff !important; font-size: 1rem !important; }
-  .stat-label { color: #ffffff !important; font-size: 0.75rem !important; }
+  /* ── HOMEOWNER ──────────────────────────── */
+  .homeowner-cell-body  { color: #ffffff !important; font-size: 1rem !important; }
 
-  /* Problem / pc1 card */
-  .pc-text { color: #ffffff !important; font-size: 0.9rem !important; }
+  /* ── DEVELOPMENTS ───────────────────────── */
+  .dev-card-body        { color: #ffffff !important; font-size: 1rem !important; }
+  .dev-card-invest      { font-size: 0.9rem !important; }
+  .dev-card-signal      { font-size: 0.9rem !important; }
 
-  /* Solution features */
-  .feature-desc { color: #ffffff !important; font-size: 0.9rem !important; }
+  /* ── THE BRIEF / AUTHORITY ──────────────── */
+  .authority-quote      { font-size: 1.3rem !important; }
+  .metric-label         { color: #ffffff !important; font-size: 0.95rem !important; }
 
-  /* Homeowner grid */
-  .homeowner-cell-body { color: #ffffff !important; font-size: 0.9rem !important; }
+  /* ── ADU ────────────────────────────────── */
+  .adu-num-label        { color: #ffffff !important; font-size: 0.9rem !important; }
 
-  /* Developments — cards */
-  .dev-card-body { color: #ffffff !important; font-size: 0.9rem !important; }
-  .dev-card-invest { font-size: 0.85rem !important; }
-  .dev-card-signal { font-size: 0.85rem !important; }
-  .section-body.light { color: #ffffff !important; font-size: 0.9rem !important; }
-  .section-body { font-size: 0.9rem !important; }
+  /* ── COMMUNITY CAPITAL / PCR ────────────── */
+  .cc-subhead           { color: #ffffff !important; font-size: 1rem !important; }
+  .cc-stat-label        { color: #ffffff !important; font-size: 0.9rem !important; }
+  .cc-service-item span:last-child { color: #ffffff !important; font-size: 1rem !important; }
+  .cc-serve-text        { color: #ffffff !important; font-size: 1rem !important; }
+  .cc-callout p         { font-size: 1rem !important; }
+  .cc-contact-value     { color: #ffffff !important; font-size: 0.95rem !important; }
+  .cc-contact-note      { color: rgba(255,255,255,0.85) !important; font-size: 0.9rem !important; }
+  .cc-cta-sub           { color: rgba(255,255,255,0.85) !important; font-size: 0.9rem !important; }
 
-  /* Authority / The Brief */
-  .metric-label { color: #ffffff !important; font-size: 0.9rem !important; }
-  .metric-value { font-size: 1.5rem !important; }
-  .authority-quote { font-size: 1.3rem !important; }
+  /* ── HOW IT WORKS ───────────────────────── */
+  .step-desc            { font-size: 1rem !important; }
 
-  /* ADU */
-  .adu-num-label { color: #ffffff !important; font-size: 0.75rem !important; }
-  .adu-body p { font-size: 0.9rem !important; color: #ffffff !important; }
+  /* ── FAQ ────────────────────────────────── */
+  .faq-q-text           { font-size: 1.05rem !important; }
+  .faq-answer-inner     { font-size: 1rem !important; }
 
-  /* Community Capital */
-  .cc-subhead { color: #ffffff !important; font-size: 0.9rem !important; }
-  .cc-stat-label { color: #ffffff !important; font-size: 0.75rem !important; }
-  .cc-service-item span:last-child { color: #ffffff !important; font-size: 0.9rem !important; }
-  .cc-serve-text { color: #ffffff !important; font-size: 0.9rem !important; }
-  .cc-callout p { font-size: 0.9rem !important; color: rgba(17,32,48,0.9) !important; }
-  .cc-contact-value { color: #ffffff !important; font-size: 0.9rem !important; }
-  .cc-contact-note { color: rgba(255,255,255,0.85) !important; font-size: 0.85rem !important; }
-  .cc-cta-sub { color: rgba(255,255,255,0.85) !important; font-size: 0.85rem !important; }
-  .cc-body-title { font-size: 0.75rem !important; }
-  .cc-org-name { font-size: 1.2rem !important; }
+  /* ── FINAL CTA ──────────────────────────── */
+  .cta-body             { color: #ffffff !important; font-size: 1rem !important; }
 
-  /* FAQ */
-  .faq-answer-inner { font-size: 0.9rem !important; color: #333 !important; }
-  .faq-q-text { font-size: 1rem !important; }
-
-  /* Final CTA section */
-  .cta-body { color: #ffffff !important; font-size: 0.9rem !important; }
-  .contact-label { color: rgba(255,255,255,0.85) !important; font-size: 0.75rem !important; }
-
-  /* Footer */
-  .footer-dre { color: rgba(255,255,255,0.75) !important; font-size: 0.75rem !important; }
-  .footer-disc { color: rgba(255,255,255,0.55) !important; font-size: 0.75rem !important; }
-
-  /* Global body text bump — across the board */
-  .pain-desc { font-size: 1rem !important; color: #ffffff !important; }
-  .pain-title { font-size: 1rem !important; }
-  .step-desc { font-size: 1rem !important; }
-  .homeowner-cell-body { font-size: 1rem !important; }
-  .faq-answer-inner { font-size: 1rem !important; color: var(--steel) !important; }
-  .faq-q-text { font-size: 1.05rem !important; }
-  .hero-subhead { font-size: 1.05rem !important; color: #ffffff !important; }
-  .stat-label { font-size: 0.8rem !important; color: #ffffff !important; }
-  .section-body { font-size: 1rem !important; }
-  .section-body.light { font-size: 1rem !important; color: #ffffff !important; }
-  .dev-card-body { font-size: 1rem !important; color: #ffffff !important; }
-  .dev-card-invest { font-size: 0.9rem !important; }
-  .dev-card-signal { font-size: 0.9rem !important; }
-  .feature-desc { font-size: 1rem !important; color: #ffffff !important; }
-  .pc-text { font-size: 0.95rem !important; color: #ffffff !important; }
-  .metric-label { font-size: 0.95rem !important; color: #ffffff !important; }
-  .adu-num-label { font-size: 0.8rem !important; color: #ffffff !important; }
-  .cc-subhead { font-size: 1rem !important; color: #ffffff !important; }
-  .cc-stat-label { font-size: 0.8rem !important; color: #ffffff !important; }
-  .cc-service-item span:last-child { font-size: 1rem !important; color: #ffffff !important; }
-  .cc-serve-text { font-size: 1rem !important; color: #ffffff !important; }
-  .cc-callout p { font-size: 1rem !important; }
-  .cc-contact-value { font-size: 0.95rem !important; color: #ffffff !important; }
-  .cc-contact-note { font-size: 0.9rem !important; }
-  .cta-body { font-size: 1rem !important; color: #ffffff !important; }
-  .authority-quote { font-size: 1.4rem !important; }
-}
-
-/* ============================================
-   FINAL OVERRIDE — mobile white text + size
-   Must be last in file to win all cascades
-   ============================================ */
-@media(max-width:768px) {
-  /* Dark navy sections — force all body text white and readable */
-  #hero .hero-subhead,
-  #solution .section-body,
-  #homeowner .homeowner-cell-body,
-  #homeowner .section-body,
-  #developments .section-body,
-  #authority .section-body,
-  #adu .section-body,
-  #community-capital .cc-subhead,
-  #final-cta .cta-body { color: #ffffff !important; font-size: 1rem !important; }
-
-  /* Homeowner grid cards — force white */
-  .homeowner-cell-body { color: #ffffff !important; font-size: 1rem !important; }
-
-  /* Feature cards on navy */
-  .feature-desc { color: #ffffff !important; font-size: 1rem !important; }
-
-  /* Pain items */
-  .pain-desc { color: #ffffff !important; font-size: 1rem !important; }
-  .pain-title { color: #ffffff !important; font-size: 1rem !important; }
-
-  /* Dev cards */
-  .dev-card-body { color: #ffffff !important; font-size: 1rem !important; }
-  .dev-card-invest { font-size: 0.92rem !important; }
-  .dev-card-signal { color: var(--navy) !important; font-size: 0.9rem !important; }
-
-  /* Stat labels in hero */
-  .stat-label { color: #ffffff !important; font-size: 0.8rem !important; }
-
-  /* ADU */
-  .adu-num-label { color: #ffffff !important; font-size: 0.8rem !important; }
-
-  /* Authority metrics */
-  .metric-label { color: #ffffff !important; font-size: 0.95rem !important; }
-
-  /* PCR / Community Capital */
-  .cc-stat-label { color: #ffffff !important; font-size: 0.8rem !important; }
-  .cc-serve-text { color: #ffffff !important; font-size: 1rem !important; }
-  .cc-service-item span { color: #ffffff !important; font-size: 1rem !important; }
-  .cc-contact-value { color: #ffffff !important; font-size: 0.95rem !important; }
-  .cc-contact-note { color: rgba(255,255,255,0.85) !important; font-size: 0.9rem !important; }
-  .cc-cta-sub { color: rgba(255,255,255,0.85) !important; }
-
-  /* FAQ */
-  .faq-answer-inner { font-size: 1rem !important; }
-  .faq-q-text { font-size: 1.05rem !important; }
-
-  /* Step descriptions */
-  .step-desc { font-size: 1rem !important; }
-
-  /* Footer */
-  .footer-dre { color: rgba(255,255,255,0.8) !important; font-size: 0.8rem !important; }
-  .footer-disc { color: rgba(255,255,255,0.6) !important; font-size: 0.78rem !important; }
+  /* ── FOOTER ─────────────────────────────── */
+  .footer-dre           { color: rgba(255,255,255,0.8) !important; font-size: 0.9rem !important; }
+  .footer-disc          { color: rgba(255,255,255,0.6) !important; font-size: 0.9rem !important; }
 }
