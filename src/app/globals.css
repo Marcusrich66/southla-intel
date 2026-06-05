@@ -1095,3 +1095,63 @@ footer {
   .cta-body { font-size: 1rem !important; color: #ffffff !important; }
   .authority-quote { font-size: 1.4rem !important; }
 }
+
+/* ============================================
+   FINAL OVERRIDE — mobile white text + size
+   Must be last in file to win all cascades
+   ============================================ */
+@media(max-width:768px) {
+  /* Dark navy sections — force all body text white and readable */
+  #hero .hero-subhead,
+  #solution .section-body,
+  #homeowner .homeowner-cell-body,
+  #homeowner .section-body,
+  #developments .section-body,
+  #authority .section-body,
+  #adu .section-body,
+  #community-capital .cc-subhead,
+  #final-cta .cta-body { color: #ffffff !important; font-size: 1rem !important; }
+
+  /* Homeowner grid cards — force white */
+  .homeowner-cell-body { color: #ffffff !important; font-size: 1rem !important; }
+
+  /* Feature cards on navy */
+  .feature-desc { color: #ffffff !important; font-size: 1rem !important; }
+
+  /* Pain items */
+  .pain-desc { color: #ffffff !important; font-size: 1rem !important; }
+  .pain-title { color: #ffffff !important; font-size: 1rem !important; }
+
+  /* Dev cards */
+  .dev-card-body { color: #ffffff !important; font-size: 1rem !important; }
+  .dev-card-invest { font-size: 0.92rem !important; }
+  .dev-card-signal { color: var(--navy) !important; font-size: 0.9rem !important; }
+
+  /* Stat labels in hero */
+  .stat-label { color: #ffffff !important; font-size: 0.8rem !important; }
+
+  /* ADU */
+  .adu-num-label { color: #ffffff !important; font-size: 0.8rem !important; }
+
+  /* Authority metrics */
+  .metric-label { color: #ffffff !important; font-size: 0.95rem !important; }
+
+  /* PCR / Community Capital */
+  .cc-stat-label { color: #ffffff !important; font-size: 0.8rem !important; }
+  .cc-serve-text { color: #ffffff !important; font-size: 1rem !important; }
+  .cc-service-item span { color: #ffffff !important; font-size: 1rem !important; }
+  .cc-contact-value { color: #ffffff !important; font-size: 0.95rem !important; }
+  .cc-contact-note { color: rgba(255,255,255,0.85) !important; font-size: 0.9rem !important; }
+  .cc-cta-sub { color: rgba(255,255,255,0.85) !important; }
+
+  /* FAQ */
+  .faq-answer-inner { font-size: 1rem !important; }
+  .faq-q-text { font-size: 1.05rem !important; }
+
+  /* Step descriptions */
+  .step-desc { font-size: 1rem !important; }
+
+  /* Footer */
+  .footer-dre { color: rgba(255,255,255,0.8) !important; font-size: 0.8rem !important; }
+  .footer-disc { color: rgba(255,255,255,0.6) !important; font-size: 0.78rem !important; }
+}
