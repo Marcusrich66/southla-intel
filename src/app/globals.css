@@ -1025,8 +1025,8 @@ footer {
   .stat-label           { color: #ffffff !important; font-size: 0.9rem !important; }
   .section-body         { font-size: 1rem !important; }
   .section-body.light   { color: #ffffff !important; font-size: 1rem !important; }
-  .pain-title           { color: #ffffff !important; font-size: 1rem !important; }
-  .pain-desc            { color: #1a2f45 !important; font-size: 1rem !important; }
+  .pain-title           { color: #112030 !important; font-size: 1rem !important; }
+  .pain-desc            { color: #112030 !important; font-size: 1rem !important; }
 
   /* ── SOLUTION / FEATURE CARDS ───────────── */
   .feature-desc         { color: #ffffff !important; font-size: 1rem !important; }
