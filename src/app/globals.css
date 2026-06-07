@@ -504,13 +504,19 @@ section { position: relative; }
   display: grid; grid-template-columns: repeat(2,1fr); gap: 10px;
 }
 .signal-item {
-  display: flex; flex-direction: column; gap: 4px;
+  display: flex; flex-direction: column; gap: 3px;
   padding: 14px 16px;
   background: rgba(255,255,255,.03);
   border: 1px solid rgba(207,174,109,.09);
   transition: background .25s, border-color .25s;
 }
 .signal-item:hover { background: rgba(255,255,255,.06); border-color: rgba(207,174,109,.22); }
+.signal-category {
+  display: block !important;
+  font-size: .55rem !important; letter-spacing: .18em !important;
+  margin-bottom: 4px;
+}
+.signal-category::before { display: none !important; }
 .signal-value {
   font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight: 700;
   background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;

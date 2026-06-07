@@ -302,15 +302,16 @@ export default function Home() {
               <div className="supporting-signals-header">Supporting Signals</div>
               <div className="supporting-signals">
                 {[
-                  ["Total Corridor Investment", "$5B+"],
-                  ["Jordan Downs Redevelopment", "$1B"],
-                  ["Stocker Street Creative Film Campus", "$225M"],
-                  ["Evermont District", "$300M"],
-                  ["Destination Crenshaw", "$122M"],
-                  ["West Adams Rents", "$3,395/mo"],
-                  ["PCR Business Finance Deployed", "$45–50M"],
-                ].map(([label, value]) => (
+                  ["CORRIDOR",      "$5B+",      "Total Corridor Investment"],
+                  ["REDEVELOPMENT", "$1B",        "Jordan Downs"],
+                  ["INNOVATION",    "$225M",      "Stocker Street Creative"],
+                  ["MIXED-USE",     "$300M",      "Evermont District"],
+                  ["CULTURE",       "$122M",      "Destination Crenshaw"],
+                  ["RENTAL MARKET", "$3,395/mo",  "West Adams Rents"],
+                  ["CAPITAL",       "$45–50M",    "PCR Business Finance"],
+                ].map(([category, value, label]) => (
                   <div key={label} className="signal-item">
+                    <span className="section-tag signal-category">{category}</span>
                     <span className="signal-value">{value}</span>
                     <span className="signal-label">{label}</span>
                   </div>
