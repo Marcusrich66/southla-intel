@@ -16,7 +16,8 @@ export default function ConvergenceEngine() {
         {/* ── HEADER ── */}
         <Reveal className="convergence-header">
           <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Convergence Model</div>
-          <h2 className="section-headline light">The South LA Convergence Engine</h2>
+          <h2 className="section-headline light">Six Forces. One Corridor.</h2>
+          <div className="convergence-engine-name">The South LA Convergence Engine</div>
           <p className="section-body light convergence-sub">
             Six independent forces arriving simultaneously across the corridor.
             Their intersection — not any single project — is what makes this moment structurally different.
