@@ -271,7 +271,7 @@ export default function Home() {
           <div className="authority-grid">
             <Reveal>
               <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Brief</div>
-              <blockquote className="authority-quote">&ldquo;These are not isolated catalysts. They are a convergence.&rdquo;</blockquote>
+              <blockquote className="authority-quote">&ldquo;These aren&apos;t separate projects. Everything is landing at the same time.&rdquo;</blockquote>
               <div className="authority-source">2026 South LA Growth &amp; Development Brief · Marcus Rich Realty</div>
               <p className="section-body light">This updated edition expands to a 35+ project analysis covering South LA&apos;s innovation campuses, Exposition Park&apos;s global cultural anchor, the Watts transformation, and Compton&apos;s transit frontier. Four structural forces — transit, global events, cultural investment, and equity capital — arrived simultaneously. That convergence is the story.</p>
             </Reveal>
