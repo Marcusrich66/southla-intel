@@ -268,15 +268,13 @@ export default function Home() {
       {/* AUTHORITY */}
       <section id="authority">
         <div className="container">
-          <div className="authority-grid">
-            <Reveal>
-              <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Brief</div>
-              <blockquote className="authority-quote">&ldquo;These aren&apos;t separate projects. Everything is landing at the same time.&rdquo;</blockquote>
-              <div className="authority-source">2026 South LA Growth &amp; Development Brief · Marcus Rich Realty</div>
-              <p className="section-body light">This updated edition expands to a 35+ project analysis covering South LA&apos;s innovation campuses, Exposition Park&apos;s global cultural anchor, the Watts transformation, and Compton&apos;s transit frontier. Four structural forces — transit, global events, cultural investment, and equity capital — arrived simultaneously. That convergence is the story.</p>
-            </Reveal>
-            <Reveal className="authority-right" delay={0.15}>
-              {/* FEATURED CATALYST CARD */}
+          <Reveal>
+            <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Brief</div>
+          </Reveal>
+          <div className="brief-grid">
+
+            {/* TOP LEFT — North Anchor */}
+            <Reveal className="brief-north-anchor">
               <div className="featured-catalyst-card">
                 <div className="featured-card-img-wrap">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -301,8 +299,10 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+            </Reveal>
 
-              {/* SOUTH ANCHOR CARD */}
+            {/* TOP RIGHT — South Anchor */}
+            <Reveal className="brief-south-anchor" delay={0.1}>
               <div className="featured-catalyst-card">
                 <div className="featured-card-img-wrap">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -327,8 +327,17 @@ export default function Home() {
                   </p>
                 </div>
               </div>
+            </Reveal>
 
-              {/* SUPPORTING SIGNALS GRID */}
+            {/* BOTTOM LEFT — Quote + Body */}
+            <Reveal className="brief-quote-block" delay={0.15}>
+              <blockquote className="authority-quote">&ldquo;These aren&apos;t separate projects. Everything is landing at the same time.&rdquo;</blockquote>
+              <div className="authority-source">2026 South LA Growth &amp; Development Brief · Marcus Rich Realty</div>
+              <p className="section-body light">This updated edition expands to a 35+ project analysis covering South LA&apos;s innovation campuses, Exposition Park&apos;s global cultural anchor, the Watts transformation, and Compton&apos;s transit frontier. Four structural forces — transit, global events, cultural investment, and equity capital — arrived simultaneously. That convergence is the story.</p>
+            </Reveal>
+
+            {/* BOTTOM RIGHT — Supporting Signals */}
+            <Reveal className="brief-signals" delay={0.2}>
               <div className="supporting-signals-header">Supporting Signals</div>
               <div className="supporting-signals">
                 {[
@@ -348,6 +357,7 @@ export default function Home() {
                 ))}
               </div>
             </Reveal>
+
           </div>
         </div>
       </section>

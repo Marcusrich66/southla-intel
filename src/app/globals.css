@@ -677,6 +677,34 @@ section { position: relative; }
 /* AUTHORITY */
 #authority { background: var(--navy-deep); padding: 100px 0; }
 .authority-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+
+/* BRIEF SECTION 2x2 GRID */
+.brief-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-top: 48px;
+}
+.brief-north-anchor { grid-column: 1; grid-row: 1; }
+.brief-south-anchor { grid-column: 2; grid-row: 1; }
+.brief-quote-block  { grid-column: 1; grid-row: 2; padding-right: 20px; }
+.brief-signals      { grid-column: 2; grid-row: 2; }
+
+/* BRIEF GRID MOBILE */
+@media(max-width:768px) {
+  .brief-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .brief-north-anchor,
+  .brief-south-anchor,
+  .brief-quote-block,
+  .brief-signals {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
 .authority-quote {
   font-family: 'Cormorant Garamond', serif;
   font-size: clamp(1.5rem,2.4vw,2.1rem); font-weight: 600; font-style: italic;
