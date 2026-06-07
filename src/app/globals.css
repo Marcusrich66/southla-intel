@@ -445,6 +445,79 @@ section { position: relative; }
   background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
 }
 
+/* AUTHORITY — FEATURED CATALYST + SUPPORTING SIGNALS */
+.authority-right { display: flex; flex-direction: column; gap: 28px; }
+
+.featured-catalyst-card {
+  border: 1px solid rgba(207,174,109,.22);
+  background: rgba(255,255,255,.03);
+  overflow: hidden;
+  position: relative;
+}
+.featured-card-img-wrap {
+  position: relative; width: 100%; height: 220px; overflow: hidden;
+}
+.featured-card-img-wrap img {
+  width: 100%; height: 100%; object-fit: cover; object-position: center 30%;
+  filter: brightness(0.82) contrast(1.05) saturate(0.88);
+  transition: transform .6s ease;
+}
+.featured-catalyst-card:hover .featured-card-img-wrap img { transform: scale(1.03); }
+.featured-card-img-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to bottom, rgba(10,21,32,.15) 0%, rgba(10,21,32,.55) 100%);
+}
+.featured-card-badge {
+  position: absolute; top: 16px; right: 16px;
+  font-size: .6rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--navy-deep); background: var(--gold-gradient);
+  padding: 5px 12px;
+}
+.featured-card-body { padding: 26px 28px 28px; }
+.featured-card-eyebrow {
+  font-size: .62rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--gold-base); margin-bottom: 10px;
+}
+.featured-card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.6rem,2.2vw,2rem); font-weight: 700; line-height: 1.15;
+  color: var(--white); margin-bottom: 14px;
+}
+.featured-card-meta-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 16px; }
+.featured-card-value {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.7rem; font-weight: 700;
+  background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.featured-card-divider { color: rgba(207,174,109,.4); font-size: 1.1rem; }
+.featured-card-date { font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.6); }
+.featured-card-impact {
+  font-size: .85rem; line-height: 1.65; color: rgba(255,255,255,.72);
+  border-top: 1px solid rgba(207,174,109,.12); padding-top: 16px; margin: 0;
+}
+
+.supporting-signals-header {
+  font-size: .58rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase;
+  color: rgba(207,174,109,.55); padding-bottom: 10px;
+  border-bottom: 1px solid rgba(207,174,109,.12);
+}
+.supporting-signals {
+  display: grid; grid-template-columns: repeat(2,1fr); gap: 10px;
+}
+.signal-item {
+  display: flex; flex-direction: column; gap: 4px;
+  padding: 14px 16px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(207,174,109,.09);
+  transition: background .25s, border-color .25s;
+}
+.signal-item:hover { background: rgba(255,255,255,.06); border-color: rgba(207,174,109,.22); }
+.signal-value {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight: 700;
+  background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  line-height: 1.1;
+}
+.signal-label { font-size: .68rem; font-weight: 500; color: rgba(255,255,255,.6); line-height: 1.3; }
+
 /* HOW IT WORKS */
 #how-it-works { background: var(--off-white); padding: 100px 0; }
 .steps-header { text-align: center; max-width: 600px; margin: 0 auto 68px; }
@@ -950,8 +1023,10 @@ footer {
   .dev-card-title { font-size: 1.15rem; } .dev-card-body { font-size: .82rem; }
   .authority-grid { grid-template-columns: 1fr; gap: 40px; }
   .authority-quote { font-size: 1.4rem; padding-left: 20px; }
-  .metric-row { padding: 14px 18px; }
-  .metric-label { font-size: .72rem; } .metric-value { font-size: 1.35rem; }
+  .featured-card-img-wrap { height: 180px; }
+  .featured-card-body { padding: 20px; }
+  .featured-card-title { font-size: 1.5rem; }
+  .supporting-signals { grid-template-columns: 1fr 1fr; gap: 8px; }
   .steps-header { margin-bottom: 48px; }
   .steps-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
   .steps-grid::before { display: none; }
@@ -1042,7 +1117,9 @@ footer {
 
   /* ── THE BRIEF / AUTHORITY ──────────────── */
   .authority-quote      { font-size: 1.3rem !important; }
-  .metric-label         { color: #ffffff !important; font-size: 0.95rem !important; }
+  .featured-card-impact { font-size: 0.82rem !important; color: rgba(255,255,255,0.72) !important; }
+  .signal-label         { color: rgba(255,255,255,0.72) !important; font-size: 0.68rem !important; }
+  .signal-value         { font-size: 1.15rem !important; }
 
   /* ── ADU ────────────────────────────────── */
   .adu-num-label        { color: #ffffff !important; font-size: 0.9rem !important; }

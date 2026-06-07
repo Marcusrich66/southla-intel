@@ -271,24 +271,51 @@ export default function Home() {
               <div className="authority-source">2026 South LA Growth &amp; Development Brief · Marcus Rich Realty</div>
               <p className="section-body light">This updated edition expands to a 35+ project analysis covering South LA&apos;s innovation campuses, Exposition Park&apos;s global cultural anchor, the Watts transformation, and Compton&apos;s transit frontier. Four structural forces — transit, global events, cultural investment, and equity capital — arrived simultaneously. That convergence is the story.</p>
             </Reveal>
-            <Reveal className="metrics-list" delay={0.15}>
-              {[
-                ["Total Corridor Investment", "$5B+"],
-                ["Jordan Downs Redevelopment", "$1B"],
-                ["Lucas Museum (George Lucas & Mellody Hobson)", "~$1B"],
-                ["Stocker Street Creative Film Campus", "$225M"],
-                ["Evermont District", "$300M"],
-                ["Kali Hotel — Marriott Autograph", "$300M"],
-                ["Baldwin Hills Crenshaw Master Plan", "$1B+"],
-                ["Destination Crenshaw", "$122M"],
-                ["West Adams Rents (Current Ceiling)", "$3,395/mo"],
-                ["PCR Business Finance Deployed", "$45.5M"],
-              ].map(([label, value]) => (
-                <div key={label} className="metric-row">
-                  <span className="metric-label">{label}</span>
-                  <span className="metric-value">{value}</span>
+            <Reveal className="authority-right" delay={0.15}>
+              {/* FEATURED CATALYST CARD */}
+              <div className="featured-catalyst-card">
+                <div className="featured-card-img-wrap">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="https://marcusrichrealty.com/wp-content/uploads/2026/05/New-GL.-Sketch.-Museum-in.png"
+                    alt="Lucas Museum of Narrative Art rendering"
+                    loading="lazy"
+                  />
+                  <div className="featured-card-img-overlay" />
+                  <span className="featured-card-badge">North Anchor</span>
                 </div>
-              ))}
+                <div className="featured-card-body">
+                  <div className="featured-card-eyebrow">Featured Catalyst · Exposition Park</div>
+                  <div className="featured-card-title">Lucas Museum<br />of Narrative Art</div>
+                  <div className="featured-card-meta-row">
+                    <span className="featured-card-value">~$1B</span>
+                    <span className="featured-card-divider">·</span>
+                    <span className="featured-card-date">Opens Sept 2026</span>
+                  </div>
+                  <p className="featured-card-impact">
+                    A cultural and investment anchor connecting Exposition Park, the K Line corridor, USC, and South LA property positioning — the single most consequential opening in the corridor&apos;s modern history.
+                  </p>
+                </div>
+              </div>
+
+              {/* SUPPORTING SIGNALS GRID */}
+              <div className="supporting-signals-header">Supporting Signals</div>
+              <div className="supporting-signals">
+                {[
+                  ["Total Corridor Investment", "$5B+"],
+                  ["Jordan Downs Redevelopment", "$1B"],
+                  ["Stocker Street Creative Film Campus", "$225M"],
+                  ["Evermont District", "$300M"],
+                  ["Destination Crenshaw", "$122M"],
+                  ["West Adams Rents", "$3,395/mo"],
+                  ["PCR Business Finance Deployed", "$45–50M"],
+                ].map(([label, value]) => (
+                  <div key={label} className="signal-item">
+                    <span className="signal-value">{value}</span>
+                    <span className="signal-label">{label}</span>
+                  </div>
+                ))}
+              </div>
             </Reveal>
           </div>
         </div>
