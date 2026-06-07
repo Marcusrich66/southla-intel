@@ -71,7 +71,7 @@ export default function ConvergenceEngine() {
           <div className="convergence-grid">
 
             {/* TL */}
-            <div className="spoke-node spoke-tl">
+            <div className="spoke-node spoke-tl convergence-box">
               <div className="spoke-label">TRANSIT INFRASTRUCTURE</div>
               <ul className="spoke-items">
                 <li>K Line</li>
@@ -95,7 +95,7 @@ export default function ConvergenceEngine() {
             </div>
 
             {/* TR */}
-            <div className="spoke-node spoke-tr">
+            <div className="spoke-node spoke-tr convergence-box">
               <div className="spoke-label">CULTURAL INVESTMENT</div>
               <ul className="spoke-items">
                 <li>Lucas Museum</li>
@@ -105,7 +105,7 @@ export default function ConvergenceEngine() {
             </div>
 
             {/* ML */}
-            <div className="spoke-node spoke-ml">
+            <div className="spoke-node spoke-ml convergence-box">
               <div className="spoke-label">REDEVELOPMENT</div>
               <ul className="spoke-items">
                 <li>Jordan Downs</li>
@@ -115,7 +115,7 @@ export default function ConvergenceEngine() {
             </div>
 
             {/* MR */}
-            <div className="spoke-node spoke-mr">
+            <div className="spoke-node spoke-mr convergence-box">
               <div className="spoke-label">PRIVATE CAPITAL</div>
               <ul className="spoke-items">
                 <li>Institutional Capital</li>
@@ -125,7 +125,7 @@ export default function ConvergenceEngine() {
             </div>
 
             {/* BL */}
-            <div className="spoke-node spoke-bl">
+            <div className="spoke-node spoke-bl convergence-box">
               <div className="spoke-label">GLOBAL EVENTS</div>
               <ul className="spoke-items">
                 <li>FIFA 2026</li>
@@ -135,7 +135,7 @@ export default function ConvergenceEngine() {
             </div>
 
             {/* BR */}
-            <div className="spoke-node spoke-br">
+            <div className="spoke-node spoke-br convergence-box">
               <div className="spoke-label">ADU LEGISLATION</div>
               <ul className="spoke-items">
                 <li>AB 1033</li>

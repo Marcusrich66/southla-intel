@@ -1394,3 +1394,16 @@ footer {
     100% { left: 160%; }
   }
 }
+
+/* SA CONVERGENCE ENGINE — HOVER ANIMATION */
+@media(min-width:769px) {
+  .convergence-box {
+    transition: background .3s ease, transform .3s ease, border-color .3s ease;
+    cursor: pointer;
+  }
+  .convergence-box:hover {
+    background: rgba(100,160,220,0.12) !important;
+    border-color: rgba(100,160,220,0.4) !important;
+    transform: translateY(-3px);
+  }
+}
