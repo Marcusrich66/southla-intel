@@ -302,6 +302,32 @@ export default function Home() {
                 </div>
               </div>
 
+              {/* SOUTH ANCHOR CARD */}
+              <div className="featured-catalyst-card">
+                <div className="featured-card-img-wrap">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="https://marcusrichrealty.com/wp-content/uploads/2026/06/Sofi-Stadium.jpg"
+                    alt="SoFi Stadium and Hollywood Park entertainment district"
+                    loading="lazy"
+                  />
+                  <div className="featured-card-img-overlay" />
+                  <span className="featured-card-badge">South Anchor</span>
+                </div>
+                <div className="featured-card-body">
+                  <div className="featured-card-eyebrow">South Anchor · Inglewood</div>
+                  <div className="featured-card-title">SoFi Stadium · Intuit Dome<br />· Kali Hotel</div>
+                  <div className="featured-card-meta-row">
+                    <span className="featured-card-value">$10B+</span>
+                    <span className="featured-card-divider">·</span>
+                    <span className="featured-card-date">FIFA 2026 · Super Bowl 2027 · Olympics 2028</span>
+                  </div>
+                  <p className="featured-card-impact">
+                    Three world-class venues within walking distance of each other. The entertainment district anchoring the southern end of the corridor — already open and drawing global money and attention straight into South LA.
+                  </p>
+                </div>
+              </div>
+
               {/* SUPPORTING SIGNALS GRID */}
               <div className="supporting-signals-header">Supporting Signals</div>
               <div className="supporting-signals">
