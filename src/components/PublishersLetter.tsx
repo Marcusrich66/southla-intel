@@ -116,10 +116,10 @@ export default function PublishersLetter() {
                   <p>South LA Media exists because this moment demands a publication equal to it.</p>
                   <p>What is happening right now in South Los Angeles is, without exaggeration, the most consequential transformation this community has seen in generations. The Lucas Museum of Narrative Art. SoFi Stadium. The Intuit Dome. The Jordan Downs redevelopment. The Stocker Street Creative campus rising in Baldwin Hills. Sankofa Park along the Crenshaw Corridor. The K Line connecting communities from Expo to LAX.</p>
                   <p>But the story is bigger than any single project.</p>
-                  <p>This is not one story. It is multiple converging forces reshaping the same geography at the same time — culture, transit, housing, entertainment, institutional investment, and global events all arriving in South Los Angeles within the same historic window.</p>
-                  <p>That convergence needs context. These projects need analysis. This community deserves intelligence — not headlines, not hype, but clear, grounded insight into what is being built, who is building it, where capital is flowing, and what it means for the people who have always called South LA home.</p>
+                  <p>This is not one story. It is multiple things hitting the same neighborhood at the same time — and they are all connected — culture, transit, housing, entertainment, institutional investment, and global events all arriving in South Los Angeles within the same historic window.</p>
+                  <p>All of it needs context. These projects need analysis. This community deserves intelligence — not headlines, not hype, but clear, grounded insight into what is being built, who is building it, where capital is flowing, and what it means for the people who have always called South LA home.</p>
                   <p>That is what South LA Media delivers.</p>
-                  <p>We are a digital intelligence platform — hyperlocal, research-driven, and community-first.</p>
+                  <p>We are a publication built for this community — close to the ground, research-driven, and community-first.</p>
                   <p>Our inaugural publication, the 2026 South LA Growth &amp; Development Brief, documents more than 35 active projects across South Los Angeles. It is not a report about potential. It is a record of what is already underway.</p>
                   <p>Issue by issue, story by story, South LA Media will track development projects, capital flows, zoning changes, transit investments, business activity, and cultural transformation across the South LA Golden Corridor.</p>
                   <p>We track projects by address, not by headline.</p>

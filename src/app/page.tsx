@@ -125,18 +125,18 @@ export default function Home() {
               <div className="problem-card pc1">
                 <div className="pc-label">The Knowledge Gap</div>
                 <div className="pc-stat">Most owners</div>
-                <div className="pc-text">hold South LA property with no intelligence framework for what&apos;s happening within a half-mile of their lot — and no roadmap to capture it.</div>
+                <div className="pc-text">own property in South LA and have no idea what&apos;s being built a few blocks away — or what it means for their home&apos;s value.</div>
               </div>
               <div className="problem-card pc2">
                 <div className="pc-label">The Window</div>
                 <div className="pc-stat">Now</div>
-                <div className="pc-text">The arbitrage gap between today&apos;s prices and post-zoning values is open right now. It won&apos;t be after the market fully adjusts.</div>
+                <div className="pc-text">The gap between what this land is worth today and what it&apos;ll be worth after zoning catches up — that gap is still there. Not for long.</div>
               </div>
             </Reveal>
             <Reveal delay={0.15}>
               <div className="section-tag">The Problem</div>
               <h2 className="section-headline">The Corridor Is Moving.<br />Most People Are Watching.</h2>
-              <p className="section-body" style={{ marginBottom: "36px" }}>Four structural forces converged simultaneously across South LA. The investors and homeowners who act on intelligence — not instinct — are the ones who will define the next decade of wealth in this corridor.</p>
+              <p className="section-body" style={{ marginBottom: "36px" }}>Four things hit South LA at the same time — and most people missed it. The people who knew what was coming — not just felt it — are the ones building real wealth here. That window is still open. Barely.</p>
               <ul className="pain-list">
                 <li className="pain-item">
                   <div className="pain-icon">📍</div>
@@ -332,28 +332,28 @@ export default function Home() {
           <Reveal className="steps-header">
             <div className="section-tag">How It Works</div>
             <h2 className="section-headline">From Intelligence to Action</h2>
-            <p className="section-body" style={{ margin: "0 auto", textAlign: "center" }}>Every development in this report is a data point. The intelligence only matters if it leads to action. Here is the framework.</p>
+            <p className="section-body" style={{ margin: "0 auto", textAlign: "center" }}>Every project in this report tells you something. But knowing isn&apos;t enough — you have to move. Here&apos;s how we do it.</p>
           </Reveal>
           <div className="steps-grid">
             <Reveal className="step-item">
               <div className="step-number">01</div>
               <div className="step-title">Property Context Brief</div>
-              <div className="step-desc">We map your specific lot against the 35+ development signals — identifying which projects are within the half-mile value radius and what that means for your equity position.</div>
+              <div className="step-desc">We map your specific lot against the 35+ development signals — figuring out which projects are close enough to actually move your property value — and by how much.</div>
             </Reveal>
             <Reveal className="step-item" delay={0.1}>
               <div className="step-number">02</div>
               <div className="step-title">Opportunity Analysis</div>
-              <div className="step-desc">ADU feasibility, zoning exposure, rental income modeling, and AB 1033 applicability — a complete picture of what your property can support in the context of corridor intelligence.</div>
+              <div className="step-desc">Can you build an ADU? What can you rent it for? Can you sell it separately under AB 1033? We run the numbers on your specific lot.</div>
             </Reveal>
             <Reveal className="step-item" delay={0.2}>
               <div className="step-number">03</div>
               <div className="step-title">Strategic Roadmap</div>
-              <div className="step-desc">Whether you&apos;re a homeowner, buyer, or investor — we deliver a clear, time-sensitive action framework: what to do, when, and what&apos;s at stake if you wait.</div>
+              <div className="step-desc">Whether you&apos;re a homeowner, buyer, or investor — we tell you straight: what to do, when to do it, and what you&apos;re leaving on the table if you wait.</div>
             </Reveal>
             <Reveal className="step-item" delay={0.3}>
               <div className="step-number">04</div>
               <div className="step-title">Ongoing Intelligence</div>
-              <div className="step-desc">The Brief is a living document — updated as projects mature and market conditions shift. Marcus Rich Realty keeps you positioned ahead of the curve, not behind it.</div>
+              <div className="step-desc">South LA keeps moving. So does this report. We&apos;ll keep you ahead of what&apos;s coming — not catching up to what already happened.</div>
             </Reveal>
           </div>
         </div>
@@ -367,7 +367,7 @@ export default function Home() {
               <div className="section-tag" style={{ color: "var(--gold-base)" }}>Homeowner Wealth Creation</div>
               <h2 className="section-headline light">AB 1033 Changes<br /><em className="gold-text" style={{ fontStyle: "italic" }}>Everything.</em></h2>
               <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a corridor where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
-              <p className="section-body light" style={{ marginBottom: "40px" }}>Green space at transit stops, activated corridors, and tech-trained renters who value proximity to rail — these are the structural conditions that make South LA ADUs uniquely positioned right now.</p>
+              <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay a premium to be close to the K Line — these are the structural conditions that make South LA ADUs uniquely positioned right now.</p>
               <MotionLink href="#final-cta" className="btn-primary">See What Your Lot Can Support →</MotionLink>
             </Reveal>
             <Reveal className="adu-numbers" delay={0.15}>
@@ -397,7 +397,7 @@ export default function Home() {
             </h2>
           </Reveal>
           <Reveal delay={0.15}>
-            <p className="cta-body">See what your specific property can support in the context of this corridor intelligence. ADU feasibility, zoning exposure, appreciation positioning, and a clear strategic roadmap — all mapped to the 35+ developments in this Brief.</p>
+            <p className="cta-body">See what your specific property can support in the context of this corridor intelligence. Can you build an ADU? What&apos;s your lot worth in 3 years? What are you sitting on that you don&apos;t know about yet? We map it all against every project in this report.</p>
           </Reveal>
           <Reveal delay={0.25}>
             <div className="cta-actions">
