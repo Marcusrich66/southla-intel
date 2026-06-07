@@ -2,10 +2,10 @@
 import Reveal from "./Reveal";
 
 const outcomes = [
-  { label: "PROPERTY POSITIONING",    items: ["Transit proximity", "Cultural proximity", "Development exposure"] },
-  { label: "APPRECIATION",            items: ["Land value growth", "Rent growth", "Demand concentration"] },
-  { label: "DEVELOPMENT OPPORTUNITY", items: ["ADUs", "Mixed-use corridors", "Transit-oriented projects"] },
-  { label: "GENERATIONAL WEALTH",     items: ["Property ownership", "Income creation", "Equity growth"] },
+  { label: "Property\nPositioning",    items: ["Transit proximity", "Cultural proximity", "Development exposure"] },
+  { label: "Appreciation",             items: ["Land value growth", "Rent growth", "Demand concentration"] },
+  { label: "Development\nOpportunity", items: ["ADUs", "Mixed-use corridors", "Transit-oriented projects"] },
+  { label: "Generational\nWealth",     items: ["Property ownership", "Income creation", "Equity growth"] },
 ];
 
 export default function ConvergenceEngine() {
@@ -18,28 +18,54 @@ export default function ConvergenceEngine() {
           <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Convergence Model</div>
           <h2 className="section-headline light">The South LA Convergence Engine</h2>
           <p className="section-body light convergence-sub">
-            Six independent forces are converging across the corridor simultaneously. Their intersection
-            creates the conditions driving property positioning, development opportunity, appreciation,
-            and long-term wealth creation.
+            Six independent forces arriving simultaneously across the corridor.
+            Their intersection — not any single project — is what makes this moment structurally different.
           </p>
         </Reveal>
 
         {/* ── HUB-AND-SPOKE DIAGRAM ── */}
         <Reveal className="convergence-diagram-wrap" delay={0.15}>
 
-          {/* Blueprint connector lines */}
+          {/* Blueprint connector lines — stronger, directional */}
           <svg
             className="convergence-svg"
-            viewBox="0 0 1000 560"
+            viewBox="0 0 1000 580"
             preserveAspectRatio="none"
             aria-hidden="true"
           >
-            <line x1="168" y1="93"  x2="500" y2="280" className="spoke-line" />
-            <line x1="832" y1="93"  x2="500" y2="280" className="spoke-line" />
-            <line x1="72"  y1="280" x2="500" y2="280" className="spoke-line" />
-            <line x1="928" y1="280" x2="500" y2="280" className="spoke-line" />
-            <line x1="168" y1="467" x2="500" y2="280" className="spoke-line" />
-            <line x1="832" y1="467" x2="500" y2="280" className="spoke-line" />
+            <defs>
+              {/* Gradient: dim at node end, bright near hub */}
+              <linearGradient id="lg-tl" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%"   stopColor="#CFAE6D" stopOpacity="0.18" />
+                <stop offset="100%" stopColor="#CFAE6D" stopOpacity="0.65" />
+              </linearGradient>
+              <linearGradient id="lg-tr" x1="100%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%"   stopColor="#CFAE6D" stopOpacity="0.18" />
+                <stop offset="100%" stopColor="#CFAE6D" stopOpacity="0.65" />
+              </linearGradient>
+              <linearGradient id="lg-ml" x1="0%" y1="50%" x2="100%" y2="50%">
+                <stop offset="0%"   stopColor="#CFAE6D" stopOpacity="0.18" />
+                <stop offset="100%" stopColor="#CFAE6D" stopOpacity="0.65" />
+              </linearGradient>
+              <linearGradient id="lg-mr" x1="100%" y1="50%" x2="0%" y2="50%">
+                <stop offset="0%"   stopColor="#CFAE6D" stopOpacity="0.18" />
+                <stop offset="100%" stopColor="#CFAE6D" stopOpacity="0.65" />
+              </linearGradient>
+              <linearGradient id="lg-bl" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%"   stopColor="#CFAE6D" stopOpacity="0.18" />
+                <stop offset="100%" stopColor="#CFAE6D" stopOpacity="0.65" />
+              </linearGradient>
+              <linearGradient id="lg-br" x1="100%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%"   stopColor="#CFAE6D" stopOpacity="0.18" />
+                <stop offset="100%" stopColor="#CFAE6D" stopOpacity="0.65" />
+              </linearGradient>
+            </defs>
+            <line x1="148" y1="88"  x2="500" y2="290" stroke="url(#lg-tl)" strokeWidth="1.4" />
+            <line x1="852" y1="88"  x2="500" y2="290" stroke="url(#lg-tr)" strokeWidth="1.4" />
+            <line x1="55"  y1="290" x2="500" y2="290" stroke="url(#lg-ml)" strokeWidth="1.4" />
+            <line x1="945" y1="290" x2="500" y2="290" stroke="url(#lg-mr)" strokeWidth="1.4" />
+            <line x1="148" y1="492" x2="500" y2="290" stroke="url(#lg-bl)" strokeWidth="1.4" />
+            <line x1="852" y1="492" x2="500" y2="290" stroke="url(#lg-br)" strokeWidth="1.4" />
           </svg>
 
           <div className="convergence-grid">
@@ -50,14 +76,14 @@ export default function ConvergenceEngine() {
               <ul className="spoke-items">
                 <li>K Line</li>
                 <li>E Line</li>
-                <li>A Line</li>
-                <li>Transit-Oriented Development</li>
+                <li>TOD Corridors</li>
               </ul>
             </div>
 
-            {/* CENTER HUB — spans all 3 rows via grid-area */}
+            {/* CENTER HUB */}
             <div className="hub-center">
               <div className="hub-inner">
+                <div className="hub-eyebrow">THE</div>
                 <div className="hub-title">SOUTH LA<br />CORRIDOR</div>
                 <div className="hub-divider" />
                 <div className="hub-stats">
@@ -75,7 +101,6 @@ export default function ConvergenceEngine() {
                 <li>Lucas Museum</li>
                 <li>Destination Crenshaw</li>
                 <li>Leimert Park</li>
-                <li>Cultural Anchors</li>
               </ul>
             </div>
 
@@ -85,8 +110,7 @@ export default function ConvergenceEngine() {
               <ul className="spoke-items">
                 <li>Jordan Downs</li>
                 <li>Evermont District</li>
-                <li>Stocker Creative</li>
-                <li>West Adams Growth</li>
+                <li>West Adams</li>
               </ul>
             </div>
 
@@ -94,9 +118,8 @@ export default function ConvergenceEngine() {
             <div className="spoke-node spoke-mr">
               <div className="spoke-label">PRIVATE CAPITAL</div>
               <ul className="spoke-items">
-                <li>Institutional Investment</li>
-                <li>Commercial Development</li>
-                <li>Housing Investment</li>
+                <li>Institutional Capital</li>
+                <li>Mixed-Use Investment</li>
                 <li>Business Expansion</li>
               </ul>
             </div>
@@ -108,7 +131,6 @@ export default function ConvergenceEngine() {
                 <li>FIFA 2026</li>
                 <li>Super Bowl 2027</li>
                 <li>Olympics 2028</li>
-                <li>Regional Tourism</li>
               </ul>
             </div>
 
@@ -119,7 +141,6 @@ export default function ConvergenceEngine() {
                 <li>AB 1033</li>
                 <li>ADU Development</li>
                 <li>JADU Strategy</li>
-                <li>Homeowner Opportunity</li>
               </ul>
             </div>
 
@@ -128,11 +149,20 @@ export default function ConvergenceEngine() {
 
         {/* ── OUTCOME PANEL ── */}
         <Reveal className="convergence-outcomes" delay={0.25}>
-          <div className="outcomes-eyebrow">CORRIDOR OUTCOMES</div>
+          <div className="outcomes-bridge">
+            <div className="outcomes-bridge-line" />
+            <div className="outcomes-bridge-label">Their convergence produces</div>
+            <div className="outcomes-bridge-line" />
+          </div>
           <div className="outcomes-grid">
             {outcomes.map((o) => (
               <div key={o.label} className="outcome-card">
-                <div className="outcome-title">{o.label}</div>
+                <div className="outcome-accent" />
+                <div className="outcome-title">
+                  {o.label.split("\n").map((line, i) => (
+                    <span key={i}>{line}{i < o.label.split("\n").length - 1 && <br />}</span>
+                  ))}
+                </div>
                 <ul className="outcome-items">
                   {o.items.map((item) => <li key={item}>{item}</li>)}
                 </ul>
