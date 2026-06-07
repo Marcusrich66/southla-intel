@@ -11,6 +11,7 @@ import RenderingButton from "@/components/RenderingButton";
 import HeroRenderBar from "@/components/HeroRenderBar";
 import Reveal from "@/components/Reveal";
 import MotionLink from "@/components/MotionLink";
+import ConvergenceEngine from "@/components/ConvergenceEngine";
 
 export default function Home() {
   return (
@@ -200,6 +201,9 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+
+      {/* CONVERGENCE ENGINE */}
+      <ConvergenceEngine />
 
       {/* CORRIDOR MAP */}
       <section id="corridor-map">

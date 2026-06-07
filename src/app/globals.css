@@ -353,6 +353,136 @@ section { position: relative; }
 .feature-title { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 600; color: var(--white); margin-bottom: 10px; line-height: 1.2; }
 .feature-desc { font-size: .82rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.9); }
 
+/* CONVERGENCE ENGINE */
+#convergence { background: var(--navy-deep); padding: 100px 0; }
+
+.convergence-header { text-align: center; max-width: 680px; margin: 0 auto 72px; }
+.convergence-header .section-tag { justify-content: center; }
+.convergence-header .section-tag::before { display: none; }
+.convergence-sub { text-align: center; max-width: 580px; margin: 0 auto; }
+
+/* Diagram wrapper */
+.convergence-diagram-wrap { position: relative; margin-bottom: 72px; }
+
+/* SVG connector lines */
+.convergence-svg {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 0;
+}
+.spoke-line {
+  stroke: #CFAE6D;
+  stroke-width: 0.7;
+  stroke-dasharray: 5 7;
+  opacity: 0.3;
+}
+
+/* Hub-and-spoke grid */
+.convergence-grid {
+  position: relative; z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 230px 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "tl hub tr"
+    "ml hub mr"
+    "bl hub br";
+  gap: 22px 36px;
+  align-items: center;
+}
+
+/* Spoke node positioning */
+.spoke-tl { grid-area: tl; align-self: end; }
+.spoke-tr { grid-area: tr; align-self: end; }
+.spoke-ml { grid-area: ml; align-self: center; }
+.spoke-mr { grid-area: mr; align-self: center; }
+.spoke-bl { grid-area: bl; align-self: start; }
+.spoke-br { grid-area: br; align-self: start; }
+
+/* Spoke node card */
+.spoke-node {
+  padding: 20px 22px;
+  border: 1px solid rgba(207,174,109,.16);
+  background: rgba(255,255,255,.025);
+}
+.spoke-label {
+  font-size: .56rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--gold-base); margin-bottom: 11px; line-height: 1.4;
+}
+.spoke-items { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 5px; }
+.spoke-items li {
+  font-size: .72rem; color: rgba(255,255,255,.65); line-height: 1.4;
+  padding-left: 12px; position: relative;
+}
+.spoke-items li::before {
+  content: "—"; position: absolute; left: 0;
+  color: rgba(207,174,109,.35); font-size: .58rem; top: 1px;
+}
+
+/* Center hub circle */
+.hub-center {
+  grid-area: hub;
+  width: 230px; height: 230px; border-radius: 50%;
+  border: 1px solid rgba(207,174,109,.32);
+  background: radial-gradient(circle at center, rgba(207,174,109,.07) 0%, rgba(10,21,32,1) 68%);
+  display: flex; align-items: center; justify-content: center;
+  justify-self: center; align-self: center;
+  position: relative;
+  box-shadow: 0 0 50px rgba(207,174,109,.05), inset 0 0 30px rgba(207,174,109,.04);
+}
+.hub-center::before {
+  content: ""; position: absolute; inset: 9px; border-radius: 50%;
+  border: 1px solid rgba(207,174,109,.1);
+}
+.hub-inner { text-align: center; padding: 20px; }
+.hub-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: .88rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--white); line-height: 1.35; margin-bottom: 10px;
+}
+.hub-divider {
+  width: 28px; height: 1px;
+  background: var(--gold-gradient);
+  margin: 8px auto 10px;
+}
+.hub-stats { display: flex; flex-direction: column; gap: 4px; }
+.hub-stats div {
+  font-size: .6rem; font-weight: 500; letter-spacing: .06em;
+  color: rgba(207,174,109,.72);
+}
+
+/* Outcome panel */
+.convergence-outcomes {
+  border-top: 1px solid rgba(207,174,109,.14);
+  padding-top: 52px;
+}
+.outcomes-eyebrow {
+  font-size: .56rem; font-weight: 700; letter-spacing: .28em; text-transform: uppercase;
+  color: rgba(207,174,109,.45); text-align: center; margin-bottom: 28px;
+}
+.outcomes-grid {
+  display: grid; grid-template-columns: repeat(4,1fr);
+  border: 1px solid rgba(207,174,109,.12);
+}
+.outcome-card {
+  padding: 28px 24px;
+  background: rgba(255,255,255,.02);
+  border-right: 1px solid rgba(207,174,109,.08);
+}
+.outcome-card:last-child { border-right: none; }
+.outcome-title {
+  font-size: .58rem; font-weight: 700; letter-spacing: .17em; text-transform: uppercase;
+  color: var(--gold-base); margin-bottom: 14px; line-height: 1.45;
+}
+.outcome-items { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.outcome-items li {
+  font-size: .72rem; color: rgba(255,255,255,.6); line-height: 1.4;
+  padding-left: 12px; position: relative;
+}
+.outcome-items li::before {
+  content: "—"; position: absolute; left: 0;
+  color: rgba(207,174,109,.3); font-size: .58rem; top: 1px;
+}
+
 /* CORRIDOR MAP */
 #corridor-map { background: var(--navy); padding: 0; position: relative; overflow: hidden; }
 .map-wrap { position: relative; width: 100%; }
@@ -1120,6 +1250,30 @@ footer {
   .dev-card-body        { color: #4a5a6d !important; font-size: 1rem !important; }
   .dev-card-invest      { font-size: 0.9rem !important; }
   .dev-card-signal      { font-size: 0.9rem !important; }
+
+  /* ── CONVERGENCE ENGINE ─────────────────── */
+  #convergence { padding: 72px 0; }
+  .convergence-header { margin-bottom: 48px; }
+  .convergence-svg { display: none; }
+  .convergence-grid {
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-areas:
+      "hub hub"
+      "tl  tr"
+      "ml  mr"
+      "bl  br" !important;
+    gap: 12px !important;
+  }
+  .hub-center { width: 150px !important; height: 150px !important; }
+  .hub-title { font-size: .78rem !important; }
+  .hub-stats div { font-size: .55rem !important; }
+  .spoke-node { padding: 14px 15px !important; }
+  .spoke-label { font-size: .52rem !important; margin-bottom: 8px !important; }
+  .spoke-items li { font-size: .68rem !important; }
+  .outcomes-grid { grid-template-columns: 1fr 1fr !important; border: none !important; gap: 1px; background: rgba(207,174,109,.08); }
+  .outcome-card { border-right: none !important; border: 1px solid rgba(207,174,109,.08) !important; padding: 20px 16px !important; }
+  .outcome-title { font-size: .55rem !important; }
+  .outcome-items li { font-size: .68rem !important; }
 
   /* ── THE BRIEF / AUTHORITY ──────────────── */
   .authority-quote      { font-size: 1.3rem !important; }
