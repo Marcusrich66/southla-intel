@@ -397,6 +397,13 @@ section { position: relative; }
   padding: 18px 20px;
   border: 1px solid rgba(207,174,109,.13);
   background: rgba(255,255,255,.018);
+  transition: background .3s, border-color .3s, transform .3s;
+  cursor: default;
+}
+.spoke-node:hover {
+  background: var(--navy-mid);
+  border-color: rgba(207,174,109,.38);
+  transform: translateY(-3px);
 }
 .spoke-label {
   font-size: .54rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
@@ -429,6 +436,15 @@ section { position: relative; }
     0 0 80px rgba(207,174,109,.08),
     0 0 30px rgba(207,174,109,.04),
     inset 0 0 50px rgba(207,174,109,.05);
+  transition: box-shadow .4s, border-color .4s;
+  cursor: default;
+}
+.hub-center:hover {
+  border-color: rgba(207,174,109,.6);
+  box-shadow:
+    0 0 120px rgba(207,174,109,.18),
+    0 0 50px rgba(207,174,109,.1),
+    inset 0 0 70px rgba(207,174,109,.09);
 }
 .hub-center::before {
   content: ""; position: absolute; inset: 12px; border-radius: 50%;
@@ -485,8 +501,10 @@ section { position: relative; }
   background: rgba(10,21,32,.6);
   border-right: 1px solid rgba(207,174,109,.1);
   position: relative;
+  transition: background .3s;
 }
 .outcome-card:last-child { border-right: none; }
+.outcome-card:hover { background: var(--navy-mid); }
 .outcome-accent {
   width: 28px; height: 2px;
   background: var(--gold-gradient);
