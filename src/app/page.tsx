@@ -50,11 +50,6 @@ export default function Home() {
             role="presentation"
             loading="eager"
           />
-          {/* Mobile-only image caption — top-right, in sky space */}
-          <div className="hero-mobile-image-caption">
-            <span className="hero-mobile-caption-title">Lucas Museum of Narrative Art</span>
-            <span className="hero-mobile-caption-sub">Exposition Park · Los Angeles</span>
-          </div>
 
           {/* Mobile-only CTA badge — desktop hidden via CSS */}
           <a
