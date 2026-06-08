@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  /* ── CORE BRAND PALETTE ─────────────────────────────────── */
   --navy: #112030;
   --navy-deep: #0a1520;
   --navy-mid: #1a3045;
@@ -12,6 +13,16 @@
   --steel: #4a5a6d;
   --steel-light: #7a8a9d;
   --off-white: #f8f5f0;
+
+  /* ── RHYTHM PALETTE TOKENS v4.1 ──────────────────────────
+     Added to create section contrast and reduce continuous
+     dark-navy blocks. To revert, delete this block and
+     restore the 3 section backgrounds marked below.
+  ────────────────────────────────────────────────────────── */
+  --navy-medium: #10263D;    /* secondary dark sections — lighter than --navy */
+  --navy-blueprint: #183553; /* editorial dark — visible break from deep navy */
+  --ivory: #F4EFE3;          /* warm ivory — reserved for future editorial use */
+  --sand: #E8DCC5;           /* soft sand dividers on ivory surfaces */
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -343,7 +354,8 @@ section { position: relative; }
 #solution { background: var(--navy); padding: 100px 0; }
 .features-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: end; margin-bottom: 64px; }
 .features-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; background: rgba(207,174,109,.15); border: 1px solid rgba(207,174,109,.15); }
-.feature-card { background: var(--navy); padding: 36px 26px; transition: background .3s; }
+/* RHYTHM v4.1: was var(--navy) — slight surface lift adds card dimensionality on navy bg */
+.feature-card { background: rgba(255,255,255,.032); padding: 36px 26px; transition: background .3s; border-top: 1px solid rgba(207,174,109,.08); }
 .feature-card:hover { background: var(--navy-mid); }
 .feature-number {
   font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 700; line-height: 1;
@@ -354,7 +366,8 @@ section { position: relative; }
 .feature-desc { font-size: .82rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.9); }
 
 /* CONVERGENCE ENGINE */
-#convergence { background: var(--navy-deep); padding: 110px 0; }
+/* RHYTHM v4.1: was var(--navy-deep) — lightened to blueprint navy for section contrast */
+#convergence { background: var(--navy-blueprint); padding: 110px 0; }
 
 .convergence-header { text-align: center; max-width: 680px; margin: 0 auto 80px; }
 .convergence-header .section-tag { justify-content: center; }
@@ -398,16 +411,17 @@ section { position: relative; }
 .spoke-br { grid-area: br; align-self: start; }
 
 /* Spoke node card — quieter, subordinate to hub */
+/* RHYTHM v4.1: surface lifted from .018 → .05, border from .13 → .18 — more readable on blueprint-navy */
 .spoke-node {
   padding: 18px 20px;
-  border: 1px solid rgba(207,174,109,.13);
-  background: rgba(255,255,255,.018);
+  border: 1px solid rgba(207,174,109,.18);
+  background: rgba(255,255,255,.05);
   transition: background .3s, border-color .3s, transform .3s;
   cursor: default;
 }
 .spoke-node:hover {
-  background: var(--navy-mid);
-  border-color: rgba(207,174,109,.38);
+  background: rgba(100,160,220,0.12);
+  border-color: rgba(100,160,220,0.4);
   transform: translateY(-3px);
 }
 .spoke-label {
@@ -501,15 +515,16 @@ section { position: relative; }
   border: 1px solid rgba(207,174,109,.15);
   background: rgba(207,174,109,.04);
 }
+/* RHYTHM v4.1: outcome cards use navy (darker than blueprint bg) for depth */
 .outcome-card {
   padding: 40px 30px;
-  background: rgba(10,21,32,.6);
+  background: rgba(10,21,32,.55);
   border-right: 1px solid rgba(207,174,109,.1);
   position: relative;
   transition: background .3s;
 }
 .outcome-card:last-child { border-right: none; }
-.outcome-card:hover { background: var(--navy-mid); }
+.outcome-card:hover { background: rgba(10,21,32,.8); }
 .outcome-accent {
   width: 28px; height: 2px;
   background: var(--gold-gradient);
@@ -548,10 +563,12 @@ section { position: relative; }
 .map-overlay { position: absolute; inset: 0; pointer-events: none; background: rgba(17,32,48,.12); mix-blend-mode: multiply; }
 
 /* HOMEOWNER */
-#homeowner { background: var(--navy); padding: 88px 0; border-top: 1px solid rgba(207,174,109,.12); border-bottom: 1px solid rgba(207,174,109,.12); }
+/* RHYTHM v4.1: was var(--navy) — medium navy breaks the dark stretch after Corridor Map */
+#homeowner { background: var(--navy-medium); padding: 88px 0; border-top: 1px solid rgba(207,174,109,.14); border-bottom: 1px solid rgba(207,174,109,.14); }
 .homeowner-intro { max-width: 700px; margin-bottom: 56px; }
 .homeowner-intro .section-body.light { max-width: 100%; }
 .homeowner-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: rgba(207,174,109,.12); }
+/* RHYTHM v4.1: cells slightly darker than navy-medium section — creates sunken panel depth */
 .homeowner-cell { background: var(--navy); padding: 36px 32px; border-left: 2px solid transparent; transition: border-color .3s, background .3s; }
 .homeowner-cell:hover { background: var(--navy-mid); border-left-color: var(--gold-base); }
 .homeowner-cell-icon { font-size: 1.3rem; margin-bottom: 14px; display: block; }
@@ -824,10 +841,12 @@ section { position: relative; }
 .step-desc { font-size: .85rem; font-weight: 400; color: var(--steel); line-height: 1.7; }
 
 /* ADU */
-#adu { background: var(--navy); padding: 100px 0; }
+/* RHYTHM v4.1: was var(--navy) — medium navy creates break between How It Works and CommunityCapital */
+#adu { background: var(--navy-medium); padding: 100px 0; }
 .adu-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .adu-numbers { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: rgba(207,174,109,.12); }
-.adu-num-cell { background: var(--navy); padding: 34px 26px; transition: background .3s; }
+/* RHYTHM v4.1: cells slightly darker than navy-medium section — creates depth */
+.adu-num-cell { background: var(--navy); padding: 34px 26px; transition: background .3s; border: 1px solid rgba(207,174,109,.1); }
 .adu-num-cell:hover { background: var(--navy-mid); }
 .adu-num {
   font-family: 'Cormorant Garamond', serif; font-size: 2.6rem; font-weight: 700; line-height: 1;
