@@ -1393,9 +1393,9 @@ footer {
   .hero-sketch-scene {
     position: relative !important;
     width: 100% !important;
-    height: 270px !important;
-    min-height: 250px !important;
-    max-height: 290px !important;
+    height: 250px !important;
+    min-height: 230px !important;
+    max-height: 270px !important;
     margin-top: 90px !important;
     top: auto !important;
     right: auto !important;
@@ -1413,16 +1413,9 @@ footer {
     -webkit-mask-image: none !important;
     mask-image: none !important;
   }
-  /* Subtle bottom fade so image melts into navy text area */
+  /* Clean hard edge — no gradient fade */
   .hero-sketch-scene::before { background: none !important; }
-  .hero-sketch-scene::after {
-    content: '' !important;
-    position: absolute !important;
-    inset: auto 0 0 0 !important;
-    height: 60px !important;
-    background: linear-gradient(to bottom, transparent, #112030) !important;
-    z-index: 2 !important;
-  }
+  .hero-sketch-scene::after { display: none !important; }
 
   /* Image caption — top-right corner, sits in sky space */
   .hero-mobile-image-caption {
