@@ -1423,6 +1423,36 @@ footer {
     z-index: 2 !important;
   }
 
+  /* Image caption — top-right corner, sits in sky space */
+  .hero-mobile-image-caption {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    position: absolute !important;
+    top: 14px !important;
+    right: 14px !important;
+    z-index: 10 !important;
+    text-align: right !important;
+  }
+  .hero-mobile-caption-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.12em !important;
+    color: rgba(17,32,48,0.82) !important;
+    line-height: 1.4 !important;
+  }
+  .hero-mobile-caption-sub {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 8px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+    color: rgba(17,32,48,0.55) !important;
+    margin-top: 2px !important;
+  }
+
   /* Gold CTA badge — bottom-right of image container */
   /* pointer-events: auto overrides the none set on .hero-sketch-scene */
   .hero-sketch-scene { pointer-events: auto !important; }
@@ -1572,6 +1602,11 @@ footer {
   /* ── FOOTER ─────────────────────────────── */
   .footer-dre           { color: rgba(255,255,255,0.8) !important; font-size: 0.9rem !important; }
   .footer-disc          { color: rgba(255,255,255,0.6) !important; font-size: 0.9rem !important; }
+}
+
+/* HERO MOBILE IMAGE CAPTION — hidden on desktop */
+.hero-mobile-image-caption {
+  display: none;
 }
 
 /* HERO MOBILE CTA BADGE — hidden on desktop */

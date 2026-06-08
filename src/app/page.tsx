@@ -7,8 +7,6 @@ import Lightbox from "@/components/Lightbox";
 import MotionNav from "@/components/MotionNav";
 import HeroHeadline from "@/components/HeroHeadline";
 import HeroStats from "@/components/HeroStats";
-import RenderingButton from "@/components/RenderingButton";
-import HeroRenderBar from "@/components/HeroRenderBar";
 import Reveal from "@/components/Reveal";
 import MotionLink from "@/components/MotionLink";
 import ConvergenceEngine from "@/components/ConvergenceEngine";
@@ -41,6 +39,12 @@ export default function Home() {
             role="presentation"
             loading="eager"
           />
+          {/* Mobile-only image caption — top-right, in sky space */}
+          <div className="hero-mobile-image-caption">
+            <span className="hero-mobile-caption-title">Lucas Museum of Narrative Art</span>
+            <span className="hero-mobile-caption-sub">Exposition Park · Los Angeles</span>
+          </div>
+
           {/* Mobile-only CTA badge — desktop hidden via CSS */}
           <a
             href="https://marcusrichrealty.com/wp-content/uploads/2026/05/New-GL.-Sketch.-Museum-in.png"
@@ -79,15 +83,10 @@ export default function Home() {
           {/* Count-up stats */}
           <HeroStats />
 
-          {/* Mobile-only rendering button — in flow between stats and CTAs */}
-          <RenderingButton />
-
           <div className="hero-actions">
             <MotionLink href="#final-cta" className="btn-primary">Request Property Analysis →</MotionLink>
             <MotionLink href="#developments" className="btn-secondary">Explore All 35+ Projects</MotionLink>
           </div>
-
-          <HeroRenderBar />
         </div>
       </section>
 
