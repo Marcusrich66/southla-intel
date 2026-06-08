@@ -1285,8 +1285,7 @@ footer {
   .nav-links { display: none; }
   .nav-hamburger { display: flex; }
   .nav-cta { font-size: .6rem; padding: 9px 16px; }
-  #hero { padding: 120px 24px 60px; min-height: 100svh; }
-  .hero-sketch-scene { width: 100%; right: 0; top: 0; height: 100%; opacity: .32; }
+  /* #hero layout on mobile handled by STACKED SPLIT block at bottom of file */
   .hero-sketch-label { display: none; }
   .hero-tag { font-size: .58rem; margin-bottom: 20px; }
   .hero-headline { font-size: clamp(2.2rem,9vw,3.8rem); }
@@ -1346,7 +1345,7 @@ footer {
   .footer-disc { text-align: left; max-width: 100%; }
 }
 @media(max-width:480px) {
-  #hero { padding: 115px 20px 52px; }
+  /* #hero padding handled by stacked split — no override needed */
   .container { padding: 0 20px; }
   .hero-brand { font-size: .48rem; letter-spacing: .25em; }
   .hero-headline { font-size: clamp(2rem,10vw,2.8rem); }
@@ -1373,29 +1372,87 @@ footer {
    ============================================ */
 @media(max-width:768px) {
 
-  /* ── HERO IMAGE ─────────────────────────── */
+  /* ── HERO: STACKED SPLIT LAYOUT ────────────
+     Image stacks at top (300px), text below on
+     solid navy. No text/image overlap on mobile.
+  ─────────────────────────────────────────── */
+
+  /* Section becomes block-flow, no flex centering */
+  #hero {
+    display: block !important;
+    min-height: unset !important;
+    padding: 0 !important;
+    background: #112030 !important;
+  }
+
+  /* Image area: flows at top, fixed height, full width */
   .hero-sketch-scene {
+    position: relative !important;
     width: 100% !important;
-    right: 0 !important;
-    left: 0 !important;
-    top: 0 !important;
-    height: 100% !important;
+    height: 300px !important;
+    min-height: 280px !important;
+    max-height: 320px !important;
+    top: auto !important;
+    right: auto !important;
+    left: auto !important;
     opacity: 1 !important;
+    display: block !important;
   }
   .hero-sketch-scene img {
-    filter: brightness(0.75) contrast(1.05) saturate(0.9) !important;
+    position: absolute !important;
+    top: 0 !important; left: 0 !important;
+    width: 100% !important; height: 100% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+    filter: brightness(0.88) contrast(1.05) saturate(0.92) !important;
     -webkit-mask-image: none !important;
     mask-image: none !important;
   }
+  /* Subtle bottom fade so image melts into navy text area */
   .hero-sketch-scene::before { background: none !important; }
-  .hero-sketch-scene::after { background: none !important; }
-  .hero-sketch-overlay {
-    background: rgba(8, 16, 28, 0.62) !important;
-    mix-blend-mode: normal !important;
+  .hero-sketch-scene::after {
+    content: '' !important;
+    position: absolute !important;
+    inset: auto 0 0 0 !important;
+    height: 60px !important;
+    background: linear-gradient(to bottom, transparent, #112030) !important;
+    z-index: 2 !important;
   }
-  .hero-sketch-roof { background: none !important; }
+
+  /* Hide all overlay/decoration layers — not needed */
+  .hero-sketch-overlay { display: none !important; }
+  .hero-sketch-glow    { display: none !important; }
+  .hero-sketch-roof    { display: none !important; }
+  .hero-noise          { display: none !important; }
+  .hero-grid           { display: none !important; }
+  .hero-sketch-label   { display: none !important; }
+
+  /* Text section: solid navy, flows below image */
+  .hero-copy {
+    position: relative !important;
+    z-index: 8 !important;
+    background: #112030 !important;
+    padding: 36px 24px 52px !important;
+  }
+
+  /* No text-shadow needed — text is no longer over image */
   .hero-headline {
-    text-shadow: 0 2px 12px rgba(0,0,0,0.9) !important;
+    text-shadow: none !important;
+    font-size: clamp(2.1rem, 9vw, 3.4rem) !important;
+  }
+
+  /* Stats stack vertically */
+  .hero-stats {
+    flex-direction: column !important;
+    gap: 16px !important;
+    align-items: flex-start !important;
+  }
+  .stat-item {
+    min-width: unset !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 12px !important;
   }
 
   /* ── GLOBAL BODY TEXT MINIMUM ───────────── */
