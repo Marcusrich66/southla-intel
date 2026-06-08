@@ -476,12 +476,12 @@ section { position: relative; }
 }
 .hub-inner { text-align: center; padding: 24px; position: relative; z-index: 1; }
 .hub-eyebrow {
-  font-size: .54rem; font-weight: 700; letter-spacing: .35em; text-transform: uppercase;
+  font-size: .62rem; font-weight: 700; letter-spacing: .35em; text-transform: uppercase;
   color: rgba(207,174,109,.5); margin-bottom: 8px;
 }
 .hub-title {
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.45rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase;
+  font-size: 1.75rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase;
   color: var(--white); line-height: 1.25; margin-bottom: 14px;
 }
 .hub-divider {
@@ -491,7 +491,7 @@ section { position: relative; }
 }
 .hub-stats { display: flex; flex-direction: column; gap: 6px; }
 .hub-stats div {
-  font-size: .66rem; font-weight: 500; letter-spacing: .08em;
+  font-size: .82rem; font-weight: 500; letter-spacing: .08em;
   color: rgba(207,174,109,.78);
 }
 
