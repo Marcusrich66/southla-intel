@@ -1393,9 +1393,9 @@ footer {
   .hero-sketch-scene {
     position: relative !important;
     width: 100% !important;
-    height: 300px !important;
-    min-height: 280px !important;
-    max-height: 320px !important;
+    height: 270px !important;
+    min-height: 250px !important;
+    max-height: 290px !important;
     margin-top: 90px !important;
     top: auto !important;
     right: auto !important;
@@ -1454,11 +1454,9 @@ footer {
     margin-top: 2px !important;
   }
 
-  /* Gold CTA badge — bottom-right of image container */
-  /* pointer-events: auto overrides the none set on .hero-sketch-scene */
-  .hero-sketch-scene { pointer-events: auto !important; }
+  /* Gold CTA badge — hidden on mobile, image speaks for itself */
   .hero-mobile-cta-badge {
-    display: block !important;
+    display: none !important;
     position: absolute !important;
     pointer-events: auto !important;
     bottom: 12px !important;
