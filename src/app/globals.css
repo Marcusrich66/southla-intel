@@ -426,12 +426,12 @@ section { position: relative; }
   transform: translateY(-3px);
 }
 .spoke-label {
-  font-size: .62rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
+  font-size: .78rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
   color: var(--gold-base); margin-bottom: 12px; line-height: 1.4;
 }
 .spoke-items { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 5px; }
 .spoke-items li {
-  font-size: .65rem; color: rgba(255,255,255,.52); line-height: 1.4;
+  font-size: .82rem; color: rgba(255,255,255,.62); line-height: 1.5;
   padding-left: 12px; position: relative;
 }
 .spoke-items li::before {
