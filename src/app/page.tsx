@@ -32,9 +32,20 @@ export default function Home() {
       {/* HERO */}
       <section id="hero">
         <div className="hero-sketch-scene">
+          {/* Desktop image — hidden on mobile */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
+            className="hero-img-desktop"
             src="https://marcusrichrealty.com/wp-content/uploads/2026/05/New-GL.-Sketch.-Museum-in.png"
+            alt=""
+            role="presentation"
+            loading="eager"
+          />
+          {/* Mobile image — hidden on desktop */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="hero-img-mobile"
+            src="https://marcusrichrealty.com/wp-content/uploads/2026/06/Corridor-Map-2.png"
             alt=""
             role="presentation"
             loading="eager"
