@@ -1420,9 +1420,12 @@ footer {
   }
 
   /* Gold CTA badge — bottom-right of image container */
+  /* pointer-events: auto overrides the none set on .hero-sketch-scene */
+  .hero-sketch-scene { pointer-events: auto !important; }
   .hero-mobile-cta-badge {
     display: block !important;
     position: absolute !important;
+    pointer-events: auto !important;
     bottom: 12px !important;
     right: 12px !important;
     z-index: 10 !important;
