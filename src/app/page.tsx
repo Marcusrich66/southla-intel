@@ -41,6 +41,16 @@ export default function Home() {
             role="presentation"
             loading="eager"
           />
+          {/* Mobile-only CTA badge — desktop hidden via CSS */}
+          <a
+            href="https://marcusrichrealty.com/wp-content/uploads/2026/05/New-GL.-Sketch.-Museum-in.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-mobile-cta-badge"
+            aria-label="View full Lucas Museum rendering"
+          >
+            View Full Rendering →
+          </a>
         </div>
         <div className="hero-sketch-roof" />
         <div className="hero-sketch-overlay" />

@@ -1403,7 +1403,7 @@ footer {
     top: 0 !important; left: 0 !important;
     width: 100% !important; height: 100% !important;
     object-fit: cover !important;
-    object-position: center top !important;
+    object-position: center 30% !important;
     filter: brightness(0.88) contrast(1.05) saturate(0.92) !important;
     -webkit-mask-image: none !important;
     mask-image: none !important;
@@ -1417,6 +1417,26 @@ footer {
     height: 60px !important;
     background: linear-gradient(to bottom, transparent, #112030) !important;
     z-index: 2 !important;
+  }
+
+  /* Gold CTA badge — bottom-right of image container */
+  .hero-mobile-cta-badge {
+    display: block !important;
+    position: absolute !important;
+    bottom: 12px !important;
+    right: 12px !important;
+    z-index: 10 !important;
+    background: linear-gradient(135deg, #9F7A3A 0%, #CFAE6D 40%, #E6C98A 50%, #CFAE6D 60%, #9F7A3A 100%) !important;
+    color: #112030 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    padding: 6px 12px !important;
+    border-radius: 2px !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
   }
 
   /* Hide all overlay/decoration layers — not needed */
@@ -1541,6 +1561,11 @@ footer {
   /* ── FOOTER ─────────────────────────────── */
   .footer-dre           { color: rgba(255,255,255,0.8) !important; font-size: 0.9rem !important; }
   .footer-disc          { color: rgba(255,255,255,0.6) !important; font-size: 0.9rem !important; }
+}
+
+/* HERO MOBILE CTA BADGE — hidden on desktop */
+.hero-mobile-cta-badge {
+  display: none;
 }
 
 /* HERO MOBILE RENDERING BAR */
