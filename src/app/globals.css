@@ -1403,7 +1403,7 @@ footer {
     top: 0 !important; left: 0 !important;
     width: 100% !important; height: 100% !important;
     object-fit: cover !important;
-    object-position: center 30% !important;
+    object-position: center 15% !important;
     filter: brightness(0.88) contrast(1.05) saturate(0.92) !important;
     -webkit-mask-image: none !important;
     mask-image: none !important;
@@ -1452,8 +1452,12 @@ footer {
     position: relative !important;
     z-index: 8 !important;
     background: #112030 !important;
-    padding: 36px 24px 52px !important;
+    padding: 24px 24px 52px !important;
   }
+
+  /* Hide eyebrow labels — headline sits close to image edge */
+  .hero-brand { display: none !important; }
+  .hero-tag   { display: none !important; }
 
   /* No text-shadow needed — text is no longer over image */
   .hero-headline {
