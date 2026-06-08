@@ -1385,13 +1385,17 @@ footer {
     background: #112030 !important;
   }
 
-  /* Image area: flows at top, fixed height, full width */
+  /* Image area: flows at top, fixed height, full width.
+     margin-top offsets the fixed nav stack:
+       issue-banner ~32px + nav top 36px + nav height ~52px = ~88px
+     Using 90px for a 2px breathing gap above the image. */
   .hero-sketch-scene {
     position: relative !important;
     width: 100% !important;
     height: 300px !important;
     min-height: 280px !important;
     max-height: 320px !important;
+    margin-top: 90px !important;
     top: auto !important;
     right: auto !important;
     left: auto !important;
