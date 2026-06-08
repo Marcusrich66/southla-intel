@@ -1429,7 +1429,7 @@ footer {
     flex-direction: column !important;
     align-items: flex-end !important;
     position: absolute !important;
-    top: 14px !important;
+    top: 28px !important;
     right: 14px !important;
     z-index: 10 !important;
     text-align: right !important;
