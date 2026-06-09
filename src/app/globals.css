@@ -1393,9 +1393,9 @@ footer {
   .hero-sketch-scene {
     position: relative !important;
     width: 100% !important;
-    height: 250px !important;
-    min-height: 230px !important;
-    max-height: 270px !important;
+    height: 180px !important;
+    min-height: 160px !important;
+    max-height: 200px !important;
     margin-top: 90px !important;
     top: auto !important;
     right: auto !important;
@@ -1482,7 +1482,7 @@ footer {
     position: relative !important;
     z-index: 8 !important;
     background: #112030 !important;
-    padding: 24px 24px 52px !important;
+    padding: 16px 24px 48px !important;
   }
 
   /* Hide eyebrow labels — headline sits close to image edge */
