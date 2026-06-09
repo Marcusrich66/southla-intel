@@ -1299,7 +1299,8 @@ footer {
   .hero-view-btn { display: none; }
   .hero-view-btn-mobile { display: none !important; }
   .container { padding: 0 24px; }
-  #problem,#solution,#homeowner,#developments,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
+  #solution,#homeowner,#developments,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
+  #problem { padding: 36px 0 72px; }
   .section-headline { font-size: clamp(1.8rem,6vw,2.6rem); }
   .section-body { font-size: .92rem; }
   #corridor-map { padding: 0; }
@@ -1448,34 +1449,36 @@ footer {
     margin-top: 2px !important;
   }
 
-  /* Editorial annotation — upper-left, in sky/negative space above museum */
+  /* Editorial annotation — upper-right, in open sky above the museum */
   .hero-img-caption {
     display: flex !important;
     flex-direction: column !important;
-    gap: 5px !important;
+    align-items: flex-end !important;
+    gap: 4px !important;
     position: absolute !important;
-    top: 18px !important;
-    left: 16px !important;
+    top: 20px !important;
+    right: 16px !important;
     z-index: 10 !important;
     background: none !important;
     padding: 0 !important;
+    text-align: right !important;
   }
   .hero-img-caption-title {
     font-family: 'Montserrat', sans-serif !important;
     font-size: 8.5px !important;
-    font-weight: 600 !important;
+    font-weight: 700 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.18em !important;
-    color: rgba(207,174,109,0.95) !important;
+    color: rgba(17,32,48,0.88) !important;
     line-height: 1.4 !important;
     display: block !important;
   }
   .hero-img-caption-body {
     font-family: 'Cormorant Garamond', serif !important;
-    font-size: 11.5px !important;
+    font-size: 11px !important;
     font-style: italic !important;
-    font-weight: 400 !important;
-    color: rgba(255,255,255,0.82) !important;
+    font-weight: 500 !important;
+    color: rgba(159,122,58,0.92) !important;
     line-height: 1.4 !important;
     display: block !important;
   }
