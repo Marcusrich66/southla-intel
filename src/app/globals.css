@@ -1316,7 +1316,7 @@ footer {
   .features-grid { grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(207,174,109,.25); }
   .feature-card { padding: 28px 20px; background: var(--navy); }
   .feature-number { font-size: 2.2rem; } .feature-desc { font-size: .8rem; }
-  .feature-title { font-size: 1.2rem !important; font-weight: 700 !important; background: var(--gold-gradient) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; background-clip: text !important; }
+  .feature-title { font-size: 1.2rem !important; font-weight: 700 !important; color: #CFAE6D !important; background: none !important; -webkit-background-clip: unset !important; -webkit-text-fill-color: unset !important; background-clip: unset !important; }
   .dev-header { grid-template-columns: 1fr; gap: 28px; margin-bottom: 36px; }
   .dev-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; flex-wrap: nowrap; padding-bottom: 2px; scrollbar-width: none; }
   .dev-tabs::-webkit-scrollbar { display: none; }
@@ -1559,7 +1559,7 @@ footer {
   .feature-desc         { color: #ffffff !important; font-size: 1rem !important; }
 
   /* ── HOMEOWNER ──────────────────────────── */
-  .homeowner-cell-title { font-size: 1.15rem !important; font-weight: 700 !important; background: var(--gold-gradient) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; background-clip: text !important; }
+  .homeowner-cell-title { font-size: 1.15rem !important; font-weight: 700 !important; color: #CFAE6D !important; background: none !important; -webkit-background-clip: unset !important; -webkit-text-fill-color: unset !important; background-clip: unset !important; }
   .homeowner-cell-body  { color: #ffffff !important; font-size: 1rem !important; }
 
   /* ── DEVELOPMENTS ───────────────────────── */
@@ -1588,7 +1588,7 @@ footer {
       "bl  br" !important;
     gap: 12px !important;
   }
-  .hub-center { width: 180px !important; height: 180px !important; }
+  .hub-center { width: 240px !important; height: 240px !important; }
   .hub-eyebrow { font-size: .48rem !important; }
   .hub-title { font-size: 1.15rem !important; }
   .hub-stats div { font-size: .85rem !important; }
