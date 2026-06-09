@@ -1307,7 +1307,7 @@ footer {
   .map-wrap img { min-height: 200px; object-fit: cover; }
   .homeowner-grid { grid-template-columns: 1fr; }
   .homeowner-cell { padding: 28px 22px; }
-  .problem-grid { grid-template-columns: 1fr; gap: 40px; margin-top: 0; }
+  .problem-grid { grid-template-columns: 1fr; gap: 40px; }
   .problem-visual { height: auto; position: static; }
   .problem-card { position: static; width: 100% !important; margin-bottom: 16px; }
   .pc1 { z-index: auto; } .pc2 { z-index: auto; margin-top: 0; }
