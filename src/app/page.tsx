@@ -43,7 +43,7 @@ export default function Home() {
           {/* Mobile-only editorial annotation — upper-left, in sky space */}
           <div className="hero-img-caption">
             <span className="hero-img-caption-title">The North Anchor</span>
-            <span className="hero-img-caption-body">Lucas Museum of Narrative Art — Exposition Park</span>
+            <span className="hero-img-caption-body">Lucas Museum · Exposition Park</span>
           </div>
 
           {/* Mobile-only CTA badge — desktop hidden via CSS */}

@@ -1460,7 +1460,6 @@ footer {
     position: absolute !important;
     top: 26px !important;
     right: 14px !important;
-    max-width: 58% !important;
     z-index: 10 !important;
     background: none !important;
     padding: 0 !important;
@@ -1481,6 +1480,7 @@ footer {
     font-size: 10px !important;
     font-style: italic !important;
     font-weight: 600 !important;
+    white-space: nowrap !important;
     color: rgba(17,32,48,0.88) !important;
     line-height: 1.4 !important;
     display: block !important;
