@@ -1394,9 +1394,9 @@ footer {
   .hero-sketch-scene {
     position: relative !important;
     width: 100% !important;
-    height: 180px !important;
-    min-height: 160px !important;
-    max-height: 200px !important;
+    height: 200px !important;
+    min-height: 180px !important;
+    max-height: 220px !important;
     margin-top: 90px !important;
     top: auto !important;
     right: auto !important;
