@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "Is Compton actually investable right now, or is this premature?",
-    a: "Compton is at the early-stage appreciation phase — the same position West Adams occupied in 2018–2019. The Compton Innovation Hub (300 apartments, 44,000 sq ft of innovation space, first West Coast project for KBK Enterprises) is the kind of signal that marks the transition from watchlist to active opportunity. The Compton Station TOD Specific Plan is still in environmental review — meaning the pre-zoning window is still open. That window won't stay open indefinitely. The A-Line now connects Compton to Downtown LA and Azusa, making transit access a structural reality, not a future promise.",
+    a: "Compton is at the early-stage appreciation phase — the same position West Adams occupied in 2018–2019. The Compton Innovation Hub (300 apartments, 44,000 sq ft of innovation space, first West Coast project for KBK Enterprises) is the kind of signal that marks the transition from watchlist to active opportunity. The Compton Station TOD Specific Plan is still in environmental review — meaning the window before the zoning officially changes is still open. That window won't stay open indefinitely. The A-Line now connects Compton to Downtown LA and Azusa, making transit access a structural reality, not a future promise.",
   },
   {
     q: "What is AB 1033 and why does it matter specifically in South LA?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "What does the FIFA/Super Bowl/Olympics pipeline mean for strategy?",
-    a: "FIFA 2026, Super Bowl 2027, and the 2028 Olympics are fixed dates — not projections. They are concentrating global capital in Inglewood and creating predictable demand surges for hospitality, short-term rentals, and investor visibility. The Kali Hotel ($300M, Marriott Autograph Collection — the only hotel permitted in Hollywood Park zone), Hollywood Park Studios, and the Intuit Dome are part of an ecosystem built for international audiences. Properties in the commute-shed of Hollywood Park are not just benefiting from local growth — they're in the path of global event infrastructure. The positioning window is before these events, not during.",
+    a: "FIFA 2026, Super Bowl 2027, and the 2028 Olympics are fixed dates — not projections. They are concentrating global capital in Inglewood and creating predictable demand surges for hospitality, short-term rentals, and investor visibility. The Kali Hotel ($300M, Marriott Autograph Collection — the only hotel permitted in Hollywood Park zone), Hollywood Park Studios, and the Intuit Dome are part of an ecosystem built for international audiences. Properties in the area around Hollywood Park are not just benefiting from local growth — they're in the path of global event infrastructure. The positioning window is before these events, not during.",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function FAQ() {
             <h2 className="section-headline">The Questions<br />That Matter Most</h2>
           </Reveal>
           <Reveal delay={0.15}>
-            <p className="section-body">Every serious homeowner, buyer, and investor in South LA should be asking these right now — answered with the directness the moment demands.</p>
+            <p className="section-body">These are the questions I get asked most. Here are the straight answers.</p>
           </Reveal>
         </div>
 

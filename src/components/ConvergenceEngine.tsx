@@ -15,12 +15,11 @@ export default function ConvergenceEngine() {
 
         {/* ── HEADER ── */}
         <Reveal className="convergence-header">
-          <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Convergence Model</div>
-          <h2 className="section-headline light">Six Forces. One Corridor.</h2>
-          <div className="convergence-engine-name">The South LA Convergence Engine</div>
+          <div className="section-tag" style={{ color: "var(--gold-base)" }}>What's Driving This</div>
+          <h2 className="section-headline light">Six Things Hit South LA At The Same Time.</h2>
+          <div className="convergence-engine-name">This Is Why The Moment Is Different.</div>
           <p className="section-body light convergence-sub">
-            Six independent forces arriving simultaneously across the corridor.
-            Their intersection — not any single project — is what makes this moment structurally different.
+            Six things landed in South LA at the same time. Transit. Culture. Global money. Redevelopment. New legislation. And a world event pipeline running straight through 2028. None of it was coordinated. All of it showed up together. That&apos;s what makes this different from every other time someone said South LA was about to pop.
           </p>
         </Reveal>
 
@@ -152,7 +151,7 @@ export default function ConvergenceEngine() {
         <Reveal className="convergence-outcomes" delay={0.25}>
           <div className="outcomes-bridge">
             <div className="outcomes-bridge-line" />
-            <div className="outcomes-bridge-label">Their convergence produces</div>
+            <div className="outcomes-bridge-label">Here&apos;s what that means for you</div>
             <div className="outcomes-bridge-line" />
           </div>
           <div className="outcomes-grid">

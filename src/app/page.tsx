@@ -145,28 +145,28 @@ export default function Home() {
             </Reveal>
             <Reveal delay={0.15}>
               <div className="section-tag">The Problem</div>
-              <h2 className="section-headline">The Corridor Is Moving.<br />Most People Are Watching.</h2>
-              <p className="section-body" style={{ marginBottom: "36px" }}>Four things hit South LA at the same time — and most people missed it. The people who knew what was coming — not just felt it — are the ones building real wealth here. That window is still open. Barely.</p>
+              <h2 className="section-headline">The Corridor Is Moving.<br />Most People Don&apos;t Know It.</h2>
+              <p className="section-body" style={{ marginBottom: "36px" }}>Most people in South LA can feel something is happening. But feeling it and knowing exactly what&apos;s coming — and where — are two different things. The people who knew the specifics are already positioned. That window is still open. Not for much longer.</p>
               <ul className="pain-list">
                 <li className="pain-item">
                   <div className="pain-icon">📍</div>
                   <div>
-                    <div className="pain-title">No Hyper-Local Intelligence</div>
-                    <div className="pain-desc">National platforms don&apos;t distinguish Leimert Park Station from a block a half-mile away. The half-mile rule is everything here.</div>
+                    <div className="pain-title">Nobody&apos;s Telling You What&apos;s Happening On Your Block</div>
+                    <div className="pain-desc">Zillow doesn&apos;t know the difference between a property half a mile from Leimert Park Station and one that&apos;s right on it. That half mile is everything in this corridor.</div>
                   </div>
                 </li>
                 <li className="pain-item">
                   <div className="pain-icon">🕐</div>
                   <div>
-                    <div className="pain-title">Timing Risk Is Real</div>
+                    <div className="pain-title">The Window Is Already Closing</div>
                     <div className="pain-desc">The Westside Area Plan is live. Compton&apos;s TOD Specific Plan is in environmental review. The positioning window is narrow.</div>
                   </div>
                 </li>
                 <li className="pain-item">
                   <div className="pain-icon">💡</div>
                   <div>
-                    <div className="pain-title">No ADU Intelligence Layer</div>
-                    <div className="pain-desc">AB 1033 creates a historic wealth tool for South LA homeowners. Most don&apos;t yet understand what their specific lot can support.</div>
+                    <div className="pain-title">Most Homeowners Don&apos;t Know What Their Lot Can Do</div>
+                    <div className="pain-desc">AB 1033 just changed what a South LA homeowner can do with their backyard. Most people haven&apos;t heard about it yet. That&apos;s the gap.</div>
                   </div>
                 </li>
               </ul>
@@ -181,10 +181,10 @@ export default function Home() {
           <div className="features-intro">
             <Reveal>
               <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Solution</div>
-              <h2 className="section-headline light">Four Forces.<br />One Corridor.<br />Your Intelligence.</h2>
+              <h2 className="section-headline light">Four Things Moving The Corridor.<br />One Report That Maps All Of It.</h2>
             </Reveal>
             <Reveal delay={0.15}>
-              <p className="section-body light">This brief maps 35+ developments across 11 micro-markets — not as news, but as investment intelligence. Every project is translated into what it means for your property, your timing, and your strategy.</p>
+              <p className="section-body light">This brief maps 35+ projects across 11 South LA neighborhoods. Not as news — as a guide. Every development in here is broken down by what it actually means for your property, your timing, and your next move.</p>
             </Reveal>
           </div>
           <Reveal className="features-grid">
@@ -235,7 +235,7 @@ export default function Home() {
           <Reveal className="homeowner-intro">
             <div className="section-tag" style={{ color: "var(--gold-base)" }}>Why This Matters for Homeowners</div>
             <h2 className="section-headline light">Your Property.<br />Your Position.</h2>
-            <p className="section-body light">For South LA homeowners, this is not just a development story. It is a property-positioning story. Transit, cultural infrastructure, zoning changes, and AB 1033 are creating new ways to think about land, ADUs, rental income, and generational wealth.</p>
+            <p className="section-body light">If you own property in South LA right now, this isn&apos;t just interesting news. This is about your specific property. Transit, new zoning, cultural anchors, and AB 1033 are all hitting at the same time — and they all connect back to what your land is worth and what you can do with it.</p>
           </Reveal>
           <Reveal className="homeowner-grid" delay={0.15}>
             <div className="homeowner-cell">
@@ -246,22 +246,22 @@ export default function Home() {
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">🚇</span>
               <div className="homeowner-cell-title">Transit-Oriented Appreciation</div>
-              <div className="homeowner-cell-body">The K Line, Expo Line, and A Line are not future promises — they are operational infrastructure. Properties within the half-mile transit radius are experiencing the strongest development pressure and the most durable long-term appreciation in the corridor.</div>
+              <div className="homeowner-cell-body">The K Line, Expo Line, and A Line are not future promises — they are operational infrastructure. Properties within the half-mile transit radius are experiencing the strongest development pressure and the strongest and most consistent appreciation in the corridor.</div>
             </div>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">📈</span>
               <div className="homeowner-cell-title">Rental Demand Growth</div>
-              <div className="homeowner-cell-body">West Adams has established a new rental ceiling of $2,450–$3,395/mo for transit-adjacent units. That benchmark is moving east and south. Homeowners in Jefferson Park, Leimert Park, and Watts are positioned ahead of the repricing wave.</div>
+              <div className="homeowner-cell-body">West Adams has established a new rental ceiling of $2,450–$3,395/mo for transit-adjacent units. That number is moving east and south. If you own in Jefferson Park, Leimert Park, or Watts — you&apos;re ahead of the market shift. Not behind it.</div>
             </div>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">🏛️</span>
               <div className="homeowner-cell-title">Land Value Positioning</div>
-              <div className="homeowner-cell-body">The Westside Area Plan has rezoned key commercial corridors for 4–6 story mixed-use development. Owners adjacent to designated opportunity sites are sitting on land that the market has not yet fully repriced. The window to act before full absorption is now.</div>
+              <div className="homeowner-cell-body">The Westside Area Plan has rezoned key commercial corridors for 4–6 story mixed-use development. Owners adjacent to designated opportunity sites are sitting on land that the market has not yet fully repriced. The window to move before the market fully catches up is right now.</div>
             </div>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">🌱</span>
               <div className="homeowner-cell-title">Generational Wealth</div>
-              <div className="homeowner-cell-body">South LA homeownership has historically been undervalued relative to comparable Westside neighborhoods. $5B+ in converging investment is correcting that gap. For families with intergenerational property, this is the moment to understand what that asset is now worth.</div>
+              <div className="homeowner-cell-body">South LA homeownership has historically been undervalued relative to comparable Westside neighborhoods. $5B+ in real investment is correcting that gap right now. For families with family property, this is the moment to understand what that asset is now worth.</div>
             </div>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">⚖️</span>
@@ -297,7 +297,7 @@ export default function Home() {
                   <span className="featured-card-badge">North Anchor</span>
                 </div>
                 <div className="featured-card-body">
-                  <div className="featured-card-eyebrow">Featured Catalyst · Exposition Park</div>
+                  <div className="featured-card-eyebrow">North Anchor · Exposition Park</div>
                   <div className="featured-card-title">Lucas Museum<br />of Narrative Art</div>
                   <div className="featured-card-meta-row">
                     <span className="featured-card-value">~$1B</span>
@@ -305,7 +305,7 @@ export default function Home() {
                     <span className="featured-card-date">Opens Sept 2026</span>
                   </div>
                   <p className="featured-card-impact">
-                    A cultural and investment anchor connecting Exposition Park, the K Line corridor, USC, and South LA property positioning — the single most consequential opening in the corridor&apos;s modern history.
+                    A cultural and investment anchor connecting Exposition Park, the K Line corridor, USC, and South LA property positioning — the biggest cultural opening South LA has seen in a generation — and a direct investment signal for everything between Exposition Park and Inglewood.
                   </p>
                 </div>
               </div>
@@ -343,7 +343,7 @@ export default function Home() {
             <Reveal className="brief-quote-block" delay={0.15}>
               <blockquote className="authority-quote">&ldquo;These aren&apos;t separate projects. Everything is landing at the same time.&rdquo;</blockquote>
               <div className="authority-source">2026 South LA Growth &amp; Development Brief · Marcus Rich Realty</div>
-              <p className="section-body light">This updated edition expands to a 35+ project analysis covering South LA&apos;s innovation campuses, Exposition Park&apos;s global cultural anchor, the Watts transformation, and Compton&apos;s transit frontier. Four structural forces — transit, global events, cultural investment, and equity capital — arrived simultaneously. That convergence is the story.</p>
+              <p className="section-body light">This updated edition expands to a 35+ project analysis covering South LA&apos;s innovation campuses, Exposition Park&apos;s global cultural anchor, the Watts transformation, and Compton&apos;s transit frontier. Transit, global events, cultural investment, and real capital all landed in South LA at the same time. That&apos;s not a coincidence. That&apos;s the story.</p>
             </Reveal>
 
             {/* BOTTOM RIGHT — Supporting Signals */}
@@ -377,8 +377,8 @@ export default function Home() {
         <div className="container">
           <Reveal className="steps-header">
             <div className="section-tag">How It Works</div>
-            <h2 className="section-headline">From Intelligence to Action</h2>
-            <p className="section-body" style={{ margin: "0 auto", textAlign: "center" }}>Every project in this report tells you something. But knowing isn&apos;t enough — you have to move. Here&apos;s how we do it.</p>
+            <h2 className="section-headline">Here&apos;s How We Work</h2>
+            <p className="section-body" style={{ margin: "0 auto", textAlign: "center" }}>Every project in this report is a signal. But a signal only matters if you know what to do with it. Here&apos;s exactly how we help you move.</p>
           </Reveal>
           <div className="steps-grid">
             <Reveal className="step-item">
@@ -438,12 +438,12 @@ export default function Home() {
           <div className="cta-tag">Your Next Move</div>
           <Reveal>
             <h2 className="cta-headline">
-              Get a Property-Specific<br />
-              <em style={{ background: "var(--gold-gradient)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text", fontStyle: "italic" }}>Corridor Analysis.</em>
+              Let&apos;s Look At Your<br />
+              <em style={{ background: "var(--gold-gradient)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text", fontStyle: "italic" }}>Specific Property.</em>
             </h2>
           </Reveal>
           <Reveal delay={0.15}>
-            <p className="cta-body">See what your specific property can support in the context of this corridor intelligence. Can you build an ADU? What&apos;s your lot worth in 3 years? What are you sitting on that you don&apos;t know about yet? We map it all against every project in this report.</p>
+            <p className="cta-body">Can you build an ADU? What&apos;s your lot actually worth right now? What are you sitting on that you don&apos;t know about yet? We map your specific property against every project in this report and give you a straight answer.</p>
           </Reveal>
           <Reveal delay={0.25}>
             <div className="cta-actions">
