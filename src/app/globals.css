@@ -360,7 +360,8 @@ section { position: relative; }
 .feature-card:hover { background: var(--navy-mid); }
 .feature-number {
   font-family: 'Cormorant Garamond', serif; font-size: 2.8rem; font-weight: 700; line-height: 1;
-  background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  background: none; -webkit-background-clip: unset; -webkit-text-fill-color: unset; background-clip: unset;
+  color: #FFFFFF;
   margin-bottom: 14px; opacity: .55;
 }
 .feature-title { font-family: 'Cormorant Garamond', serif; font-size: 1.45rem; font-weight: 600; color: var(--white); margin-bottom: 14px; padding-bottom: 10px; line-height: 1.2; border-bottom: 1px solid rgba(207,174,109,.35); display: block; }
