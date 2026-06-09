@@ -364,6 +364,9 @@ section { position: relative; }
   color: #FFFFFF;
   margin-bottom: 14px; opacity: .55;
 }
+@media (min-width: 768px) {
+  .feature-number { color: #CFAE6D; }
+}
 .feature-title { font-family: 'Cormorant Garamond', serif; font-size: 1.45rem; font-weight: 600; color: var(--white); margin-bottom: 14px; padding-bottom: 10px; line-height: 1.2; border-bottom: 1px solid rgba(207,174,109,.35); display: block; }
 .feature-desc { font-size: .82rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.9); }
 
@@ -606,7 +609,7 @@ section { position: relative; }
   color: var(--gold-base); white-space: nowrap; padding-top: 2px; flex-shrink: 0;
 }
 .chapter-intro-text {
-  font-size: .76rem; color: var(--steel); line-height: 1.68; margin: 0;
+  font-size: 0.95rem; color: var(--steel); line-height: 1.65; margin: 0;
 }
 
 /* Chapter meta row */
@@ -679,7 +682,7 @@ section { position: relative; }
 .dev-card-body { font-size: 0.95rem; font-weight: 400; color: var(--steel); line-height: 1.65; }
 .dev-card-signal {
   margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(17,32,48,.08);
-  font-size: .79rem; font-weight: 400; color: var(--navy); line-height: 1.6;
+  font-size: 0.95rem; font-weight: 400; color: var(--navy); line-height: 1.65;
 }
 .dev-card-signal::before {
   content: "SIGNAL";
