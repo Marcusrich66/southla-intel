@@ -574,8 +574,8 @@ section { position: relative; }
 .homeowner-cell { background: var(--navy); padding: 36px 32px; border-left: 2px solid transparent; transition: border-color .3s, background .3s; }
 .homeowner-cell:hover { background: var(--navy-mid); border-left-color: var(--gold-base); }
 .homeowner-cell-icon { font-size: 1.3rem; margin-bottom: 14px; display: block; }
-.homeowner-cell-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; color: var(--white); margin-bottom: 8px; line-height: 1.2; }
-.homeowner-cell-body { font-size: .8rem; font-weight: 400; line-height: 1.7; color: rgba(255,255,255,.85); }
+.homeowner-cell-title { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; font-weight: 700; color: #CFAE6D; background: none; -webkit-background-clip: unset; -webkit-text-fill-color: unset; background-clip: unset; margin-bottom: 8px; line-height: 1.2; }
+.homeowner-cell-body { font-size: 1rem; font-weight: 400; line-height: 1.7; color: rgba(255,255,255,.85); }
 
 /* DEVELOPMENTS */
 #developments { background: var(--white); padding: 100px 0; }
@@ -644,7 +644,7 @@ section { position: relative; }
   color: var(--gold-base); margin-bottom: 10px;
 }
 .corridor-band-text {
-  font-size: .82rem; color: rgba(255,255,255,.68); line-height: 1.72;
+  font-size: 0.95rem; color: rgba(255,255,255,.68); line-height: 1.65;
   max-width: 680px; margin: 0; font-style: italic;
 }
 
@@ -676,7 +676,7 @@ section { position: relative; }
   padding-bottom: 14px; margin-bottom: 14px;
   border-bottom: 1px solid rgba(17,32,48,.07);
 }
-.dev-card-body { font-size: .84rem; font-weight: 400; color: var(--steel); line-height: 1.72; }
+.dev-card-body { font-size: 0.95rem; font-weight: 400; color: var(--steel); line-height: 1.65; }
 .dev-card-signal {
   margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(17,32,48,.08);
   font-size: .79rem; font-weight: 400; color: var(--navy); line-height: 1.6;
