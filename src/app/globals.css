@@ -1409,7 +1409,7 @@ footer {
     top: 0 !important; left: 0 !important;
     width: 100% !important; height: 100% !important;
     object-fit: cover !important;
-    object-position: center 15% !important;
+    object-position: center 8% !important;
     filter: brightness(0.88) contrast(1.05) saturate(0.92) !important;
     -webkit-mask-image: none !important;
     mask-image: none !important;
@@ -1449,14 +1449,15 @@ footer {
     margin-top: 2px !important;
   }
 
-  /* Editorial annotation — upper-right, in open sky above the museum */
+  /* Editorial annotation — upper-right, in open sky above the museum.
+     top: 38px keeps both lines in the sky zone after crop shift to 8%. */
   .hero-img-caption {
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-end !important;
-    gap: 4px !important;
+    gap: 5px !important;
     position: absolute !important;
-    top: 20px !important;
+    top: 38px !important;
     right: 16px !important;
     z-index: 10 !important;
     background: none !important;
@@ -1469,16 +1470,17 @@ footer {
     font-weight: 700 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.18em !important;
-    color: rgba(17,32,48,0.88) !important;
+    color: rgba(17,32,48,0.9) !important;
     line-height: 1.4 !important;
     display: block !important;
   }
   .hero-img-caption-body {
     font-family: 'Cormorant Garamond', serif !important;
-    font-size: 11px !important;
+    font-size: 10.5px !important;
     font-style: italic !important;
     font-weight: 500 !important;
-    color: rgba(159,122,58,0.92) !important;
+    white-space: nowrap !important;
+    color: rgba(130,95,30,0.95) !important;
     line-height: 1.4 !important;
     display: block !important;
   }
