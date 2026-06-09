@@ -1456,9 +1456,9 @@ footer {
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-end !important;
-    gap: 4px !important;
+    gap: 2px !important;
     position: absolute !important;
-    top: 12px !important;
+    top: 26px !important;
     right: 14px !important;
     max-width: 58% !important;
     z-index: 10 !important;
@@ -1481,7 +1481,7 @@ footer {
     font-size: 10px !important;
     font-style: italic !important;
     font-weight: 600 !important;
-    color: rgba(17,32,48,0.78) !important;
+    color: rgba(17,32,48,0.88) !important;
     line-height: 1.4 !important;
     display: block !important;
   }
