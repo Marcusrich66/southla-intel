@@ -40,10 +40,10 @@ export default function Home() {
             loading="eager"
           />
 
-          {/* Mobile-only editorial caption — bottom-left of image */}
+          {/* Mobile-only editorial annotation — upper-left, in sky space */}
           <div className="hero-img-caption">
-            <span className="hero-img-caption-title">Lucas Museum of Narrative Art&nbsp;&nbsp;|&nbsp;&nbsp;Exposition Park</span>
-            <span className="hero-img-caption-body">Part of a $5B+ development corridor spanning 11 South LA micro-markets.</span>
+            <span className="hero-img-caption-title">The North Anchor</span>
+            <span className="hero-img-caption-body">Lucas Museum of Narrative Art — Exposition Park</span>
           </div>
 
           {/* Mobile-only CTA badge — desktop hidden via CSS */}
