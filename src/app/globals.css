@@ -1570,14 +1570,14 @@ footer {
   /* ── DEVELOPMENTS ───────────────────────── */
   .dev-card-body        { color: #4a5a6d !important; font-size: 1rem !important; }
   .dev-card-invest      { font-size: 0.9rem !important; }
-  .dev-card-signal      { font-size: 0.9rem !important; }
+  .dev-card-signal      { font-size: 1rem !important; line-height: 1.65 !important; }
   .chapter-intro-strip  { flex-direction: column !important; gap: 10px !important; }
   .chapter-meta-row     { flex-direction: column !important; }
   .chapter-meta-item    { border-right: none !important; border-bottom: 1px solid rgba(17,32,48,.07) !important; padding: 12px 16px !important; }
   .chapter-meta-item:last-child { border-bottom: none !important; }
   .chapter-meta-value   { font-size: 0.88rem !important; }
   .corridor-band        { padding: 20px 18px !important; }
-  .corridor-band-text   { font-size: 0.8rem !important; }
+  .corridor-band-text   { font-size: 1rem !important; line-height: 1.65 !important; }
 
   /* ── CONVERGENCE ENGINE ─────────────────── */
   #convergence { padding: 72px 0; }
@@ -1597,9 +1597,9 @@ footer {
   .hub-eyebrow { font-size: .48rem !important; }
   .hub-title { font-size: 1.15rem !important; }
   .hub-stats div { font-size: .85rem !important; }
-  .spoke-node { padding: 13px 14px !important; }
+  .spoke-node { padding: 13px 14px !important; min-height: 165px !important; display: flex !important; flex-direction: column !important; justify-content: center !important; }
   .spoke-label { font-size: .8rem !important; margin-bottom: 7px !important; }
-  .spoke-items li { font-size: .65rem !important; }
+  .spoke-items li { font-size: .8rem !important; }
   .outcomes-bridge { margin-bottom: 24px !important; }
   .outcomes-grid { grid-template-columns: 1fr 1fr !important; }
   .outcome-card { padding: 24px 18px !important; border-right: none !important; border-bottom: 1px solid rgba(207,174,109,.1) !important; }

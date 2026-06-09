@@ -372,6 +372,32 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ADU */}
+      <section id="adu">
+        <div className="container">
+          <div className="adu-inner">
+            <Reveal>
+              <div className="section-tag" style={{ color: "var(--gold-base)" }}>Homeowner Wealth Creation</div>
+              <h2 className="section-headline light">AB 1033 Changes<br /><em className="gold-text" style={{ fontStyle: "italic" }}>Everything.</em></h2>
+              <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a corridor where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
+              <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay a premium to be close to the K Line — these are the structural conditions that make South LA ADUs uniquely positioned right now.</p>
+              <MotionLink href="#final-cta" className="btn-primary">See What Your Lot Can Support →</MotionLink>
+            </Reveal>
+            <Reveal className="adu-numbers" delay={0.15}>
+              <div className="adu-num-cell"><div className="adu-num">$280–$400</div><div className="adu-num-label">Per sq ft<br />construction range</div></div>
+              <div className="adu-num-cell"><div className="adu-num">60–90</div><div className="adu-num-label">Day permit<br />timeline</div></div>
+              <div className="adu-num-cell"><div className="adu-num">AB1033</div><div className="adu-num-label">Sell ADU as<br />separate property</div></div>
+              <div className="adu-num-cell"><div className="adu-num">½ mi</div><div className="adu-num-label">Transit value<br />radius rule</div></div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      <CommunityCapital />
+
+      {/* FAQ */}
+      <FAQ />
+
       {/* HOW IT WORKS */}
       <section id="how-it-works">
         <div className="container">
@@ -404,32 +430,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* ADU */}
-      <section id="adu">
-        <div className="container">
-          <div className="adu-inner">
-            <Reveal>
-              <div className="section-tag" style={{ color: "var(--gold-base)" }}>Homeowner Wealth Creation</div>
-              <h2 className="section-headline light">AB 1033 Changes<br /><em className="gold-text" style={{ fontStyle: "italic" }}>Everything.</em></h2>
-              <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a corridor where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
-              <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay a premium to be close to the K Line — these are the structural conditions that make South LA ADUs uniquely positioned right now.</p>
-              <MotionLink href="#final-cta" className="btn-primary">See What Your Lot Can Support →</MotionLink>
-            </Reveal>
-            <Reveal className="adu-numbers" delay={0.15}>
-              <div className="adu-num-cell"><div className="adu-num">$280–$400</div><div className="adu-num-label">Per sq ft<br />construction range</div></div>
-              <div className="adu-num-cell"><div className="adu-num">60–90</div><div className="adu-num-label">Day permit<br />timeline</div></div>
-              <div className="adu-num-cell"><div className="adu-num">AB1033</div><div className="adu-num-label">Sell ADU as<br />separate property</div></div>
-              <div className="adu-num-cell"><div className="adu-num">½ mi</div><div className="adu-num-label">Transit value<br />radius rule</div></div>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
-      <CommunityCapital />
-
-      {/* FAQ */}
-      <FAQ />
 
       {/* FINAL CTA */}
       <section id="final-cta">
