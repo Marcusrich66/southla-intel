@@ -1448,6 +1448,43 @@ footer {
     margin-top: 2px !important;
   }
 
+  /* Editorial caption — bottom-left of image */
+  .hero-img-caption {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+    position: absolute !important;
+    bottom: 12px !important;
+    left: 14px !important;
+    right: 14px !important;
+    z-index: 10 !important;
+    /* Subtle dark gradient behind text for legibility — no hard box */
+    padding: 18px 14px 10px !important;
+    background: linear-gradient(to top, rgba(8,16,28,0.72) 0%, rgba(8,16,28,0) 100%) !important;
+    border-radius: 0 !important;
+  }
+  .hero-img-caption-title {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 9px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.14em !important;
+    color: rgba(207,174,109,0.92) !important;
+    line-height: 1.4 !important;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6) !important;
+    display: block !important;
+  }
+  .hero-img-caption-body {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 11px !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    color: rgba(255,255,255,0.78) !important;
+    line-height: 1.5 !important;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6) !important;
+    display: block !important;
+  }
+
   /* Gold CTA badge — hidden on mobile, image speaks for itself */
   .hero-mobile-cta-badge {
     display: none !important;
@@ -1599,6 +1636,11 @@ footer {
 
 /* HERO MOBILE IMAGE CAPTION — hidden on desktop */
 .hero-mobile-image-caption {
+  display: none;
+}
+
+/* HERO IMAGE EDITORIAL CAPTION — hidden on desktop */
+.hero-img-caption {
   display: none;
 }
 
