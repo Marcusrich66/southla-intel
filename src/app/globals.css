@@ -375,9 +375,12 @@ section { position: relative; }
 }
 @media (min-width: 768px) {
   .feature-number { color: #E6C98A; font-weight: 700; }
-  .feature-title { border-bottom: 3px solid #CFAE6D; color: #E6C98A; }
+  .feature-title { border-bottom: 3px solid #CFAE6D; }
 }
 .feature-title { font-family: 'Cormorant Garamond', serif; font-size: 1.45rem; font-weight: 600; color: var(--white); margin-bottom: 14px; padding-bottom: 10px; line-height: 1.2; border-bottom: 1px solid rgba(207,174,109,.35); display: block; }
+@media (min-width: 768px) {
+  .feature-title { color: #E6C98A; }
+}
 .feature-desc { font-size: .82rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.9); }
 
 /* CONVERGENCE ENGINE */
@@ -393,6 +396,9 @@ section { position: relative; }
   color: rgba(255,255,255,.52); margin: -8px 0 22px; letter-spacing: .02em;
 }
 .convergence-sub { text-align: center; max-width: 560px; margin: 0 auto; }
+@media (min-width: 768px) {
+  .convergence-engine-name { font-size: 1.5rem; color: var(--gold-hi); }
+}
 
 /* Diagram wrapper */
 .convergence-diagram-wrap { position: relative; margin-bottom: 80px; }
@@ -523,6 +529,9 @@ section { position: relative; }
 .outcomes-bridge-label {
   font-size: .58rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase;
   color: rgba(207,174,109,.4); white-space: nowrap;
+}
+@media (min-width: 768px) {
+  .outcomes-bridge-label { font-size: .78rem; }
 }
 
 .outcomes-grid {
