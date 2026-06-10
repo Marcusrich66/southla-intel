@@ -131,11 +131,16 @@ export default function Home() {
       <section id="problem">
         <div className="container">
           <div className="problem-grid">
-            <Reveal className="problem-visual">
+            <Reveal className="problem-intro">
+              <div className="section-tag">The Problem</div>
+              <h2 className="section-headline">Most People Know Something Is Happening.<br />Few Know What&apos;s Actually Coming.</h2>
+              <p className="section-body" style={{ marginBottom: "36px" }}>Most people can feel that South LA is changing. What most don&apos;t know is exactly where it&apos;s happening, what&apos;s being built, and how close it is to their property. The people who understand those details are already making decisions. The window is still open — but it won&apos;t stay open forever.</p>
+            </Reveal>
+            <Reveal className="problem-visual" delay={0.15}>
               <div className="problem-card pc1">
                 <div className="pc-label">The Knowledge Gap</div>
                 <div className="pc-stat">Most owners</div>
-                <div className="pc-text">own property in South LA and have no idea what&apos;s being built a few blocks away — or what it means for their home&apos;s value.</div>
+                <div className="pc-text">Most owners know their home&apos;s value. Few know what&apos;s happening around it. New transit, redevelopment projects, cultural investments, and zoning changes are quietly reshaping the corridor — often within walking distance of properties they already own.</div>
               </div>
               <div className="problem-card pc2">
                 <div className="pc-label">The Window</div>
@@ -143,10 +148,7 @@ export default function Home() {
                 <div className="pc-text">The gap between what this land is worth today and what it&apos;ll be worth after zoning catches up — that gap is still there. Not for long.</div>
               </div>
             </Reveal>
-            <Reveal delay={0.15}>
-              <div className="section-tag">The Problem</div>
-              <h2 className="section-headline">The Corridor Is Moving.<br />Most People Don&apos;t Know It.</h2>
-              <p className="section-body" style={{ marginBottom: "36px" }}>Most people in South LA can feel something is happening. But feeling it and knowing exactly what&apos;s coming — and where — are two different things. The people who knew the specifics are already positioned. That window is still open. Not for much longer.</p>
+            <Reveal className="problem-pains" delay={0.3}>
               <ul className="pain-list">
                 <li className="pain-item">
                   <div className="pain-icon">📍</div>
@@ -158,7 +160,7 @@ export default function Home() {
                 <li className="pain-item">
                   <div className="pain-icon">🕐</div>
                   <div>
-                    <div className="pain-title">The Window Is Already Closing</div>
+                    <div className="pain-title">Why Timing Matters</div>
                     <div className="pain-desc">The Westside Area Plan is live. Compton&apos;s TOD Specific Plan is in environmental review. The positioning window is narrow.</div>
                   </div>
                 </li>
