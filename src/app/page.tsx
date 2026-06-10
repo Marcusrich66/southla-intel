@@ -62,7 +62,7 @@ export default function Home() {
         <div className="hero-sketch-glow" />
         <div className="hero-sketch-label">
           <span className="hero-sketch-label-line">The North Anchor.</span>
-          <span className="hero-sketch-label-name">Lucas Museum of Narrative Art · Exposition Park</span>
+          <span className="hero-sketch-label-name"><a className="copy-link" href="https://lucasmuseum.org" target="_blank" rel="noopener noreferrer">Lucas Museum of Narrative Art</a> · Exposition Park</span>
         </div>
 
         <Lightbox />
@@ -193,7 +193,7 @@ export default function Home() {
             <div className="feature-card">
               <div className="feature-number">01</div>
               <div className="feature-title">Cultural Reclamation</div>
-              <div className="feature-desc">Destination Crenshaw ($100–122M), Leimert Park Village&apos;s 20/20 Vision, and the Issa Rae economy rewriting Black cultural identity into permanent infrastructure along the K Line spine.</div>
+              <div className="feature-desc"><a className="copy-link" href="https://destinationcrenshaw.la" target="_blank" rel="noopener noreferrer">Destination Crenshaw</a> ($100–122M), Leimert Park Village&apos;s 20/20 Vision, and the Issa Rae economy rewriting Black cultural identity into permanent infrastructure along the K Line spine.</div>
             </div>
             <div className="feature-card">
               <div className="feature-number">02</div>
@@ -203,12 +203,12 @@ export default function Home() {
             <div className="feature-card">
               <div className="feature-number">03</div>
               <div className="feature-title">Equity Redevelopment</div>
-              <div className="feature-desc">Jordan Downs&apos; $1B transformation — America&apos;s largest public housing redevelopment — and Evermont&apos;s $300M Vermont-Manchester district converting a 1992 riot lot into a national model.</div>
+              <div className="feature-desc"><a className="copy-link" href="https://www.hacla.org/en/development-services/development/jordan-downs-redevelopment" target="_blank" rel="noopener noreferrer">Jordan Downs</a>&apos; $1B transformation — America&apos;s largest public housing redevelopment — and <a className="copy-link" href="https://evermontsouthla.com" target="_blank" rel="noopener noreferrer">Evermont</a>&apos;s $300M Vermont-Manchester district converting a 1992 riot lot into a national model.</div>
             </div>
             <div className="feature-card">
               <div className="feature-number">04</div>
               <div className="feature-title">Transit & Climate</div>
-              <div className="feature-desc">The Metro K Line, Expo Line, and A Line create a transit spine anchoring property values across South LA. Every major project in this brief is explicitly tied to transit proximity.</div>
+              <div className="feature-desc">The <a className="copy-link" href="https://www.hntb.com/projects/la-metro-k-line/" target="_blank" rel="noopener noreferrer">Metro K Line</a>, Expo Line, and A Line create a transit spine anchoring property values across South LA. Every major project in this brief is explicitly tied to transit proximity.</div>
             </div>
           </Reveal>
         </div>

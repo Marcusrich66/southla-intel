@@ -204,7 +204,7 @@ export default function Developments() {
               <DevCards>
                 <DevCard>
                   <div className="dev-card-status s-construction">Multi-Phase · Active Construction</div>
-                  <div className="dev-card-title">Baldwin Hills Crenshaw Plaza Master Plan</div>
+                  <div className="dev-card-title"><a className="copy-link" href="https://bhcppartnership.com" target="_blank" rel="noopener noreferrer">Baldwin Hills Crenshaw Plaza</a> Master Plan</div>
                   <div className="dev-card-invest">$1B+ Total · 42 Acres · Developer: Harridge Development Group</div>
                   <div className="dev-card-body">Complete transformation of the historic mall into a mixed-use district with residential, retail, creative office, and community space. Among the most significant commercial redevelopments in South LA&apos;s history, with multiple residential phases underway. Full build-out will reshape 42 acres into a live-work-play district.</div>
                   <div className="dev-card-signal">A $1B master plan anchors the value thesis for every property in the area. Residential, ADU, and small commercial investments within a half-mile benefit directly from the amenity uplift.</div>
@@ -218,7 +218,7 @@ export default function Developments() {
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Development · $225M</div>
-                  <div className="dev-card-title">Stocker Street Creative — Film Production Campus</div>
+                  <div className="dev-card-title"><a className="copy-link" href="https://stockerstreetcreative.com" target="_blank" rel="noopener noreferrer">Stocker Street Creative</a> — Film Production Campus</div>
                   <div className="dev-card-invest">$225M · BIPOC Film Production · Film Stages + Creative Office</div>
                   <div className="dev-card-body">A $225M production campus designed to incubate and serve BIPOC creators, shifting the center of gravity of the entertainment industry southward. Film production campuses generate sustained, high-income employment — a powerful long-term demand driver for housing within the commute radius.</div>
                   <div className="dev-card-signal">Where production campuses anchor, housing demand follows production workers. This is the &ldquo;Burbank effect&rdquo; happening in South LA. Stocker Street is the creative economy catalyst for the entire Baldwin Hills area.</div>
@@ -256,7 +256,7 @@ export default function Developments() {
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Construction · Hospitality Signal</div>
-                  <div className="dev-card-title">Kali Hotel — Marriott Autograph Collection</div>
+                  <div className="dev-card-title"><a className="copy-link" href="https://www.sofistadium.com/news/detail/kali-hotel-and-rooftop-autograph-collection-tops-out-at-hollywood-park-in-inglewood-california" target="_blank" rel="noopener noreferrer">Kali Hotel</a> — Marriott Autograph Collection</div>
                   <div className="dev-card-invest">$300M · Only Hotel Permitted in Hollywood Park Zone</div>
                   <div className="dev-card-body">The only hotel permitted within the Hollywood Park Specific Plan zone. The Kali Hotel&apos;s $300M investment in the Marriott Autograph Collection brand signals that the global hospitality industry is betting on Inglewood&apos;s long-term permanence as an event and entertainment destination.</div>
                   <div className="dev-card-signal">When institutional hospitality capital bets $300M on a single site, nearby residential real estate is already underpriced relative to where the market is heading.</div>
