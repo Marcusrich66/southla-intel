@@ -161,7 +161,7 @@ export default function Home() {
                   <div className="pain-icon">🕐</div>
                   <div>
                     <div className="pain-title">Why Timing Matters</div>
-                    <div className="pain-desc">The Westside Area Plan is live. Compton&apos;s TOD Specific Plan is in environmental review. The positioning window is narrow.</div>
+                    <div className="pain-desc">The Westside Area Plan is live. Compton&apos;s TOD Specific Plan is in environmental review. There&apos;s still time to get in front of it — but not much.</div>
                   </div>
                 </li>
                 <li className="pain-item">
@@ -382,7 +382,7 @@ export default function Home() {
               <div className="section-tag" style={{ color: "var(--gold-base)" }}>Homeowner Wealth Creation</div>
               <h2 className="section-headline light">AB 1033 Changes<br /><em className="gold-text" style={{ fontStyle: "italic" }}>Everything.</em></h2>
               <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a corridor where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
-              <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay more to be close to the K Line — these are the structural conditions that make South LA ADUs uniquely positioned right now.</p>
+              <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay more to be close to the K Line — these are the reasons South LA ADUs make so much sense right now.</p>
               <MotionLink href="#final-cta" className="btn-primary">See What Your Lot Can Support →</MotionLink>
             </Reveal>
             <Reveal className="adu-numbers" delay={0.15}>

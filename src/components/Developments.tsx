@@ -194,7 +194,7 @@ export default function Developments() {
                   <div className="dev-card-status s-active">North + South Anchor Framework</div>
                   <div className="dev-card-title">The &ldquo;Two Anchor&rdquo; Thesis</div>
                   <div className="dev-card-invest">Lucas Museum (North) + Hollywood Park $5B+ (South)</div>
-                  <div className="dev-card-body">Hollywood Park in Inglewood is the southern anchor — $5B+ in sports, entertainment, and hospitality. The Lucas Museum is now the northern anchor — a $1B cultural institution driving international visitation along the Expo Line corridor. The Golden Corridor now has two mega-anchors bookending it. Every neighborhood between them is in the appreciation zone.</div>
+                  <div className="dev-card-body">Hollywood Park in Inglewood is the southern anchor — $5B+ in sports, entertainment, and hospitality. The Lucas Museum is now the northern anchor — a $1B cultural institution driving international visitation along the Expo Line corridor. The Golden Corridor now has two mega-anchors bookending it. Every neighborhood between them is now sitting between two major anchors.</div>
                   <div className="dev-card-signal">This is a structural change in how South LA is perceived by investors, buyers, and the global press — not a narrative, a documented investment reality.</div>
                 </DevCard>
               </DevCards>
@@ -207,21 +207,21 @@ export default function Developments() {
                   <div className="dev-card-title">Baldwin Hills Crenshaw Plaza Master Plan</div>
                   <div className="dev-card-invest">$1B+ Total · 42 Acres · Developer: Harridge Development Group</div>
                   <div className="dev-card-body">Complete transformation of the historic mall into a mixed-use district with residential, retail, creative office, and community space. Among the most significant commercial redevelopments in South LA&apos;s history, with multiple residential phases underway. Full build-out will reshape 42 acres into a live-work-play district.</div>
-                  <div className="dev-card-signal">A $1B master plan anchors the value thesis for every property within the trade area. Residential, ADU, and small commercial investments within a half-mile benefit directly from the amenity uplift.</div>
+                  <div className="dev-card-signal">A $1B master plan anchors the value thesis for every property in the area. Residential, ADU, and small commercial investments within a half-mile benefit directly from the amenity uplift.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Construction · Active</div>
                   <div className="dev-card-title">Harridge Residential — Phase 1 & 2</div>
                   <div className="dev-card-invest">636 + 290 Units · Mixed-Income · K Line Adjacent</div>
-                  <div className="dev-card-body">Two residential phases delivering over 900 combined units to the Baldwin Hills/Crenshaw node, adding a meaningful new renter pool to the area and driving demand for supporting retail, dining, and services in the immediate trade area.</div>
-                  <div className="dev-card-signal">900 new units near K Line stations creates secondary rental demand that radiates into adjacent single-family streets — lifting property values and rental rates across the entire trade area.</div>
+                  <div className="dev-card-body">Two residential phases delivering over 900 combined units to the Baldwin Hills/Crenshaw node, adding a meaningful new renter pool to the area and driving demand for supporting retail, dining, and services in the surrounding blocks.</div>
+                  <div className="dev-card-signal">900 new units near K Line stations creates secondary rental demand that radiates into adjacent single-family streets — lifting property values and rental rates across the surrounding blocks.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Development · $225M</div>
                   <div className="dev-card-title">Stocker Street Creative — Film Production Campus</div>
                   <div className="dev-card-invest">$225M · BIPOC Film Production · Film Stages + Creative Office</div>
                   <div className="dev-card-body">A $225M production campus designed to incubate and serve BIPOC creators, shifting the center of gravity of the entertainment industry southward. Film production campuses generate sustained, high-income employment — a powerful long-term demand driver for housing within the commute radius.</div>
-                  <div className="dev-card-signal">Where production campuses anchor, housing demand follows production workers. This is the &ldquo;Burbank effect&rdquo; happening in South LA. Stocker Street is the creative economy catalyst for the entire Baldwin Hills trade area.</div>
+                  <div className="dev-card-signal">Where production campuses anchor, housing demand follows production workers. This is the &ldquo;Burbank effect&rdquo; happening in South LA. Stocker Street is the creative economy catalyst for the entire Baldwin Hills area.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -252,7 +252,7 @@ export default function Developments() {
                   <div className="dev-card-title">Hollywood Park Mixed-Use District & Studios</div>
                   <div className="dev-card-invest">$5B+ Network of Projects · 300 Acres · FIFA 2026 / Super Bowl 2027 / Olympics 2028</div>
                   <div className="dev-card-body">300-acre master-planned district surrounding SoFi Stadium delivering retail, residential, office, hotel, and film production infrastructure. Hollywood Park Studios adds film and TV production capacity immediately adjacent to the sports complex, creating a year-round economic engine beyond event days.</div>
-                  <div className="dev-card-signal">Every major event at SoFi or Intuit Dome generates sustained short-term rental demand in Inglewood, Hawthorne, and Ladera Heights. Existing homeowners in the trade area are positioned to capture that demand.</div>
+                  <div className="dev-card-signal">Every major event at SoFi or Intuit Dome generates sustained short-term rental demand in Inglewood, Hawthorne, and Ladera Heights. Existing homeowners in the surrounding Inglewood neighborhoods are positioned to capture that demand.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Construction · Hospitality Signal</div>
@@ -368,7 +368,7 @@ export default function Developments() {
                   <div className="dev-card-status s-active">Active · Transit-Adjacent Infill</div>
                   <div className="dev-card-title">2903 W. Jefferson — Mixed-Use Infill</div>
                   <div className="dev-card-invest">Jefferson Park / Expo Line Corridor · Emerging Value Play</div>
-                  <div className="dev-card-body">Transit-adjacent infill development along the Jefferson corridor adding density and housing supply proximate to Expo Line stations. Jefferson Park sits at the intersection of the Expo Line and the Crenshaw/Baldwin Hills trade area.</div>
+                  <div className="dev-card-body">Transit-adjacent infill development along the Jefferson corridor adding density and housing supply proximate to Expo Line stations. Jefferson Park sits at the intersection of the Expo Line and the Crenshaw/Baldwin Hills area.</div>
                   <div className="dev-card-signal">Jefferson Park infill is earlier in the appreciation cycle with significant upside relative to West Adams comparables. The same pressure that repriced West Adams is now moving east.</div>
                 </DevCard>
                 <DevCard>
