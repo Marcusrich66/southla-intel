@@ -1321,7 +1321,7 @@ footer {
   .features-grid { grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(207,174,109,.25); }
   .feature-card { padding: 28px 20px; background: var(--navy); }
   .feature-number { font-size: 2.2rem; } .feature-desc { font-size: .8rem; }
-  .feature-title { font-size: 1.2rem !important; font-weight: 700 !important; color: #CFAE6D !important; background: none !important; -webkit-background-clip: unset !important; -webkit-text-fill-color: unset !important; background-clip: unset !important; }
+  .feature-title { font-size: 1.4rem !important; font-weight: 700 !important; color: #CFAE6D !important; background: none !important; -webkit-background-clip: unset !important; -webkit-text-fill-color: unset !important; background-clip: unset !important; }
   .dev-header { grid-template-columns: 1fr; gap: 28px; margin-bottom: 36px; }
   .dev-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; flex-wrap: nowrap; padding-bottom: 2px; scrollbar-width: none; }
   .dev-tabs::-webkit-scrollbar { display: none; }
@@ -1599,18 +1599,18 @@ footer {
   .hub-stats div { font-size: .85rem !important; }
   .spoke-node { padding: 13px 14px !important; height: 230px !important; display: flex !important; flex-direction: column !important; justify-content: center !important; align-self: stretch !important; overflow: hidden !important; }
   .convergence-grid { align-items: stretch !important; }
-  .spoke-label { font-size: .8rem !important; margin-bottom: 7px !important; }
+  .spoke-label { font-size: .8rem !important; margin-bottom: 7px !important; letter-spacing: .08em !important; word-break: break-word !important; overflow-wrap: break-word !important; white-space: normal !important; }
   .spoke-items li { font-size: .8rem !important; }
   .outcomes-bridge { margin-bottom: 24px !important; }
   .outcomes-grid { grid-template-columns: 1fr 1fr !important; }
   .outcome-card { padding: 24px 18px !important; border-right: none !important; border-bottom: 1px solid rgba(207,174,109,.1) !important; }
   .outcome-card:nth-child(odd) { border-right: 1px solid rgba(207,174,109,.1) !important; }
   .outcome-title { font-size: 1rem !important; }
-  .outcome-items li { font-size: .68rem !important; }
+  .outcome-items li { font-size: .9rem !important; }
 
   /* ── THE BRIEF / AUTHORITY ──────────────── */
   .authority-quote      { font-size: 1.3rem !important; }
-  .featured-card-impact { font-size: 0.82rem !important; color: rgba(255,255,255,0.72) !important; }
+  .featured-card-impact { font-size: 1rem !important; line-height: 1.65 !important; color: rgba(255,255,255,0.72) !important; }
   .signal-label         { color: rgba(255,255,255,0.72) !important; font-size: 0.68rem !important; }
   .signal-value         { font-size: 1.15rem !important; }
 
