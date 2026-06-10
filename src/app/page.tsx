@@ -134,12 +134,12 @@ export default function Home() {
             <Reveal className="problem-intro">
               <div className="section-tag">The Problem</div>
               <h2 className="section-headline">Most People Know Something Is Happening.<br />Few Know What&apos;s Actually Coming.</h2>
-              <p className="section-body" style={{ marginBottom: "36px" }}>Most people can feel that South LA is changing. What most don&apos;t know is exactly where it&apos;s happening, what&apos;s being built, and how close it is to their property. The people who understand those details are already making decisions. The window is still open — but it won&apos;t stay open forever.</p>
+              <p className="section-body" style={{ marginBottom: "36px" }}>People can feel that South LA is changing. What most don&apos;t know is exactly where it&apos;s happening, what&apos;s being built, and how close it is to their property. The people who understand those details are already making decisions. The window is still open — but it won&apos;t stay open forever.</p>
             </Reveal>
             <Reveal className="problem-visual" delay={0.15}>
               <div className="problem-card pc1">
                 <div className="pc-label">The Knowledge Gap</div>
-                <div className="pc-stat">Most owners</div>
+                <div className="pc-stat">What Owners Don&apos;t See</div>
                 <div className="pc-text">Most owners know their home&apos;s value. Few know what&apos;s happening around it. New transit, redevelopment projects, cultural investments, and zoning changes are quietly reshaping the corridor — often within walking distance of properties they already own.</div>
               </div>
               <div className="problem-card pc2">
@@ -167,7 +167,7 @@ export default function Home() {
                 <li className="pain-item">
                   <div className="pain-icon">💡</div>
                   <div>
-                    <div className="pain-title">Most Homeowners Don&apos;t Know What Their Lot Can Do</div>
+                    <div className="pain-title">The Opportunity Sitting Behind The House</div>
                     <div className="pain-desc">AB 1033 just changed what a South LA homeowner can do with their backyard. Most people haven&apos;t heard about it yet. That&apos;s the gap.</div>
                   </div>
                 </li>
