@@ -76,7 +76,7 @@ export default function ConvergenceEngine() {
               <ul className="spoke-items">
                 <li>K Line</li>
                 <li>E Line</li>
-                <li>TOD Corridors</li>
+                <li>Transit Corridors</li>
               </ul>
             </div>
 
@@ -118,7 +118,7 @@ export default function ConvergenceEngine() {
             <div className="spoke-node spoke-mr convergence-box">
               <div className="spoke-label">PRIVATE CAPITAL</div>
               <ul className="spoke-items">
-                <li>Institutional Capital</li>
+                <li>Major Investment</li>
                 <li>Mixed-Use Investment</li>
                 <li>Business Expansion</li>
               </ul>

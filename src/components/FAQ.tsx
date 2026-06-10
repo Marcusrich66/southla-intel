@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "Why does the \"half-mile rule\" matter for South LA properties?",
-    a: "Every major development in this Brief is explicitly tied to transit proximity. Properties within a half-mile of K Line, Expo Line, and A Line stations experience the strongest development pressure and the greatest long-term appreciation potential. The half-mile threshold is where walkability scores shift, ADU demand spikes, and institutional capital begins to take notice. It's the difference between riding the corridor and watching it from a distance. SEED LA's research also confirms that premium school facilities within a half-mile uplift residential values by 5–15% — a second half-mile dynamic at play in Evermont.",
+    a: "Every major development in this Brief is explicitly tied to transit proximity. Properties within a half-mile of K Line, Expo Line, and A Line stations experience the strongest development pressure and the greatest long-term appreciation potential. The half-mile threshold is where walkability scores shift, ADU demand spikes, and big investors begin to take notice. It's the difference between riding the corridor and watching it from a distance. SEED LA's research also confirms that premium school facilities within a half-mile uplift residential values by 5–15% — a second half-mile dynamic at play in Evermont.",
   },
   {
     q: "Is Compton actually investable right now, or is this premature?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "What does the FIFA/Super Bowl/Olympics pipeline mean for strategy?",
-    a: "FIFA 2026, Super Bowl 2027, and the 2028 Olympics are fixed dates — not projections. They are concentrating global capital in Inglewood and creating predictable demand surges for hospitality, short-term rentals, and investor visibility. The Kali Hotel ($300M, Marriott Autograph Collection — the only hotel permitted in Hollywood Park zone), Hollywood Park Studios, and the Intuit Dome are part of an ecosystem built for international audiences. Properties in the area around Hollywood Park are not just benefiting from local growth — they're in the path of global event infrastructure. The positioning window is before these events, not during.",
+    a: "FIFA 2026, Super Bowl 2027, and the 2028 Olympics are fixed dates — not projections. They are concentrating global capital in Inglewood and creating predictable demand surges for hospitality, short-term rentals, and investor visibility. The Kali Hotel ($300M, Marriott Autograph Collection — the only hotel permitted in Hollywood Park zone), Hollywood Park Studios, and the Intuit Dome are part of a network built for international audiences. Properties in the area around Hollywood Park are not just benefiting from local growth — they're in the path of global event infrastructure. The positioning window is before these events, not during.",
   },
 ];
 

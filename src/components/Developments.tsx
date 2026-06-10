@@ -19,15 +19,15 @@ const tabs = [
 
 const chapterMeta: Record<string, { signals: string; force: string; lens: string }> = {
   crenshaw:   { signals: "4 Projects", force: "Culture + Transit",      lens: "Half-Mile Proximity" },
-  innovation: { signals: "2 Projects", force: "Innovation + Tech",      lens: "Employment Radius" },
-  exposition: { signals: "2 Projects", force: "Culture + Capital",      lens: "Museum Adjacency" },
-  baldwin:    { signals: "3 Projects", force: "Film + Mixed-Use",       lens: "Trade Area Uplift" },
+  innovation: { signals: "2 Projects", force: "Innovation + Tech",      lens: "Job Growth Impact" },
+  exposition: { signals: "2 Projects", force: "Culture + Capital",      lens: "Museum Area" },
+  baldwin:    { signals: "3 Projects", force: "Film + Mixed-Use",       lens: "Surrounding Area Benefit" },
   viewpark:   { signals: "2 Projects", force: "Zoning + Luxury",        lens: "Upzoning Window" },
   inglewood:  { signals: "3 Projects", force: "Events + Hospitality",   lens: "Event Demand" },
   westadams:  { signals: "2 Projects", force: "Transit + Rentals",      lens: "Rent Benchmark" },
   evermont:   { signals: "2 Projects", force: "Equity + Education",     lens: "School Proximity" },
   watts:      { signals: "4 Projects", force: "Redevelopment + Climate","lens": "Early Positioning" },
-  compton:    { signals: "2 Projects", force: "Transit + Innovation",   lens: "TOD Frontier" },
+  compton:    { signals: "2 Projects", force: "Transit + Innovation",   lens: "Transit Growth Area" },
   jefferson:  { signals: "2 Projects", force: "Transit + CDFI",         lens: "Infill Appreciation" },
 };
 
@@ -67,7 +67,7 @@ function CorridorBand() {
     <div className="corridor-band">
       <div className="corridor-band-label">CORRIDOR READING</div>
       <p className="corridor-band-text">
-        The signal is not isolated development. It is clustering: cultural infrastructure, transit adjacency, public investment, and private capital appearing in the same geography at the same time.
+        This isn&apos;t just one project. It&apos;s multiple investments showing up in the same area at the same time — cultural infrastructure, transit, public money, and private capital, all together.
       </p>
     </div>
   );
@@ -141,14 +141,14 @@ export default function Developments() {
                   <div className="dev-card-status s-active">Active · Fit-Out 2025–2026</div>
                   <div className="dev-card-title">Crenshaw Lofts Tech Center <span className="note-badge">New Addition</span></div>
                   <div className="dev-card-invest">$29M NMTC · 190 Units (22 ELI) · 4607 Crenshaw Blvd</div>
-                  <div className="dev-card-body">Seven-story TOD building with ground-floor Tech & Entertainment Center powered by Live Nation — music, live production, and digital media training for South LA youth. Crenshaw Culinary Arts Café provides a vocational training pipeline. Federal NMTC and congressional earmark funding confirm flagship equity status.</div>
-                  <div className="dev-card-signal">Raises the ceiling on what ground-floor space commands near Leimert Park Station. The innovation node premium is now priced into the corridor.</div>
+                  <div className="dev-card-body">Seven-story building right on the K Line with a ground-floor Tech & Entertainment Center powered by Live Nation — music, live production, and digital media training for South LA youth. Crenshaw Culinary Arts Café provides a vocational training pipeline. Federal NMTC and congressional earmark funding confirm flagship equity status.</div>
+                  <div className="dev-card-signal">Projects like this tend to increase demand for nearby commercial space, housing, and local businesses. The area around Leimert Park Station is becoming more attractive to employers, entrepreneurs, and investors.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-active">Active · 20/20 Vision Initiative</div>
                   <div className="dev-card-title">Leimert Park Village Cultural District</div>
-                  <div className="dev-card-invest">Cultural Protection Overlay · Zoning-Backed Brand Premium</div>
-                  <div className="dev-card-body">The 20/20 Vision Initiative has officially branded Leimert Park as a protected hub for Black creatives. Anchor institutions include the World Stage, Degnan gallery row, and Hilltop Coffee + Kitchen (co-owned by Issa Rae) — a FUBU economic ecosystem that sets the neighborhood&apos;s cultural floor.</div>
+                  <div className="dev-card-invest">Cultural Protection Overlay · Zoning-Protected Cultural Identity</div>
+                  <div className="dev-card-body">The 20/20 Vision Initiative has officially branded Leimert Park as a protected hub for Black creatives. Anchor institutions include the World Stage, Degnan gallery row, and Hilltop Coffee + Kitchen (co-owned by Issa Rae) — a FUBU economic network that sets the neighborhood&apos;s cultural floor.</div>
                   <div className="dev-card-signal">Creative-class anchor businesses function as neighborhood quality signals to buyers and investors — and as a permanent barrier to cultural erasure.</div>
                 </DevCard>
                 <CorridorBand />
@@ -157,7 +157,7 @@ export default function Developments() {
                   <div className="dev-card-title">Crenshaw Wall Pocket Parks</div>
                   <div className="dev-card-invest">Public Green Infrastructure · K Line At-Grade Stations</div>
                   <div className="dev-card-body">A series of small-scale public plazas and pocket parks activating the at-grade K Line stations along the Crenshaw corridor. These third spaces increase walkability scores, reduce heat islands, and directly lift adjacent residential land values.</div>
-                  <div className="dev-card-signal">Green space at transit stops is a proven catalyst for ADU feasibility — renters pay a premium for walkable, activated corridors.</div>
+                  <div className="dev-card-signal">Green space at transit stops is a proven catalyst for ADU feasibility — renters pay more for walkable, activated corridors.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -239,7 +239,7 @@ export default function Developments() {
                   <div className="dev-card-status s-planned">Proposed · Luxury Emergence Signal</div>
                   <div className="dev-card-title">The View — Luxury Condo Proposal</div>
                   <div className="dev-card-invest">View Heights / View Park · First Significant Luxury Condo Proposal</div>
-                  <div className="dev-card-body">The first significant luxury condominium proposal in the View Heights/View Park area. Signals that developers are now pricing in the premium residential demand being generated by corridor-wide growth and the Westside Area Plan upzoning.</div>
+                  <div className="dev-card-body">The first significant luxury condominium proposal in the View Heights/View Park area. Signals that developers are now pricing in the higher demand for housing being generated by growth across South LA and the Westside Area Plan upzoning.</div>
                   <div className="dev-card-signal">The emergence of luxury condo proposals in View Park and Windsor Hills indicates that institutional capital has begun pricing in the area&apos;s trajectory. Residential buyers should act before this re-pricing is fully absorbed.</div>
                 </DevCard>
               </DevCards>
@@ -250,7 +250,7 @@ export default function Developments() {
                 <DevCard>
                   <div className="dev-card-status s-construction">Phased Delivery Underway</div>
                   <div className="dev-card-title">Hollywood Park Mixed-Use District & Studios</div>
-                  <div className="dev-card-invest">$5B+ Ecosystem · 300 Acres · FIFA 2026 / Super Bowl 2027 / Olympics 2028</div>
+                  <div className="dev-card-invest">$5B+ Network of Projects · 300 Acres · FIFA 2026 / Super Bowl 2027 / Olympics 2028</div>
                   <div className="dev-card-body">300-acre master-planned district surrounding SoFi Stadium delivering retail, residential, office, hotel, and film production infrastructure. Hollywood Park Studios adds film and TV production capacity immediately adjacent to the sports complex, creating a year-round economic engine beyond event days.</div>
                   <div className="dev-card-signal">Every major event at SoFi or Intuit Dome generates sustained short-term rental demand in Inglewood, Hawthorne, and Ladera Heights. Existing homeowners in the trade area are positioned to capture that demand.</div>
                 </DevCard>
@@ -276,7 +276,7 @@ export default function Developments() {
                 <DevCard>
                   <div className="dev-card-status s-active">Delivered / Delivering · Institutional</div>
                   <div className="dev-card-title">CIM Group Mixed-Use Portfolio</div>
-                  <div className="dev-card-invest">$2,450–$3,395/mo Rents · 5109 & 5201 W. Adams Blvd · Expo Line TOD</div>
+                  <div className="dev-card-invest">$2,450–$3,395/mo Rents · 5109 & 5201 W. Adams Blvd · Expo Line Transit Corridor</div>
                   <div className="dev-card-body">CIM Group&apos;s sustained West Adams investment has established a new rent baseline for the corridor. Multiple delivered buildings at Expo Line stations proving that institutional-grade rental rates are achievable and sustainable in South LA. The cumulative density is transforming West Adams into a transit-dense, creative-class corridor.</div>
                   <div className="dev-card-signal">West Adams has established that $2,450–$3,395/mo is achievable and sustainable in South LA. That benchmark re-prices the entire corridor east and south.</div>
                 </DevCard>
@@ -297,7 +297,7 @@ export default function Developments() {
                   <div className="dev-card-title">Evermont District — Luminus & Vista Affordable Housing</div>
                   <div className="dev-card-invest">~$300M Total · ~180 Affordable Units · Bridge Housing + CRCD + Primestor</div>
                   <div className="dev-card-body">Two housing phases delivering approximately 180 deeply affordable units for families and seniors. A $40M NMTC allocation supported the retail and office components. The district includes a Target-anchored retail center, transit plaza, and Metro training & innovation center. Transforms a 4.2-acre LA County site vacant since 1992 into a national model.</div>
-                  <div className="dev-card-signal">A new mixed-use node at Vermont & Manchester will radiate value into surrounding single-family streets. The same TOD value-uplift dynamic seen in West Adams is now activating here.</div>
+                  <div className="dev-card-signal">A new mixed-use development at Vermont & Manchester will boost value for the surrounding single-family streets. The same transit-area value boost we saw in West Adams is now happening here.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-operational">Built and Operating · Must-Track</div>
@@ -350,14 +350,14 @@ export default function Developments() {
                   <div className="dev-card-title">Compton Innovation Hub</div>
                   <div className="dev-card-invest">300 Apartments (60 Affordable) · 44,000 sq ft Innovation Space · KBK Enterprises</div>
                   <div className="dev-card-body">7-story mixed-use complex 3 blocks from Metro A-Line Compton Station combining 300 apartments, 44,000 sq ft Compton Innovation Hub for co-working, learning labs, and studios, and ground-floor retail. KBK Enterprises&apos; first West Coast development — a signal that capital from outside Los Angeles is now looking at Compton as a viable destination.</div>
-                  <div className="dev-card-signal">The A-Line now runs Compton to Downtown LA to Azusa. A transit-connected innovation hub at Compton Station extends the TOD value thesis southward and opens a new frontier for ADU investment adjacent to rail.</div>
+                  <div className="dev-card-signal">The A-Line now runs Compton to Downtown LA to Azusa. A transit-connected innovation hub at Compton Station extends that growth pattern southward and opens a new opportunity for ADU investment near the rail line.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-planned">Environmental Review · Watchlist</div>
                   <div className="dev-card-title">Compton Station TOD Specific Plan</div>
                   <div className="dev-card-invest">Area Specific Plan · Metro A-Line Compton Station Zone</div>
                   <div className="dev-card-body">Compton&apos;s equivalent of the Westside Area Plan — a specific planning tool that will guide the rezoning of the Compton Station area into a mixed-use, walkable district with potential business improvement district and density bonus mechanisms. Currently in environmental review.</div>
-                  <div className="dev-card-signal">The time to position in a TOD-focused corridor is before the specific plan is adopted — not after. Compton is at that moment now.</div>
+                  <div className="dev-card-signal">The time to position in a transit-focused area is before the specific plan is adopted — not after. Compton is at that moment now.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -376,7 +376,7 @@ export default function Developments() {
                   <div className="dev-card-title">PCR Business Finance — New Crenshaw HQ</div>
                   <div className="dev-card-invest">$45.5M Distributed · ~500 Small Businesses Supported · CDFI Headquarters</div>
                   <div className="dev-card-body">PCR Business Finance, a CDFI that has distributed over $45.5M in grants to approximately 500 small businesses affected by Metro K Line construction, is building a permanent headquarters on Crenshaw. A CDFI anchor creates a sustained pipeline of small business capital.</div>
-                  <div className="dev-card-signal">Where a CDFI anchors, commercial corridors stabilize and small business formation increases. This is infrastructure for the business ecosystem, not just real estate.</div>
+                  <div className="dev-card-signal">Where a CDFI anchors, commercial corridors stabilize and small business formation increases. This is infrastructure for the business community, not just real estate.</div>
                 </DevCard>
               </DevCards>
             )}
