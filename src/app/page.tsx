@@ -94,36 +94,36 @@ export default function Home() {
       {/* MARQUEE */}
       <div className="marquee-band">
         <div className="marquee-inner">
-          <span className="marquee-item">Destination Crenshaw · </span>
-          <span className="marquee-item">$1B Jordan Downs · </span>
-          <span className="marquee-item">Lucas Museum of Narrative Art · </span>
-          <span className="marquee-item">Stocker Street Creative $225M · </span>
-          <span className="marquee-item">Metro K Line Transit Corridor · </span>
+          <span className="marquee-item"><a href="https://destinationcrenshaw.la" target="_blank" rel="noopener noreferrer">Destination Crenshaw</a> · </span>
+          <span className="marquee-item">$1B <a href="https://www.hacla.org/en/development-services/development/jordan-downs-redevelopment" target="_blank" rel="noopener noreferrer">Jordan Downs</a> · </span>
+          <span className="marquee-item"><a href="https://lucasmuseum.org" target="_blank" rel="noopener noreferrer">Lucas Museum of Narrative Art</a> · </span>
+          <span className="marquee-item"><a href="https://stockerstreetcreative.com" target="_blank" rel="noopener noreferrer">Stocker Street Creative</a> $225M · </span>
+          <span className="marquee-item"><a href="https://www.hntb.com/projects/la-metro-k-line/" target="_blank" rel="noopener noreferrer">Metro K Line</a> Transit Corridor · </span>
           <span className="marquee-item">FIFA 2026 · </span>
           <span className="marquee-item">Super Bowl 2027 · </span>
           <span className="marquee-item">Olympics 2028 · </span>
           <span className="marquee-item">AB 1033 ADU Opportunity · </span>
-          <span className="marquee-item">$300M Evermont District · </span>
-          <span className="marquee-item">Compton Innovation Hub · </span>
-          <span className="marquee-item">The Beehive Campus · </span>
+          <span className="marquee-item">$300M <a href="https://evermontsouthla.com" target="_blank" rel="noopener noreferrer">Evermont District</a> · </span>
+          <span className="marquee-item"><a href="https://la.urbanize.city/post/compton-apartments-retail-kbk-enterprises" target="_blank" rel="noopener noreferrer">Compton Innovation Hub</a> · </span>
+          <span className="marquee-item"><a href="https://www.solabeehive.com" target="_blank" rel="noopener noreferrer">The Beehive Campus</a> · </span>
           <span className="marquee-item">Baldwin Hills Crenshaw $1B+ · </span>
           <span className="marquee-item">Kali Hotel $300M · </span>
-          <span className="marquee-item">SEED LA · </span>
-          <span className="marquee-item">Destination Crenshaw · </span>
-          <span className="marquee-item">$1B Jordan Downs · </span>
-          <span className="marquee-item">Lucas Museum of Narrative Art · </span>
-          <span className="marquee-item">Stocker Street Creative $225M · </span>
-          <span className="marquee-item">Metro K Line Transit Corridor · </span>
+          <span className="marquee-item"><a href="https://seedschoolla.org" target="_blank" rel="noopener noreferrer">SEED LA</a> · </span>
+          <span className="marquee-item"><a href="https://destinationcrenshaw.la" target="_blank" rel="noopener noreferrer">Destination Crenshaw</a> · </span>
+          <span className="marquee-item">$1B <a href="https://www.hacla.org/en/development-services/development/jordan-downs-redevelopment" target="_blank" rel="noopener noreferrer">Jordan Downs</a> · </span>
+          <span className="marquee-item"><a href="https://lucasmuseum.org" target="_blank" rel="noopener noreferrer">Lucas Museum of Narrative Art</a> · </span>
+          <span className="marquee-item"><a href="https://stockerstreetcreative.com" target="_blank" rel="noopener noreferrer">Stocker Street Creative</a> $225M · </span>
+          <span className="marquee-item"><a href="https://www.hntb.com/projects/la-metro-k-line/" target="_blank" rel="noopener noreferrer">Metro K Line</a> Transit Corridor · </span>
           <span className="marquee-item">FIFA 2026 · </span>
           <span className="marquee-item">Super Bowl 2027 · </span>
           <span className="marquee-item">Olympics 2028 · </span>
           <span className="marquee-item">AB 1033 ADU Opportunity · </span>
-          <span className="marquee-item">$300M Evermont District · </span>
-          <span className="marquee-item">Compton Innovation Hub · </span>
-          <span className="marquee-item">The Beehive Campus · </span>
+          <span className="marquee-item">$300M <a href="https://evermontsouthla.com" target="_blank" rel="noopener noreferrer">Evermont District</a> · </span>
+          <span className="marquee-item"><a href="https://la.urbanize.city/post/compton-apartments-retail-kbk-enterprises" target="_blank" rel="noopener noreferrer">Compton Innovation Hub</a> · </span>
+          <span className="marquee-item"><a href="https://www.solabeehive.com" target="_blank" rel="noopener noreferrer">The Beehive Campus</a> · </span>
           <span className="marquee-item">Baldwin Hills Crenshaw $1B+ · </span>
           <span className="marquee-item">Kali Hotel $300M · </span>
-          <span className="marquee-item">SEED LA · </span>
+          <span className="marquee-item"><a href="https://seedschoolla.org" target="_blank" rel="noopener noreferrer">SEED LA</a> · </span>
         </div>
       </div>
 
