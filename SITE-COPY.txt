@@ -56,11 +56,11 @@ Headline:
 Most People Know Something Is Happening. Few Know What's Actually Coming.
 
 Body:
-People can feel that South LA is changing. What most don't know is exactly where it's happening, what's being built, and how close it is to their property. The people who understand those details are already making decisions. The window is still open — but it won't stay open forever.
+People can feel that South LA is changing. What many don't know is exactly where it's happening, what's being built, and how close it is to their property. The people who understand those details are already making decisions. The window is still open — but it won't stay open forever.
 
 Card 1 — The Knowledge Gap
 Stat: What Owners Don't See
-Text: Most owners know their home's value. Few know what's happening around it. New transit, redevelopment projects, cultural investments, and zoning changes are quietly reshaping the corridor — often within walking distance of properties they already own.
+Text: Many owners know their home's value. Few know what's happening around it. New transit, redevelopment projects, cultural investments, and zoning changes are quietly reshaping the corridor — often within walking distance of properties they already own.
 
 Card 2 — The Window
 Stat: Now
