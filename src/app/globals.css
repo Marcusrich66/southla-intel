@@ -1597,7 +1597,7 @@ footer {
   .hub-eyebrow { font-size: .48rem !important; }
   .hub-title { font-size: 1.15rem !important; }
   .hub-stats div { font-size: .85rem !important; }
-  .spoke-node { padding: 13px 14px !important; height: 180px !important; display: flex !important; flex-direction: column !important; justify-content: center !important; align-self: stretch !important; }
+  .spoke-node { padding: 13px 14px !important; height: 230px !important; display: flex !important; flex-direction: column !important; justify-content: center !important; align-self: stretch !important; overflow: hidden !important; }
   .convergence-grid { align-items: stretch !important; }
   .spoke-label { font-size: .8rem !important; margin-bottom: 7px !important; }
   .spoke-items li { font-size: .8rem !important; }
