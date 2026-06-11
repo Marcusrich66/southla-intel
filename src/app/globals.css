@@ -1630,7 +1630,7 @@ footer {
   .spoke-label { font-size: .8rem !important; margin-bottom: 7px !important; letter-spacing: .08em !important; word-break: break-word !important; overflow-wrap: break-word !important; white-space: normal !important; }
   .spoke-items li { font-size: .8rem !important; }
   .outcomes-bridge { margin-bottom: 24px !important; }
-  .outcomes-bridge-label { font-size: .85rem !important; color: var(--gold-hi) !important; }
+  .outcomes-bridge-label { font-size: .7rem !important; color: var(--gold-hi) !important; white-space: normal !important; text-align: center !important; line-height: 1.4 !important; }
   .outcomes-grid { grid-template-columns: 1fr 1fr !important; }
   .outcome-card { padding: 24px 18px !important; border-right: none !important; border-bottom: 1px solid rgba(207,174,109,.1) !important; }
   .outcome-card:nth-child(odd) { border-right: 1px solid rgba(207,174,109,.1) !important; }
