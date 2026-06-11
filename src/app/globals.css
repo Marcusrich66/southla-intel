@@ -336,7 +336,7 @@ section { position: relative; }
   font-size: clamp(2rem,4vw,3.4rem); font-weight: 700; line-height: 1.1; color: var(--navy); margin-bottom: 20px;
 }
 .section-headline.light { color: var(--white); }
-.section-body { font-size: 1rem; font-weight: 400; line-height: 1.85; color: var(--steel); max-width: min(640px,100%); }
+.section-body { font-size: 1.125rem; font-weight: 400; line-height: 1.75; color: var(--steel); max-width: min(640px,100%); }
 .section-body.light { color: rgba(255,255,255,.9); }
 
 /* PROBLEM */
@@ -364,7 +364,7 @@ section { position: relative; }
 .pain-item { display: flex; gap: 20px; align-items: flex-start; }
 .pain-icon { width: 40px; height: 40px; background: var(--navy); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: .95rem; }
 .pain-title { font-size: .88rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
-.pain-desc { font-size: .85rem; font-weight: 400; color: var(--steel); line-height: 1.65; }
+.pain-desc { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 
 /* SOLUTION */
 #solution { background: var(--navy); padding: 100px 0; }
@@ -387,7 +387,7 @@ section { position: relative; }
 @media (min-width: 768px) {
   .feature-title { color: #E6C98A; }
 }
-.feature-desc { font-size: .82rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.9); }
+.feature-desc { font-size: 1.125rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.9); }
 
 /* CONVERGENCE ENGINE */
 /* RHYTHM v4.1: was var(--navy-deep) — lightened to blueprint navy for section contrast */
@@ -603,7 +603,7 @@ section { position: relative; }
 .homeowner-cell:hover { background: var(--navy-mid); border-left-color: var(--gold-base); }
 .homeowner-cell-icon { font-size: 1.3rem; margin-bottom: 14px; display: block; }
 .homeowner-cell-title { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 700; color: #CFAE6D; background: none; -webkit-background-clip: unset; -webkit-text-fill-color: unset; background-clip: unset; margin-bottom: 8px; line-height: 1.2; }
-.homeowner-cell-body { font-size: 1rem; font-weight: 400; line-height: 1.7; color: rgba(255,255,255,.85); }
+.homeowner-cell-body { font-size: 1.125rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.85); }
 
 /* DEVELOPMENTS */
 #developments { background: var(--white); padding: 100px 0; }
@@ -672,7 +672,7 @@ section { position: relative; }
   color: var(--gold-base); margin-bottom: 10px;
 }
 .corridor-band-text {
-  font-size: 0.95rem; color: rgba(255,255,255,.68); line-height: 1.65;
+  font-size: 1.125rem; color: rgba(255,255,255,.68); line-height: 1.75;
   max-width: 680px; margin: 0; font-style: italic;
 }
 
@@ -704,10 +704,10 @@ section { position: relative; }
   padding-bottom: 14px; margin-bottom: 14px;
   border-bottom: 1px solid rgba(17,32,48,.07);
 }
-.dev-card-body { font-size: 0.95rem; font-weight: 400; color: var(--steel); line-height: 1.65; }
+.dev-card-body { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 .dev-card-signal {
   margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(17,32,48,.08);
-  font-size: 0.95rem; font-weight: 400; color: var(--navy); line-height: 1.65;
+  font-size: 1.125rem; font-weight: 400; color: var(--navy); line-height: 1.75;
 }
 .dev-card-signal::before {
   content: "WHAT THIS MEANS";
@@ -815,7 +815,7 @@ section { position: relative; }
 .featured-card-divider { color: rgba(207,174,109,.4); font-size: 1.1rem; }
 .featured-card-date { font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: rgba(255,255,255,.6); }
 .featured-card-impact {
-  font-size: .85rem; line-height: 1.65; color: rgba(255,255,255,.72);
+  font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,.72);
   border-top: 1px solid rgba(207,174,109,.12); padding-top: 16px; margin: 0;
 }
 
@@ -868,7 +868,7 @@ section { position: relative; }
 }
 .step-item:hover .step-number { background: var(--navy-mid); }
 .step-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
-.step-desc { font-size: .85rem; font-weight: 400; color: var(--steel); line-height: 1.7; }
+.step-desc { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 
 /* ADU */
 /* RHYTHM v4.1: was var(--navy) — medium navy creates break between How It Works and CommunityCapital */
@@ -936,10 +936,10 @@ section { position: relative; }
 .cc-service-item { display: flex; gap: 14px; align-items: flex-start; }
 .cc-bullet { color: var(--gold-base); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
 .cc-service-item span:last-child {
-  font-size: .9rem; line-height: 1.6; color: rgba(255,255,255,.72);
+  font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,.72);
 }
 .cc-right-col { display: flex; flex-direction: column; gap: 32px; }
-.cc-serve-text { font-size: .9rem; line-height: 1.7; color: rgba(255,255,255,.72); }
+.cc-serve-text { font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,.72); }
 .cc-callout {
   border-left: 3px solid var(--gold-base);
   padding: 20px 24px;
@@ -947,7 +947,7 @@ section { position: relative; }
 }
 .cc-callout p {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.05rem; font-style: italic; line-height: 1.7;
+  font-size: 1.125rem; font-style: italic; line-height: 1.75;
   color: rgba(255,255,255,.82); margin: 0;
 }
 
@@ -1120,7 +1120,7 @@ section { position: relative; }
 .pl-body { margin-bottom: 44px; }
 .pl-body p {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.18rem; font-weight: 500; line-height: 2;
+  font-size: 1.125rem; font-weight: 500; line-height: 1.75;
   color: #0a1a2a;
   margin-bottom: 28px;
 }
@@ -1169,7 +1169,7 @@ section { position: relative; }
 /* Responsive */
 @media(max-width:900px) {
   .pl-content { padding: 44px 40px 52px; }
-  .pl-body p { font-size: .98rem; }
+  .pl-body p { font-size: 1.125rem; }
 }
 
 /* Mobile tab — stacked PUB. / LETTER */
@@ -1200,7 +1200,7 @@ section { position: relative; }
   .pl-overlay { padding: 0; align-items: flex-end; }
   .pl-modal { max-height: 95vh; border-radius: 0; box-shadow: 0 -8px 40px rgba(0,0,0,.2); }
   .pl-content { padding: 36px 24px 44px; }
-  .pl-body p { font-size: .92rem; line-height: 1.85; }
+  .pl-body p { font-size: 1.125rem; line-height: 1.75; }
   .pl-tagline { font-size: 1.3rem !important; }
   .pl-header-text { font-size: .44rem; letter-spacing: .2em; }
   .pl-byline-photo-wrap { width: 88px; height: 110px; }
@@ -1239,7 +1239,7 @@ section { position: relative; }
 .faq-item.open .faq-toggle { background: var(--gold-base); color: var(--navy); transform: rotate(45deg); }
 .faq-answer { max-height: 0; overflow: hidden; transition: max-height .4s ease; }
 .faq-item.open .faq-answer { max-height: 300px; }
-.faq-answer-inner { padding: 0 0 22px; font-size: .9rem; font-weight: 400; color: var(--steel); line-height: 1.8; }
+.faq-answer-inner { padding: 0 0 22px; font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 
 /* FINAL CTA */
 #final-cta { background: var(--navy-deep); padding: 120px 0; text-align: center; position: relative; overflow: hidden; }
@@ -1260,7 +1260,7 @@ section { position: relative; }
   color: var(--white); line-height: 1.05;
   margin-bottom: 24px; max-width: 800px; margin-left: auto; margin-right: auto;
 }
-.cta-body { font-size: .95rem; font-weight: 400; color: rgba(255,255,255,.9); line-height: 1.75; max-width: 520px; margin: 0 auto 48px; }
+.cta-body { font-size: 1.125rem; font-weight: 400; color: rgba(255,255,255,.9); line-height: 1.75; max-width: 520px; margin: 0 auto 48px; }
 .cta-actions { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 60px; }
 .contact-strip { display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; padding-top: 48px; border-top: 1px solid rgba(207,174,109,.15); }
 .contact-item { display: flex; flex-direction: column; gap: 4px; align-items: center; }
@@ -1331,7 +1331,7 @@ footer {
   #solution,#homeowner,#developments,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
   #problem { padding: 36px 0 72px; }
   .section-headline { font-size: clamp(1.8rem,6vw,2.6rem); }
-  .section-body { font-size: .92rem; }
+  .section-body { font-size: 1.125rem; }
   #corridor-map { padding: 0; }
   .map-wrap img { min-height: 200px; object-fit: cover; }
   .homeowner-grid { grid-template-columns: 1fr; }
@@ -1348,7 +1348,7 @@ footer {
   .features-intro { grid-template-columns: 1fr; gap: 32px; margin-bottom: 40px; }
   .features-grid { grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(207,174,109,.25); }
   .feature-card { padding: 28px 20px; background: var(--navy); }
-  .feature-number { font-size: 2.2rem; } .feature-desc { font-size: .8rem; }
+  .feature-number { font-size: 2.2rem; } .feature-desc { font-size: 1.125rem; }
   .feature-title { font-size: 1.4rem !important; font-weight: 700 !important; color: #CFAE6D !important; background: none !important; -webkit-background-clip: unset !important; -webkit-text-fill-color: unset !important; background-clip: unset !important; }
   .dev-header { grid-template-columns: 1fr; gap: 28px; margin-bottom: 36px; }
   .dev-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; flex-wrap: nowrap; padding-bottom: 2px; scrollbar-width: none; }
@@ -1356,7 +1356,7 @@ footer {
   .dev-tab { white-space: nowrap; padding: 12px 16px; font-size: .58rem; }
   .dev-cards { grid-template-columns: 1fr; gap: 16px; }
   .dev-card { padding: 24px 20px; }
-  .dev-card-title { font-size: 1.15rem; } .dev-card-body { font-size: .82rem; }
+  .dev-card-title { font-size: 1.15rem; } .dev-card-body { font-size: 1.125rem; }
   .authority-grid { grid-template-columns: 1fr; gap: 40px; }
   .authority-quote { font-size: 1.4rem; padding-left: 20px; }
   .featured-card-img-wrap { height: 180px; }
@@ -1367,12 +1367,12 @@ footer {
   .steps-grid { grid-template-columns: 1fr 1fr; gap: 36px; }
   .steps-grid::before { display: none; }
   .step-number { width: 60px; height: 60px; font-size: 1.3rem; margin-bottom: 18px; }
-  .step-title { font-size: 1rem; } .step-desc { font-size: .8rem; }
+  .step-title { font-size: 1rem; } .step-desc { font-size: 1.125rem; }
   .adu-inner { grid-template-columns: 1fr; gap: 40px; }
   .adu-num { font-size: 2.2rem; } .adu-num-label { font-size: .62rem; }
   .faq-header { grid-template-columns: 1fr; gap: 28px; margin-bottom: 36px; }
-  .faq-q-text { font-size: 1rem; } .faq-answer-inner { font-size: .85rem; }
-  .cta-headline { font-size: clamp(2rem,7vw,3rem); } .cta-body { font-size: .85rem; }
+  .faq-q-text { font-size: 1rem; } .faq-answer-inner { font-size: 1.125rem; }
+  .cta-headline { font-size: clamp(2rem,7vw,3rem); } .cta-body { font-size: 1.125rem; }
   .cta-actions { flex-direction: column; gap: 12px; }
   .cta-actions .btn-primary, .cta-actions .btn-secondary { width: 100%; justify-content: center; }
   .contact-strip { gap: 28px; }
@@ -1583,29 +1583,29 @@ footer {
   /* ── GLOBAL BODY TEXT MINIMUM ───────────── */
   .hero-subhead         { color: #ffffff !important; font-size: 1rem !important; }
   .stat-label           { color: #ffffff !important; font-size: 0.9rem !important; }
-  .section-body         { font-size: 1rem !important; }
-  .section-body.light   { color: #ffffff !important; font-size: 1rem !important; }
+  .section-body         { font-size: 1.125rem !important; line-height: 1.75 !important; }
+  .section-body.light   { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
   .pain-title           { color: #112030 !important; font-size: 1rem !important; }
-  .pain-desc            { color: #112030 !important; font-size: 1rem !important; }
+  .pain-desc            { color: #112030 !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
 
   /* ── SOLUTION / FEATURE CARDS ───────────── */
-  .feature-desc         { color: #ffffff !important; font-size: 1rem !important; }
+  .feature-desc         { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
 
   /* ── HOMEOWNER ──────────────────────────── */
   .homeowner-cell-title { font-size: 1.4rem !important; font-weight: 700 !important; color: #CFAE6D !important; background: none !important; -webkit-background-clip: unset !important; -webkit-text-fill-color: unset !important; background-clip: unset !important; }
-  .homeowner-cell-body  { color: #ffffff !important; font-size: 1rem !important; }
+  .homeowner-cell-body  { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
 
   /* ── DEVELOPMENTS ───────────────────────── */
-  .dev-card-body        { color: #4a5a6d !important; font-size: 1rem !important; }
+  .dev-card-body        { color: #4a5a6d !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
   .dev-card-invest      { font-size: 0.9rem !important; }
-  .dev-card-signal      { font-size: 1rem !important; line-height: 1.65 !important; }
+  .dev-card-signal      { font-size: 1.125rem !important; line-height: 1.75 !important; }
   .chapter-intro-strip  { flex-direction: column !important; gap: 10px !important; }
   .chapter-meta-row     { flex-direction: column !important; }
   .chapter-meta-item    { border-right: none !important; border-bottom: 1px solid rgba(17,32,48,.07) !important; padding: 12px 16px !important; }
   .chapter-meta-item:last-child { border-bottom: none !important; }
   .chapter-meta-value   { font-size: 0.88rem !important; }
   .corridor-band        { padding: 20px 18px !important; }
-  .corridor-band-text   { font-size: 1rem !important; line-height: 1.65 !important; }
+  .corridor-band-text   { font-size: 1.125rem !important; line-height: 1.75 !important; }
 
   /* ── CONVERGENCE ENGINE ─────────────────── */
   #convergence { padding: 72px 0; }
@@ -1638,7 +1638,7 @@ footer {
 
   /* ── THE BRIEF / AUTHORITY ──────────────── */
   .authority-quote      { font-size: 1.3rem !important; }
-  .featured-card-impact { font-size: 1rem !important; line-height: 1.65 !important; color: rgba(255,255,255,0.72) !important; }
+  .featured-card-impact { font-size: 1.125rem !important; line-height: 1.75 !important; color: rgba(255,255,255,0.72) !important; }
   .signal-label         { color: rgba(255,255,255,0.72) !important; font-size: 0.68rem !important; }
   .signal-value         { font-size: 1.15rem !important; }
 
@@ -1648,22 +1648,22 @@ footer {
   /* ── COMMUNITY CAPITAL / PCR ────────────── */
   .cc-subhead           { color: #ffffff !important; font-size: 1rem !important; }
   .cc-stat-label        { color: #ffffff !important; font-size: 0.9rem !important; }
-  .cc-service-item span:last-child { color: #ffffff !important; font-size: 1rem !important; }
-  .cc-serve-text        { color: #ffffff !important; font-size: 1rem !important; }
-  .cc-callout p         { font-size: 1rem !important; }
+  .cc-service-item span:last-child { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
+  .cc-serve-text        { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
+  .cc-callout p         { font-size: 1.125rem !important; line-height: 1.75 !important; }
   .cc-contact-value     { color: #ffffff !important; font-size: 0.95rem !important; }
   .cc-contact-note      { color: rgba(255,255,255,0.85) !important; font-size: 0.9rem !important; }
   .cc-cta-sub           { color: rgba(255,255,255,0.85) !important; font-size: 0.9rem !important; }
 
   /* ── HOW IT WORKS ───────────────────────── */
-  .step-desc            { font-size: 1rem !important; }
+  .step-desc            { font-size: 1.125rem !important; line-height: 1.75 !important; }
 
   /* ── FAQ ────────────────────────────────── */
   .faq-q-text           { font-size: 1.05rem !important; }
-  .faq-answer-inner     { font-size: 1rem !important; }
+  .faq-answer-inner     { font-size: 1.125rem !important; line-height: 1.75 !important; }
 
   /* ── FINAL CTA ──────────────────────────── */
-  .cta-body             { color: #ffffff !important; font-size: 1rem !important; }
+  .cta-body             { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
 
   /* ── FOOTER ─────────────────────────────── */
   .footer-dre           { color: rgba(255,255,255,0.8) !important; font-size: 0.9rem !important; }
