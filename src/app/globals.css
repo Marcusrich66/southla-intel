@@ -537,7 +537,7 @@ section { position: relative; }
   color: rgba(207,174,109,.4); white-space: nowrap;
 }
 @media (min-width: 768px) {
-  .outcomes-bridge-label { font-size: .78rem; }
+  .outcomes-bridge-label { font-size: .85rem; }
 }
 
 .outcomes-grid {
@@ -1610,7 +1610,7 @@ footer {
   /* ── CONVERGENCE ENGINE ─────────────────── */
   #convergence { padding: 72px 0; }
   .convergence-header { margin-bottom: 44px; }
-  .convergence-engine-name { font-size: 0.95rem !important; }
+  .convergence-engine-name { font-size: 1.1rem !important; color: var(--gold-hi) !important; }
   .convergence-svg { display: none; }
   .convergence-grid {
     grid-template-columns: 1fr 1fr !important;
@@ -1630,6 +1630,7 @@ footer {
   .spoke-label { font-size: .8rem !important; margin-bottom: 7px !important; letter-spacing: .08em !important; word-break: break-word !important; overflow-wrap: break-word !important; white-space: normal !important; }
   .spoke-items li { font-size: .8rem !important; }
   .outcomes-bridge { margin-bottom: 24px !important; }
+  .outcomes-bridge-label { font-size: .85rem !important; color: var(--gold-hi) !important; }
   .outcomes-grid { grid-template-columns: 1fr 1fr !important; }
   .outcome-card { padding: 24px 18px !important; border-right: none !important; border-bottom: 1px solid rgba(207,174,109,.1) !important; }
   .outcome-card:nth-child(odd) { border-right: 1px solid rgba(207,174,109,.1) !important; }

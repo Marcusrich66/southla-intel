@@ -25,7 +25,7 @@ export default function CommunityCapital() {
         {/* Header */}
         <Reveal>
           <div className="section-tag cc-tag">Community Capital</div>
-          <h2 className="section-headline cc-headline">The Capital Resource South LA Builders Need To Know About</h2>
+          <h2 className="section-headline cc-headline">The Capital Resource Every South LA Entrepreneur Needs To Know About</h2>
         </Reveal>
         <Reveal delay={0.12}>
           <p className="cc-subhead">Who&apos;s funding South LA&apos;s next generation of entrepreneurs</p>
