@@ -133,19 +133,19 @@ export default function Home() {
           <div className="problem-grid">
             <Reveal className="problem-intro">
               <div className="section-tag">The Problem</div>
-              <h2 className="section-headline">Most People Know Something Is Happening.<br />Few Know What&apos;s Actually Coming.</h2>
-              <p className="section-body" style={{ marginBottom: "36px" }}>People can feel that South LA is changing. What many don&apos;t know is exactly where it&apos;s happening, what&apos;s being built, and how close it is to their property. The people who understand those details are already making decisions. The window is still open — but it won&apos;t stay open forever.</p>
+              <h2 className="section-headline">South LA Is Changing Fast.<br />Here&apos;s What&apos;s Actually Coming.</h2>
+              <p className="section-body" style={{ marginBottom: "36px" }}>Transit lines, redevelopment projects, cultural investment, and new zoning are landing across South LA right now — not someday, right now. This brief breaks down exactly where, what&apos;s being built, and how close it is to your property. The window to act on it is open. It won&apos;t stay that way.</p>
             </Reveal>
             <Reveal className="problem-visual" delay={0.15}>
               <div className="problem-card pc1">
                 <div className="pc-label">The Knowledge Gap</div>
-                <div className="pc-stat">What Owners Don&apos;t See</div>
-                <div className="pc-text">Many owners know their home&apos;s value. Few know what&apos;s happening around it. New transit, redevelopment projects, cultural investments, and zoning changes are quietly reshaping the corridor — often within walking distance of properties they already own.</div>
+                <div className="pc-stat">What&apos;s Happening Around Your Property</div>
+                <div className="pc-text">New transit lines, redevelopment projects, cultural investment, and zoning changes are reshaping this corridor block by block — often within walking distance of property you already own. This brief shows you exactly what&apos;s moving and where.</div>
               </div>
               <div className="problem-card pc2">
                 <div className="pc-label">The Window</div>
                 <div className="pc-stat">Now</div>
-                <div className="pc-text">The gap between what this land is worth today and what it&apos;ll be worth after zoning catches up — that gap is still there. Not for long.</div>
+                <div className="pc-text">The gap between what this land is worth today and what it&apos;ll be worth once zoning catches up is still wide open. Not for long.</div>
               </div>
             </Reveal>
             <Reveal className="problem-pains" delay={0.3}>
@@ -153,14 +153,14 @@ export default function Home() {
                 <li className="pain-item">
                   <div className="pain-icon">📍</div>
                   <div>
-                    <div className="pain-title">Nobody&apos;s Telling You What&apos;s Happening On Your Block</div>
+                    <div className="pain-title">The Half-Mile Rule</div>
                     <div className="pain-desc">Zillow doesn&apos;t know the difference between a property half a mile from Leimert Park Station and one that&apos;s right on it. That half mile is everything in this corridor.</div>
                   </div>
                 </li>
                 <li className="pain-item">
                   <div className="pain-icon">🕐</div>
                   <div>
-                    <div className="pain-title">Why Timing Matters</div>
+                    <div className="pain-title">The Window Is Closing</div>
                     <div className="pain-desc">The Westside Area Plan is live. Compton&apos;s TOD Specific Plan is in environmental review. There&apos;s still time to get in front of it — but not much.</div>
                   </div>
                 </li>
@@ -168,7 +168,7 @@ export default function Home() {
                   <div className="pain-icon">💡</div>
                   <div>
                     <div className="pain-title">The Opportunity Sitting Behind The House</div>
-                    <div className="pain-desc">AB 1033 just changed what a South LA homeowner can do with their backyard. Most people haven&apos;t heard about it yet. That&apos;s the gap.</div>
+                    <div className="pain-desc">AB 1033 just changed what a South LA homeowner can legally do with their backyard. This is the one piece of legislation most homeowners haven&apos;t caught up on yet — and it&apos;s worth real money.</div>
                   </div>
                 </li>
               </ul>
