@@ -127,6 +127,27 @@ export default function Home() {
         </div>
       </div>
 
+      {/* FROM THE PUBLISHER CALLOUT */}
+      <div className="ftp-callout">
+        <div className="ftp-noise" aria-hidden="true" />
+        <div className="ftp-inner">
+          <div className="ftp-photo-col">
+            <div className="ftp-photo-wrap">
+              <img
+                src="https://marcusrichrealty.com/wp-content/uploads/2026/04/Palmtree-DT-HShot.webp"
+                alt="Marcus Rich"
+                className="ftp-photo"
+              />
+            </div>
+            <div className="ftp-photo-name">Marcus Rich</div>
+          </div>
+          <div className="ftp-text-col">
+            <div className="ftp-tag">From The Publisher</div>
+            <p className="ftp-body">My name is Marcus Rich. I grew up in South LA — Washington High, Foshay, Challenger Boys &amp; Girls Club on 51st and Vermont — and I&apos;ve been working this corridor as a real estate broker for over 20 years. I served in the Navy, spent time in Oakland, but I always came back. This is my city. What you&apos;re about to read is what&apos;s happening here right now — billions of dollars moving into South LA through culture, development, housing, and entertainment — told straight, from someone on the ground, so you know exactly where you stand and how to move.</p>
+          </div>
+        </div>
+      </div>
+
       {/* PROBLEM */}
       <section id="problem">
         <div className="container">
