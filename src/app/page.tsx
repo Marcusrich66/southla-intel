@@ -144,6 +144,7 @@ export default function Home() {
           <div className="ftp-text-col">
             <div className="ftp-tag">From The Publisher</div>
             <p className="ftp-body">My name is Marcus Rich. I grew up in South LA — Washington High, Foshay, Challenger Boys &amp; Girls Club on 51st and Vermont — and I&apos;ve been working this corridor as a real estate broker for over 20 years. I served in the Navy, spent time in Oakland, but I always came back. This is my city. What you&apos;re about to read is what&apos;s happening here right now — billions of dollars moving into South LA through culture, development, housing, and entertainment — told straight, from someone on the ground, so you know exactly where you stand and how to move.</p>
+            <p className="ftp-closing">To read my full story and why I started South LA Media — open the Publisher&apos;s Letter on the left.</p>
           </div>
         </div>
       </div>
