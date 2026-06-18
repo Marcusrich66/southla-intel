@@ -380,25 +380,29 @@ section { position: relative; }
 }
 
 /* PROBLEM */
-#problem { background: var(--off-white); padding: 100px 0; }
-.problem-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "visual intro" "visual pains";
-  gap: 80px;
-  align-items: center;
-  margin-top: 60px;
+#problem { background: var(--off-white); padding: 2rem 0 100px; }
+.problem-section-header {
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto 2.5rem;
 }
-.problem-intro { grid-area: intro; }
-.problem-pains { grid-area: pains; }
-.problem-visual { grid-area: visual; position: relative; }
+.problem-cards-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 860px;
+  margin: 0 auto 3rem;
+}
+.problem-cards-row > * { flex: 1; }
+.problem-pains { max-width: 860px; margin: 0 auto; }
 .problem-card { padding: 32px; }
-.pc1 { position: relative; width: 76%; background: var(--navy); z-index: 2; }
-.pc2 { position: relative; width: 71%; margin-left: auto; margin-top: -60px; background: var(--white); border: 1px solid rgba(17,32,48,.1); z-index: 1; }
+.pc1 { background: var(--navy); }
+.pc2 { background: var(--white); border: 1px solid rgba(17,32,48,.1); }
 .pc-label { font-size: .58rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-base); margin-bottom: 12px; }
 .pc-stat { font-family: 'Cormorant Garamond', serif; font-size: 2.6rem; font-weight: 700; line-height: 1; color: var(--white); margin-bottom: 8px; }
 .pc2 .pc-stat { color: var(--navy); }
-.pc-text { font-size: .84rem; font-weight: 400; line-height: 1.65; color: rgba(255,255,255,.9); }
+.pc-text { font-size: 1.125rem; font-weight: 400; line-height: 1.75; color: rgba(255,255,255,.9); }
 .pc2 .pc-text { color: var(--steel); }
 .pain-list { list-style: none; display: flex; flex-direction: column; gap: 24px; }
 .pain-item { display: flex; gap: 20px; align-items: flex-start; }
@@ -1376,15 +1380,10 @@ footer {
   .map-wrap img { min-height: 200px; object-fit: cover; }
   .homeowner-grid { grid-template-columns: 1fr; }
   .homeowner-cell { padding: 28px 22px; }
-  .problem-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas: "intro" "visual" "pains";
-    gap: 40px;
-  }
-  .problem-visual { height: auto; position: static; }
-  .problem-card { position: static; width: 100% !important; margin-bottom: 16px; }
-  .pc1 { z-index: auto; } .pc2 { z-index: auto; margin-top: 0; }
-  .pc-stat { font-size: 2rem; } .pc-text { font-size: .82rem; }
+  .problem-section-header { margin-bottom: 1.5rem; }
+  .problem-cards-row { flex-direction: column; gap: 1rem; margin-bottom: 2rem; }
+  .problem-card { width: 100%; }
+  .pc-stat { font-size: 2rem; }
   .features-intro { grid-template-columns: 1fr; gap: 32px; margin-bottom: 40px; }
   .features-grid { grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(207,174,109,.25); }
   .feature-card { padding: 28px 20px; background: var(--navy); }
