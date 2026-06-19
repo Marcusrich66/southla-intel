@@ -82,8 +82,16 @@ export default function CommunityCapital() {
 
             <Reveal delay={0.1}>
               <div className="cc-callout">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://marcusrichrealty.com/wp-content/uploads/2026/06/PCR-Business-Finance.-V-1.png"
+                  alt="PCR Business Finance new headquarters at 3800 Slauson Ave, Los Angeles"
+                  className="cc-callout-img"
+                  loading="lazy"
+                />
+                <div className="cc-callout-heading">Two Minutes From My Front Door</div>
                 <p>
-                  PCR broke ground on a new headquarters on Slauson Avenue in the Crenshaw District in June 2025 — strategically positioned to serve Crenshaw, Hyde Park, and Inglewood with a business center and community gathering space.
+                  PCR opened the doors to their new headquarters on Slauson Avenue in early June 2026 — strategically positioned to serve the Crenshaw District, Hyde Park, and Inglewood with a business center and community gathering space. I live close enough to walk there. I&apos;ve watched this building come to life in real time. That&apos;s how close this capital resource is to the corridor it serves.
                 </p>
               </div>
             </Reveal>

@@ -803,8 +803,22 @@ section { position: relative; }
 .cc-serve-text { font-size: 1.125rem; line-height: 1.75; color: rgba(255,255,255,.72); }
 .cc-callout {
   border-left: 3px solid var(--gold-base);
-  padding: 20px 24px;
+  padding: 1.5rem;
   background: rgba(207,174,109,.06);
+}
+.cc-callout-img {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #CFAE6D;
+  margin-bottom: 1.25rem;
+  display: block;
+}
+.cc-callout-heading {
+  color: #CFAE6D;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 .cc-callout p {
   font-family: 'Cormorant Garamond', serif;
