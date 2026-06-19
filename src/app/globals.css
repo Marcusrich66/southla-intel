@@ -1785,3 +1785,395 @@ footer {
     transform: translateY(-3px);
   }
 }
+
+/* ═══════════════════════════════════════════════════════════
+   FOUR FORCES VISUAL — FourForcesVisual.tsx
+═══════════════════════════════════════════════════════════ */
+.four-forces-section {
+  background:
+    radial-gradient(circle at 72% 42%, rgba(207,174,109,0.10), transparent 28%),
+    radial-gradient(circle at 22% 22%, rgba(74,90,109,0.16), transparent 32%),
+    var(--navy);
+  padding: clamp(56px, 7vw, 104px) clamp(20px, 5vw, 72px);
+  overflow: hidden;
+}
+
+.four-forces-wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.82fr) minmax(620px, 1.55fr);
+  gap: clamp(48px, 6vw, 92px);
+  align-items: center;
+}
+
+.ff-kicker {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 34px;
+  color: var(--gold-hi);
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.ff-kicker::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--gold-base);
+  display: block;
+}
+
+.ff-title {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(44px, 4.6vw, 78px);
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+  font-weight: 600;
+  color: #F0EDE8;
+  max-width: 570px;
+}
+
+.ff-rule {
+  width: 68px;
+  height: 2px;
+  margin: 42px 0 30px;
+  background: linear-gradient(90deg, var(--gold-base), var(--gold-lo));
+}
+
+.ff-copy {
+  max-width: 520px;
+  margin: 0;
+  color: #F0EDE8;
+  font-size: clamp(15px, 1.25vw, 18px);
+  line-height: 1.8;
+}
+
+.ff-grid-wrap {
+  position: relative;
+  min-height: 760px;
+}
+
+.ff-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  position: relative;
+  z-index: 2;
+}
+
+.force-card {
+  position: relative;
+  min-height: 360px;
+  border: 1px solid rgba(207,174,109,0.48);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(240,237,232,0.025), transparent 34%),
+    rgba(17,32,48,0.92);
+  overflow: hidden;
+  padding: 28px 28px 24px;
+  box-shadow: 0 18px 60px rgba(0,0,0,0.22);
+}
+
+.force-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 68px;
+  background: linear-gradient(90deg, rgba(207,174,109,0.22), rgba(159,122,58,0.08), transparent);
+  border-bottom: 1px solid rgba(207,174,109,0.18);
+  pointer-events: none;
+}
+
+.force-card:nth-child(2)::before {
+  background: linear-gradient(90deg, rgba(74,90,109,0.34), rgba(207,174,109,0.10), transparent);
+}
+
+.force-card:nth-child(3)::before {
+  background: linear-gradient(90deg, rgba(159,122,58,0.26), rgba(207,174,109,0.10), transparent);
+}
+
+.force-card:nth-child(4)::before {
+  background: linear-gradient(90deg, rgba(74,90,109,0.26), rgba(207,174,109,0.12), transparent);
+}
+
+.force-card .card-top {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+
+.force-card .card-num {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--gold-hi);
+  font-size: 54px;
+  line-height: 0.8;
+  font-weight: 700;
+}
+
+.force-card .card-title {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--gold-hi);
+  font-size: 23px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+}
+
+.force-card .icon-wrap {
+  position: relative;
+  z-index: 1;
+  height: 94px;
+  margin: 10px auto 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gold-base);
+}
+
+.force-card .icon-wrap svg {
+  width: 78%;
+  max-width: 250px;
+  height: 100%;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.force-card .metric-label {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 6px;
+  color: var(--gold-base);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.force-card .metric {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 10px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 50px;
+  line-height: 1;
+  color: var(--gold-hi);
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.force-card .card-body {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 355px;
+  color: #F0EDE8;
+  font-size: 14.5px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.force-card .impact {
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  bottom: 20px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(207,174,109,0.26);
+}
+
+.impact-label {
+  display: block;
+  color: var(--gold-base);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.impact-items {
+  color: rgba(240,237,232,0.72);
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.impact-items .dot {
+  color: var(--gold-base);
+  margin: 0 9px;
+}
+
+.corridor-hub {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 50%;
+  width: 190px;
+  height: 190px;
+  transform: translate(-50%, -50%);
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle, #13263A 0%, #0E1A28 72%);
+  border: 1px solid var(--gold-base);
+  box-shadow:
+    0 0 0 12px rgba(207,174,109,0.055),
+    0 0 0 26px rgba(207,174,109,0.025),
+    0 24px 60px rgba(0,0,0,0.34);
+}
+
+.corridor-hub::before,
+.corridor-hub::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  inset: -16px;
+  border: 1px dashed rgba(207,174,109,0.36);
+}
+
+.corridor-hub::after {
+  inset: -29px;
+  border-color: rgba(207,174,109,0.14);
+}
+
+.hub-text {
+  position: relative;
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F0EDE8;
+}
+
+.hub-text::before {
+  content: "";
+  display: block;
+  width: 34px;
+  height: 1px;
+  margin: 0 auto 17px;
+  background: var(--gold-base);
+}
+
+.transit-line {
+  margin: 16px auto 18px;
+  max-width: 390px;
+}
+
+.transit-line svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.station-label {
+  fill: #F0EDE8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.station-muted {
+  fill: rgba(240,237,232,0.52);
+}
+
+@media (max-width: 1180px) {
+  .four-forces-wrap {
+    grid-template-columns: 1fr;
+  }
+  .ff-copy, .ff-title {
+    max-width: 780px;
+  }
+  .ff-grid-wrap {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 760px) {
+  .four-forces-section {
+    padding: 54px 18px;
+  }
+  .ff-kicker {
+    margin-bottom: 26px;
+  }
+  .ff-title {
+    font-size: clamp(42px, 13vw, 58px);
+  }
+  .ff-rule {
+    margin: 34px 0 26px;
+  }
+  .ff-copy {
+    font-size: 15.5px;
+    line-height: 1.75;
+  }
+  .ff-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .force-card {
+    min-height: auto;
+    padding: 24px 20px 22px;
+  }
+  .force-card::before {
+    height: 62px;
+  }
+  .force-card .card-top {
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .force-card .card-num {
+    font-size: 46px;
+  }
+  .force-card .card-title {
+    font-size: 18px;
+  }
+  .force-card .icon-wrap {
+    height: 82px;
+    margin-top: 12px;
+  }
+  .force-card .metric {
+    font-size: 42px;
+  }
+  .force-card .card-body {
+    font-size: 14px;
+  }
+  .force-card .impact {
+    position: static;
+    margin-top: 20px;
+    padding-top: 14px;
+  }
+  .corridor-hub {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    width: 156px;
+    height: 156px;
+    margin: 22px auto;
+    order: -1;
+  }
+  .hub-text {
+    font-size: 15px;
+  }
+  .ff-grid-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}

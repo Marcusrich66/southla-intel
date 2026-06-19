@@ -1,5 +1,6 @@
 import Developments from "@/components/Developments";
 import CommunityCapital from "@/components/CommunityCapital";
+import FourForcesVisual from "@/components/FourForcesVisual";
 import BackToTop from "@/components/BackToTop";
 import PublishersLetter from "@/components/PublishersLetter";
 import FAQ from "@/components/FAQ";
@@ -197,42 +198,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SOLUTION */}
-      <section id="solution">
-        <div className="container">
-          <div className="features-intro">
-            <Reveal>
-              <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Solution</div>
-              <h2 className="section-headline light">Four Things Moving The Corridor.<br />One Report That Maps All Of It.</h2>
-            </Reveal>
-            <Reveal delay={0.15}>
-              <p className="section-body light">This brief maps 35+ projects across 11 South LA neighborhoods. Not as news — as a guide. Every development in here is broken down by what it actually means for your property, your timing, and your next move.</p>
-            </Reveal>
-          </div>
-          <Reveal className="features-grid">
-            <div className="feature-card">
-              <div className="feature-number">01</div>
-              <div className="feature-title">Cultural Reclamation</div>
-              <div className="feature-desc"><a className="copy-link" href="https://destinationcrenshaw.la" target="_blank" rel="noopener noreferrer">Destination Crenshaw</a> ($100–122M), Leimert Park Village&apos;s 20/20 Vision, and the Issa Rae economy rewriting Black cultural identity into permanent infrastructure along the K Line spine.</div>
-            </div>
-            <div className="feature-card">
-              <div className="feature-number">02</div>
-              <div className="feature-title">Innovation & Tech</div>
-              <div className="feature-desc">The Beehive Campus (104,000 sq ft), Crenshaw Lofts&apos; $29M tech center powered by Live Nation, the SoLa Tech Center powered by Riot Games, and Compton&apos;s 44,000 sq ft Innovation Hub.</div>
-            </div>
-            <div className="feature-card">
-              <div className="feature-number">03</div>
-              <div className="feature-title">Equity Redevelopment</div>
-              <div className="feature-desc"><a className="copy-link" href="https://www.hacla.org/en/development-services/development/jordan-downs-redevelopment" target="_blank" rel="noopener noreferrer">Jordan Downs</a>&apos; $1B transformation — America&apos;s largest public housing redevelopment — and <a className="copy-link" href="https://evermontsouthla.com" target="_blank" rel="noopener noreferrer">Evermont</a>&apos;s $300M Vermont-Manchester district converting a 1992 riot lot into a national model.</div>
-            </div>
-            <div className="feature-card">
-              <div className="feature-number">04</div>
-              <div className="feature-title">Transit & Climate</div>
-              <div className="feature-desc">The <a className="copy-link" href="https://www.hntb.com/projects/la-metro-k-line/" target="_blank" rel="noopener noreferrer">Metro K Line</a>, Expo Line, and A Line create a transit spine anchoring property values across South LA. Every major project in this brief is explicitly tied to transit proximity.</div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
+      {/* SOLUTION — Four Forces Visual */}
+      <FourForcesVisual />
 
       {/* CONVERGENCE ENGINE */}
       <ConvergenceEngine />
