@@ -166,7 +166,7 @@ export default function Home() {
             <div className="problem-card pc2">
               <div className="pc-label">The Window</div>
               <div className="pc-stat">Now</div>
-              <div className="pc-text">The gap between what this land is worth today and what it&apos;ll be worth once zoning catches up is still wide open. Not for long.</div>
+              <div className="pc-text">The gap between what this land is worth today and what it&apos;ll be worth once zoning catches up is still wide open. Properties near the K Line, the Westside Area Plan sites, and the Compton transit corridor haven&apos;t been repriced yet — but they will be. Not for long.</div>
             </div>
           </Reveal>
           <Reveal className="problem-pains" delay={0.3}>

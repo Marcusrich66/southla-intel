@@ -371,7 +371,7 @@ section { position: relative; }
 }
 .ftp-body {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.2rem; line-height: 1.85; letter-spacing: 0.02em; color: #112030; margin: 0;
+  font-size: 1.3rem; line-height: 1.85; letter-spacing: 0.02em; color: #112030; margin: 0;
   text-align: left;
 }
 .ftp-closing {
@@ -1650,7 +1650,7 @@ footer {
   .ftp-callout { margin-bottom: 1.5rem; }
   .ftp-inner { padding: 1.5rem; gap: 0.75rem; }
   .ftp-photo-wrap { width: 80px !important; height: 80px !important; }
-  .ftp-body { font-size: 1.2rem !important; line-height: 1.85 !important; }
+  .ftp-body { font-size: 1.3rem !important; line-height: 1.85 !important; }
 
   /* ── CONVERGENCE ENGINE ─────────────────── */
   #convergence { padding: 72px 0; }
