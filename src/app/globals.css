@@ -1794,15 +1794,20 @@ footer {
     radial-gradient(circle at 72% 42%, rgba(207,174,109,0.10), transparent 28%),
     radial-gradient(circle at 22% 22%, rgba(74,90,109,0.16), transparent 32%),
     var(--navy);
-  padding: clamp(56px, 7vw, 104px) clamp(20px, 5vw, 72px);
-  overflow: hidden;
+  padding-left: max(32px, 4vw);
+  padding-right: max(32px, 4vw);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .four-forces-wrap {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
+  width: 100%;
   display: grid;
-  grid-template-columns: minmax(280px, 0.82fr) minmax(620px, 1.55fr);
+  grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.55fr);
   gap: clamp(48px, 6vw, 92px);
   align-items: center;
 }
@@ -1862,13 +1867,15 @@ footer {
 .ff-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 22px;
+  gap: 32px;
   position: relative;
   z-index: 2;
 }
 
 .force-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   min-height: 360px;
   border: 1px solid rgba(207,174,109,0.48);
   border-radius: 8px;
@@ -1988,12 +1995,11 @@ footer {
 }
 
 .force-card .impact {
-  position: absolute;
-  left: 28px;
-  right: 28px;
-  bottom: 20px;
+  position: static;
+  margin-top: auto;
   padding-top: 14px;
   border-top: 1px solid rgba(207,174,109,0.26);
+  width: 100%;
 }
 
 .impact-label {
@@ -2022,8 +2028,8 @@ footer {
   z-index: 4;
   left: 50%;
   top: 50%;
-  width: 190px;
-  height: 190px;
+  width: 130px;
+  height: 130px;
   transform: translate(-50%, -50%);
   border-radius: 999px;
   display: grid;
