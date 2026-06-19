@@ -411,7 +411,7 @@ section { position: relative; }
 .pain-desc { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 
 /* SOLUTION */
-#solution { background: var(--navy); padding: 100px 0; }
+#solution { background: var(--navy); padding: 100px 48px; }
 .features-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: end; margin-bottom: 64px; }
 .features-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1px; background: rgba(207,174,109,.15); border: 1px solid rgba(207,174,109,.15); }
 /* RHYTHM v4.1: was var(--navy) — slight surface lift adds card dimensionality on navy bg */
@@ -1372,7 +1372,8 @@ footer {
   .hero-view-btn { display: none; }
   .hero-view-btn-mobile { display: none !important; }
   .container { padding: 0 24px; }
-  #solution,#homeowner,#developments,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
+  #solution { padding: 72px 24px; }
+  #homeowner,#developments,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
   #problem { padding: 36px 0 72px; }
   .section-headline { font-size: clamp(1.8rem,6vw,2.6rem); }
   .section-body { font-size: 1.125rem; }
@@ -1421,6 +1422,7 @@ footer {
 @media(max-width:480px) {
   /* #hero padding handled by stacked split — no override needed */
   .container { padding: 0 20px; }
+  #solution { padding: 40px 20px; }
   .hero-brand { font-size: .48rem; letter-spacing: .25em; }
   .hero-headline { font-size: clamp(2rem,10vw,2.8rem); }
   .hero-stats { gap: 16px; }
@@ -1794,10 +1796,10 @@ footer {
     radial-gradient(circle at 72% 42%, rgba(207,174,109,0.10), transparent 28%),
     radial-gradient(circle at 22% 22%, rgba(74,90,109,0.16), transparent 32%),
     var(--navy);
-  padding-left: max(32px, 4vw);
-  padding-right: max(32px, 4vw);
   padding-top: 80px;
   padding-bottom: 80px;
+  padding-left: 48px;
+  padding-right: 48px;
   width: 100%;
   overflow-x: hidden;
 }
@@ -2112,9 +2114,25 @@ footer {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .four-forces-section {
-    padding: 54px 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 760px) {
+  #solution {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .four-forces-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .ff-kicker {
     margin-bottom: 26px;
