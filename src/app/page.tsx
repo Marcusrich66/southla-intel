@@ -161,7 +161,7 @@ export default function Home() {
             <div className="problem-card pc1">
               <div className="pc-label">The Knowledge Gap</div>
               <div className="pc-stat">What&apos;s Happening Around Your Property</div>
-              <div className="pc-text">This isn&apos;t abstract. It&apos;s specific addresses, specific projects, specific timelines — block by block, often within walking distance of property you already own. This brief shows you exactly what&apos;s moving and where.</div>
+              <div className="pc-text">This isn&apos;t abstract. It&apos;s specific addresses, specific projects, specific timelines — block by block, often within walking distance of property you already own. Some of it is already under construction three blocks from where you live.</div>
             </div>
             <div className="problem-card pc2">
               <div className="pc-label">The Window</div>
