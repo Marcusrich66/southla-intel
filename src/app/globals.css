@@ -316,14 +316,14 @@ nav {
 }
 
 /* MARQUEE */
-.marquee-band { background: var(--gold-gradient); padding: 13px 0; overflow: hidden; white-space: nowrap; }
-.marquee-inner { display: inline-flex; animation: marquee 30s linear infinite; }
+.marquee-band { background: var(--gold-gradient); padding: 13px 0; overflow: hidden; white-space: nowrap; --marquee-play: running; }
+.marquee-inner { display: inline-flex; animation: marquee 30s linear infinite; animation-play-state: var(--marquee-play); }
 .marquee-item { font-size: .63rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--navy); padding: 0 28px; }
 .marquee-item a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(17,32,48,.35); }
 .marquee-item a:hover { border-bottom-color: var(--navy); }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (hover: hover) and (pointer: fine) {
-  .marquee-band:hover .marquee-inner { animation-play-state: paused; }
+  .marquee-band:hover { --marquee-play: paused; }
 }
 
 /* SHARED */
