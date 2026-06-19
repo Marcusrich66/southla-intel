@@ -51,27 +51,33 @@ export default function CommunityCapital() {
           ))}
         </div>
 
-        {/* Two-column body */}
+        {/* Decorative divider */}
+        <div className="pcr-divider">
+          <span className="divider-line"></span>
+          <span className="divider-diamond">◆</span>
+          <span className="divider-line"></span>
+        </div>
+
+        {/* Two-column body: left = What They Do + Who They Serve stacked; right = photo callout */}
         <div className="cc-body-grid">
 
-          {/* What They Do */}
-          <Reveal>
-            <div className="cc-body-block">
-              <div className="cc-body-title">What They Do</div>
-              <ul className="cc-service-list">
-                {services.map((s, i) => (
-                  <li key={i} className="cc-service-item">
-                    <span className="cc-bullet">—</span>
-                    <span>{s}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </Reveal>
-
-          {/* Who They Serve + Callout */}
-          <div className="cc-right-col">
+          {/* Left column: What They Do, then Who They Serve below */}
+          <div className="cc-left-col">
             <Reveal>
+              <div className="cc-body-block">
+                <div className="cc-body-title">What They Do</div>
+                <ul className="cc-service-list">
+                  {services.map((s, i) => (
+                    <li key={i} className="cc-service-item">
+                      <span className="cc-bullet">—</span>
+                      <span>{s}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.08}>
               <div className="cc-body-block">
                 <div className="cc-body-title">Who They Serve</div>
                 <p className="cc-serve-text">
@@ -79,23 +85,24 @@ export default function CommunityCapital() {
                 </p>
               </div>
             </Reveal>
-
-            <Reveal delay={0.1}>
-              <div className="cc-callout">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="https://marcusrichrealty.com/wp-content/uploads/2026/06/PCR-Business-Finance.-V-1.png"
-                  alt="PCR Business Finance new headquarters at 3800 Slauson Ave, Los Angeles"
-                  className="cc-callout-img"
-                  loading="lazy"
-                />
-                <div className="cc-callout-heading">Two Minutes From My Front Door</div>
-                <p>
-                  PCR opened the doors to their new headquarters on Slauson Avenue in early June 2026 — strategically positioned to serve the Crenshaw District, Hyde Park, and Inglewood with a business center and community gathering space. I live close enough to walk there. I&apos;ve watched this building come to life in real time. That&apos;s how close this capital resource is to the corridor it serves.
-                </p>
-              </div>
-            </Reveal>
           </div>
+
+          {/* Right column: photo + callout */}
+          <Reveal delay={0.1}>
+            <div className="cc-callout">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://marcusrichrealty.com/wp-content/uploads/2026/06/PCR-Business-Finance.-V-1.png"
+                alt="PCR Business Finance new headquarters at 3800 Slauson Ave, Los Angeles"
+                className="cc-callout-img"
+                loading="lazy"
+              />
+              <div className="cc-callout-heading">Two Minutes From My Front Door</div>
+              <p>
+                PCR opened the doors to their new headquarters on Slauson Avenue in early June 2026 — strategically positioned to serve the Crenshaw District, Hyde Park, and Inglewood with a business center and community gathering space. I live close enough to walk there. I&apos;ve watched this building come to life in real time. That&apos;s how close this capital resource is to the corridor it serves.
+              </p>
+            </div>
+          </Reveal>
         </div>
 
         {/* Contact */}
