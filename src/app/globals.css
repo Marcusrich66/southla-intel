@@ -548,11 +548,11 @@ section { position: relative; }
 }
 .corridor-band-label {
   font-size: .52rem; font-weight: 700; letter-spacing: .25em; text-transform: uppercase;
-  color: var(--gold-base); margin-bottom: 10px;
+  color: var(--gold-base); margin-bottom: 10px; text-align: center;
 }
 .corridor-band-text {
   font-size: 1.125rem; color: rgba(255,255,255,.68); line-height: 1.75;
-  max-width: 680px; margin: 0; font-style: italic;
+  max-width: 680px; margin: 0 auto; font-style: italic; text-align: center;
 }
 
 .dev-panels { margin-top: 0; }
