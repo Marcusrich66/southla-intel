@@ -10,7 +10,6 @@ import HeroHeadline from "@/components/HeroHeadline";
 import HeroStats from "@/components/HeroStats";
 import Reveal from "@/components/Reveal";
 import MotionLink from "@/components/MotionLink";
-import ConvergenceEngine from "@/components/ConvergenceEngine";
 
 export default function Home() {
   return (
@@ -200,9 +199,6 @@ export default function Home() {
 
       {/* SOLUTION — Four Forces Visual */}
       <FourForcesVisual />
-
-      {/* CONVERGENCE ENGINE */}
-      <ConvergenceEngine />
 
       {/* CORRIDOR MAP */}
       <section id="corridor-map">
