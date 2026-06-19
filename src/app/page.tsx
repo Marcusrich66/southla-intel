@@ -252,7 +252,7 @@ export default function Home() {
       <section id="authority">
         <div className="container">
           <Reveal>
-            <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Brief</div>
+            <div className="section-tag" style={{ color: "var(--gold-base)" }}>The Two Anchors</div>
           </Reveal>
           <div className="brief-grid">
 
@@ -316,7 +316,7 @@ export default function Home() {
             <Reveal className="brief-quote-block" delay={0.15}>
               <blockquote className="authority-quote">&ldquo;These aren&apos;t separate projects. Everything is landing at the same time.&rdquo;</blockquote>
               <div className="authority-source">2026 South LA Growth &amp; Development Brief · Marcus Rich Realty</div>
-              <p className="section-body light">This updated edition expands to a 35+ project analysis covering South LA&apos;s innovation campuses, Exposition Park&apos;s global cultural anchor, the Watts transformation, and Compton&apos;s transit frontier. Transit, global events, cultural investment, and real capital all landed in South LA at the same time. That&apos;s not a coincidence. That&apos;s the story.</p>
+              <p className="section-body light">Five years ago these would have been separate stories. The museum opening. A stadium district. A public housing rebuild. A transit line. Instead, they&apos;re all landing in the same eighteen months, in the same eleven-mile stretch. This isn&apos;t five separate things happening. This is everything happening, right now, in our time. Same as you, I&apos;m watching it unfold in real time — and you should be paying attention too.</p>
             </Reveal>
 
             {/* BOTTOM RIGHT — Supporting Signals */}
