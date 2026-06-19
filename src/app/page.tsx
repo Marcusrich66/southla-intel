@@ -214,6 +214,9 @@ export default function Home() {
         </Reveal>
       </section>
 
+      {/* DEVELOPMENTS */}
+      <Developments />
+
       {/* HOMEOWNER CALLOUT */}
       <section id="homeowner">
         <div className="container">
@@ -222,16 +225,11 @@ export default function Home() {
             <h2 className="section-headline light">Your Property.<br />Your Position.</h2>
             <p className="section-body light">If you own property in South LA right now, this isn&apos;t just interesting news. This is about your specific property. Transit, new zoning, cultural anchors, and AB 1033 are all hitting at the same time — and they all connect back to what your land is worth and what you can do with it.</p>
           </Reveal>
-          <Reveal className="homeowner-grid" delay={0.15}>
+          <Reveal className="homeowner-grid homeowner-grid--three" delay={0.15}>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">🏗️</span>
               <div className="homeowner-cell-title">ADU Opportunity</div>
               <div className="homeowner-cell-body">Construction costs at $280–$400/sq ft and 60–90 day permit timelines make ADU development accessible for most existing South LA owners. AB 1033 now opens the option to sell that unit as a standalone asset — a wealth-building tool that didn&apos;t exist before.</div>
-            </div>
-            <div className="homeowner-cell">
-              <span className="homeowner-cell-icon">🚇</span>
-              <div className="homeowner-cell-title">Transit-Oriented Appreciation</div>
-              <div className="homeowner-cell-body">The K Line, Expo Line, and A Line are not future promises — they are operational infrastructure. Properties within the half-mile transit radius are experiencing the strongest development pressure and the strongest and most consistent appreciation in the corridor.</div>
             </div>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">📈</span>
@@ -239,26 +237,16 @@ export default function Home() {
               <div className="homeowner-cell-body">West Adams has established a new rental ceiling of $2,450–$3,395/mo for transit-adjacent units. That number is moving east and south. If you own in Jefferson Park, Leimert Park, or Watts — you&apos;re ahead of the market shift. Not behind it.</div>
             </div>
             <div className="homeowner-cell">
-              <span className="homeowner-cell-icon">🏛️</span>
-              <div className="homeowner-cell-title">Land Value Positioning</div>
-              <div className="homeowner-cell-body">The Westside Area Plan has rezoned key commercial corridors for 4–6 story mixed-use development. Owners adjacent to designated opportunity sites are sitting on land that the market has not yet fully repriced. The window to move before the market fully catches up is right now.</div>
-            </div>
-            <div className="homeowner-cell">
-              <span className="homeowner-cell-icon">🌱</span>
-              <div className="homeowner-cell-title">Generational Wealth</div>
-              <div className="homeowner-cell-body">South LA homeownership has historically been undervalued relative to comparable Westside neighborhoods. $5B+ in real investment is correcting that gap right now. For families with family property, this is the moment to understand what that asset is now worth.</div>
-            </div>
-            <div className="homeowner-cell">
               <span className="homeowner-cell-icon">⚖️</span>
               <div className="homeowner-cell-title">AB 1033 Implications</div>
               <div className="homeowner-cell-body">California&apos;s AB 1033 allows homeowners to sell an ADU as a legally separate piece of real estate. In a corridor where land values are rising and cultural infrastructure is being permanently anchored, this legislation transforms a backyard into a second deed — and a second generational asset.</div>
             </div>
           </Reveal>
+          <Reveal className="homeowner-closing" delay={0.22}>
+            <p>South LA homeownership has historically been undervalued relative to comparable Westside neighborhoods. $5B+ in real investment is correcting that gap right now — and for families with property already in hand, this is the moment that asset is worth understanding.</p>
+          </Reveal>
         </div>
       </section>
-
-      {/* DEVELOPMENTS */}
-      <Developments />
 
       {/* AUTHORITY */}
       <section id="authority">
