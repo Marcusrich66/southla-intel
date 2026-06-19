@@ -155,13 +155,13 @@ export default function Home() {
           <Reveal className="problem-section-header">
             <div className="section-tag">The Problem</div>
             <h2 className="section-headline">South LA Is Changing Fast.<br />Here&apos;s What&apos;s Actually Coming.</h2>
-            <p className="section-body" style={{ marginBottom: "0" }}>Transit lines, redevelopment projects, cultural investment, and new zoning are landing across South LA right now — not someday, right now. This brief breaks down exactly where, what&apos;s being built, and how close it is to your property. The window to act on it is open. It won&apos;t stay that way.</p>
+            <p className="section-body" style={{ marginBottom: "0", textAlign: "center", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}>Transit lines, redevelopment projects, cultural investment, and new zoning are landing across South LA right now — not someday, right now. This brief breaks down exactly where, what&apos;s being built, and how close it is to your property. The window to act on it is open. It won&apos;t stay that way.</p>
           </Reveal>
           <Reveal className="problem-cards-row" delay={0.15}>
             <div className="problem-card pc1">
               <div className="pc-label">The Knowledge Gap</div>
               <div className="pc-stat">What&apos;s Happening Around Your Property</div>
-              <div className="pc-text">New transit lines, redevelopment projects, cultural investment, and zoning changes are reshaping this corridor block by block — often within walking distance of property you already own. This brief shows you exactly what&apos;s moving and where.</div>
+              <div className="pc-text">This isn&apos;t abstract. It&apos;s specific addresses, specific projects, specific timelines — block by block, often within walking distance of property you already own. This brief shows you exactly what&apos;s moving and where.</div>
             </div>
             <div className="problem-card pc2">
               <div className="pc-label">The Window</div>
