@@ -157,17 +157,7 @@ export default function Home() {
             <h2 className="section-headline">South LA Is Changing Fast.<br />Here&apos;s What&apos;s Actually Coming.</h2>
             <p className="section-body" style={{ marginBottom: "0", textAlign: "center", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}>Transit lines, redevelopment projects, cultural investment, and new zoning are landing across South LA right now — not someday, right now. This brief breaks down exactly where, what&apos;s being built, and how close it is to your property. The window to act on it is open. It won&apos;t stay that way.</p>
           </Reveal>
-          <Reveal className="problem-intro-row" delay={0.15}>
-            <p className="problem-intro-text">South LA isn&apos;t waiting for headlines. Zoning is shifting, transit lines are landing, and the K Line, the Westside Area Plan, and the Compton transit corridor are all repricing property in real time — most of it before the comps catch up. Here&apos;s where the window is actually open right now.</p>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://marcusrichrealty.com/wp-content/uploads/2026/06/11.-Micro-markets.png"
-              alt="11 South LA micro-markets, one window of opportunity."
-              className="problem-stat-img"
-              loading="lazy"
-            />
-          </Reveal>
-          <Reveal className="problem-pains" delay={0.3}>
+          <Reveal className="problem-pains" delay={0.2}>
               <ul className="pain-list">
                 <li className="pain-item">
                   <div className="pain-icon">📍</div>
