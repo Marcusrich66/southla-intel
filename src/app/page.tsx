@@ -205,8 +205,8 @@ export default function Home() {
         <Reveal className="map-wrap">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://marcusrichrealty.com/wp-content/uploads/2026/06/Corridor-night-time-map.-WS.png"
-            alt="South Los Angeles Growth &amp; Development Corridor Map — night view showing Baldwin Hills, Leimert Park, Vermont District, Watts/Jordan Downs, Compton Innovation Hub, and Metro K Line/A Line transit corridors"
+            src="https://marcusrichrealty.com/wp-content/uploads/2026/06/Corridor-map.-Final-V-one.png"
+            alt="South Los Angeles Growth &amp; Development Corridor Map — final version showing Baldwin Hills, Leimert Park, Vermont District, Watts/Jordan Downs, Compton Innovation Hub, Inglewood, and Metro transit corridors"
             loading="lazy"
           />
           <div className="map-overlay" />
