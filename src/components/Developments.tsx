@@ -184,7 +184,7 @@ export default function Developments() {
                   <div className="dev-card-status s-active">Active · Fit-Out 2025–2026</div>
                   <div className="dev-card-title">Crenshaw Lofts Tech Center <span className="note-badge">New Addition</span></div>
                   <div className="dev-card-invest">$29M NMTC · 190 Units (22 ELI) · 4607 Crenshaw Blvd</div>
-                  <div className="dev-card-body">Seven-story building right on the K Line with a ground-floor Tech & Entertainment Center powered by Live Nation — music, live production, and digital media training for South LA youth. Crenshaw Culinary Arts Café provides a vocational training pipeline. Federal NMTC and congressional earmark funding confirm flagship equity status.</div>
+                  <div className="dev-card-body">Seven-story building right on the K Line with a ground-floor Tech & Entertainment Center powered by Live Nation — music, live production, and digital media training for South LA youth. Crenshaw Culinary Arts Café gives young people a path into the food industry. Federal NMTC and congressional earmark funding confirm flagship equity status.</div>
                   <div className="dev-card-signal">Projects like this tend to increase demand for nearby commercial space, housing, and local businesses. The area around Leimert Park Station is becoming more attractive to employers, entrepreneurs, and investors.</div>
                 </DevCard>
                 <DevCard>
@@ -200,7 +200,7 @@ export default function Developments() {
                   <div className="dev-card-title">Crenshaw Wall Pocket Parks</div>
                   <div className="dev-card-invest">Public Green Infrastructure · K Line At-Grade Stations</div>
                   <div className="dev-card-body">A series of small-scale public plazas and pocket parks activating the at-grade K Line stations along the Crenshaw corridor. These third spaces increase walkability scores, reduce heat islands, and directly lift adjacent residential land values.</div>
-                  <div className="dev-card-signal">Green space at transit stops is a proven catalyst for ADU feasibility — renters pay more for walkable, activated corridors.</div>
+                  <div className="dev-card-signal">Green space at transit stops drives ADU demand — renters pay more to live near walkable, activated corridors.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -212,7 +212,7 @@ export default function Developments() {
                   <div className="dev-card-title">The Beehive Campus — SoLa Impact</div>
                   <div className="dev-card-invest">104,000 sq ft · 8 Red-Brick Warehouses · 961 E. 61st St, Goodyear Tract</div>
                   <div className="dev-card-body">Adaptive reuse Opportunity Zone business campus converting eight historic warehouse buildings into the flagship Black-led OZ innovation campus in the country. Incubates minority and women-owned businesses, provides tech training, and hosts cultural programming with on-campus bioswale and community gardens.</div>
-                  <div className="dev-card-signal">Proves industrial-zoned, underutilized tracts in South LA can be repositioned into high-value innovation campuses. Sets the template for future corridors off Slauson, Central, and Alameda.</div>
+                  <div className="dev-card-signal">Proves that underused industrial land in South LA can be turned into high-value innovation campuses. Sets a model for future corridors off Slauson, Central, and Alameda.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-operational">Operational & Expanding · Flagship</div>
@@ -235,7 +235,7 @@ export default function Developments() {
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-active">North + South Anchor Framework</div>
-                  <div className="dev-card-title">The &ldquo;Two Anchor&rdquo; Thesis</div>
+                  <div className="dev-card-title">The &ldquo;Two Anchor&rdquo; Story</div>
                   <div className="dev-card-invest">Lucas Museum (North) + Hollywood Park $5B+ (South)</div>
                   <div className="dev-card-body">Hollywood Park in Inglewood is the southern anchor — $5B+ in sports, entertainment, and hospitality. The Lucas Museum is now the northern anchor — a $1B cultural institution driving international visitation along the Expo Line corridor. The Golden Corridor now has two mega-anchors bookending it. Every neighborhood between them is now sitting between two major anchors.</div>
                   <div className="dev-card-signal">This is a structural change in how South LA is perceived by investors, buyers, and the global press — not a narrative, a documented investment reality.</div>
@@ -250,7 +250,7 @@ export default function Developments() {
                   <div className="dev-card-title"><a className="copy-link" href="https://bhcppartnership.com" target="_blank" rel="noopener noreferrer">Baldwin Hills Crenshaw Plaza</a> Master Plan</div>
                   <div className="dev-card-invest">$1B+ Total · 42 Acres · Developer: Harridge Development Group</div>
                   <div className="dev-card-body">Complete transformation of the historic mall into a mixed-use district with residential, retail, creative office, and community space. Among the most significant commercial redevelopments in South LA&apos;s history, with multiple residential phases underway. Full build-out will reshape 42 acres into a live-work-play district.</div>
-                  <div className="dev-card-signal">A $1B master plan anchors the value thesis for every property in the area. Residential, ADU, and small commercial investments within a half-mile benefit directly from the amenity uplift.</div>
+                  <div className="dev-card-signal">A $1B master plan is the reason every property near here is worth more. Residential, ADU, and small commercial investments within a half-mile all benefit from what's being built.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Construction · Active</div>
@@ -264,7 +264,7 @@ export default function Developments() {
                   <div className="dev-card-title"><a className="copy-link" href="https://stockerstreetcreative.com" target="_blank" rel="noopener noreferrer">Stocker Street Creative</a> — Film Production Campus</div>
                   <div className="dev-card-invest">$225M · BIPOC Film Production · Film Stages + Creative Office</div>
                   <div className="dev-card-body">A $225M production campus designed to incubate and serve BIPOC creators, shifting the center of gravity of the entertainment industry southward. Film production campuses generate sustained, high-income employment — a powerful long-term demand driver for housing within the commute radius.</div>
-                  <div className="dev-card-signal">Where production campuses anchor, housing demand follows production workers. This is the &ldquo;Burbank effect&rdquo; happening in South LA. Stocker Street is the creative economy catalyst for the entire Baldwin Hills area.</div>
+                  <div className="dev-card-signal">Where production campuses go, housing demand follows the workers. This is the &ldquo;Burbank effect&rdquo; happening in South LA. Stocker Street is what pulls creative industry money into Baldwin Hills.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -276,14 +276,14 @@ export default function Developments() {
                   <div className="dev-card-title">Westside Area Plan — Opportunity Sites</div>
                   <div className="dev-card-invest">5,548 New Units Unlocked · 4–6 Story Mixed-Use Upzoning</div>
                   <div className="dev-card-body">LA County&apos;s Westside Area Plan has rezoned major commercial sites in Ladera Heights, View Park, and Windsor Hills for 4–6 story mixed-use development. Ladera Center, the Wateridge site, and the Slauson/Fairfax big-box corridor are designated opportunity sites that can now support density previously prohibited. This is not a proposal — it is current law.</div>
-                  <div className="dev-card-signal">The arbitrage window between current prices and new-zoning-supported values is open now — before full market pricing reflects the new density reality.</div>
+                  <div className="dev-card-signal">The gap between what properties cost today and what the new zoning allows hasn't closed yet — prices haven't caught up to what the law now permits.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-planned">Proposed · Luxury Emergence Signal</div>
                   <div className="dev-card-title">The View — Luxury Condo Proposal</div>
                   <div className="dev-card-invest">View Heights / View Park · First Significant Luxury Condo Proposal</div>
                   <div className="dev-card-body">The first significant luxury condominium proposal in the View Heights/View Park area. Signals that developers are now pricing in the higher demand for housing being generated by growth across South LA and the Westside Area Plan upzoning.</div>
-                  <div className="dev-card-signal">The emergence of luxury condo proposals in View Park and Windsor Hills indicates that institutional capital has begun pricing in the area&apos;s trajectory. Residential buyers should act before this re-pricing is fully absorbed.</div>
+                  <div className="dev-card-signal">Luxury condo proposals showing up in View Park and Windsor Hills means developers have already done the math — and they like what they see. Buyers should move before those numbers become the new normal.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -321,7 +321,7 @@ export default function Developments() {
                   <div className="dev-card-title">CIM Group Mixed-Use Portfolio</div>
                   <div className="dev-card-invest">$2,450–$3,395/mo Rents · 5109 & 5201 W. Adams Blvd · Expo Line Transit Corridor</div>
                   <div className="dev-card-body">CIM Group&apos;s sustained West Adams investment has established a new rent baseline for the corridor. Multiple delivered buildings at Expo Line stations proving that institutional-grade rental rates are achievable and sustainable in South LA. The cumulative density is transforming West Adams into a transit-dense, creative-class corridor.</div>
-                  <div className="dev-card-signal">West Adams has established that $2,450–$3,395/mo is achievable and sustainable in South LA. That benchmark re-prices the entire corridor east and south.</div>
+                  <div className="dev-card-signal">West Adams has proven that $2,450–$3,395/mo is real and sustainable in South LA. Those numbers are now pulling rents up across the corridor — east and south.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Opening 2026</div>
@@ -346,7 +346,7 @@ export default function Developments() {
                   <div className="dev-card-status s-operational">Built and Operating · Must-Track</div>
                   <div className="dev-card-title">SEED LA Public Boarding School</div>
                   <div className="dev-card-invest">Public STEM + College Prep Boarding School · Evermont Anchor</div>
-                  <div className="dev-card-body">A rare public boarding school with a STEM focus — one of the most significant educational investments in South LA in a generation. School quality is the single most powerful driver of residential real estate values. SEED LA&apos;s presence at Evermont is a long-term appreciation catalyst for all surrounding residential.</div>
+                  <div className="dev-card-body">A rare public boarding school with a STEM focus — one of the most significant educational investments in South LA in a generation. School quality is the single most powerful driver of home values. SEED LA&apos;s presence at Evermont will push prices up across the surrounding neighborhood for years to come.</div>
                   <div className="dev-card-signal">Premium school facilities within a half-mile uplift residential values by 5–15%. SEED LA is the type of anchor that reshapes family buyer demand in an entire zip code.</div>
                 </DevCard>
               </DevCards>
@@ -418,7 +418,7 @@ export default function Developments() {
                   <div className="dev-card-status s-construction">New Build · CDFI Capital Anchor</div>
                   <div className="dev-card-title">PCR Business Finance — New Crenshaw HQ</div>
                   <div className="dev-card-invest">$45.5M Distributed · ~500 Small Businesses Supported · CDFI Headquarters</div>
-                  <div className="dev-card-body">PCR Business Finance, a CDFI that has distributed over $45.5M in grants to approximately 500 small businesses affected by Metro K Line construction, is building a permanent headquarters on Crenshaw. A CDFI anchor creates a sustained pipeline of small business capital.</div>
+                  <div className="dev-card-body">PCR Business Finance, a CDFI that has distributed over $45.5M in grants to approximately 500 small businesses affected by Metro K Line construction, is building a permanent headquarters on Crenshaw. A CDFI headquarters like this keeps small business funding flowing into the neighborhood.</div>
                   <div className="dev-card-signal">Where a CDFI anchors, commercial corridors stabilize and small business formation increases. This is infrastructure for the business community, not just real estate.</div>
                 </DevCard>
               </DevCards>

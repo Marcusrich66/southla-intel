@@ -266,7 +266,7 @@ export default function Home() {
                     <span className="featured-card-date">Opens Sept 2026</span>
                   </div>
                   <p className="featured-card-impact">
-                    A cultural and investment anchor connecting Exposition Park, the K Line corridor, USC, and South LA property positioning — the biggest cultural opening South LA has seen in a generation — and a direct investment signal for everything between Exposition Park and Inglewood.
+                    A cultural institution connecting Exposition Park, the K Line corridor, USC, and every neighborhood in between — the biggest cultural opening South LA has seen in a generation, and a direct signal for everything between Exposition Park and Inglewood.
                   </p>
                 </div>
               </div>

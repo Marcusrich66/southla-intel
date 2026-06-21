@@ -6,11 +6,11 @@ import Reveal from "./Reveal";
 const faqs = [
   {
     q: "What is Stocker Street Creative and why does it matter?",
-    a: "Stocker Street Creative is a $225M BIPOC-focused film production campus in Baldwin Hills — built to incubate Black and minority creators and shift the entertainment industry's center of gravity southward. Production campuses generate sustained high-income employment, which drives housing demand within the commute radius. This is the \"Burbank effect\" now happening in South LA. For homeowners and investors in the Baldwin Hills/Crenshaw area, it is a long-term demand anchor.",
+    a: "Stocker Street Creative is a $225M BIPOC-focused film production campus in Baldwin Hills — built to incubate Black and minority creators and shift the entertainment industry's center of gravity southward. Production campuses generate sustained high-income employment, which drives housing demand within the commute radius. This is the \"Burbank effect\" now happening in South LA. For homeowners and investors in the Baldwin Hills/Crenshaw area, it means sustained demand for housing that doesn't go away.",
   },
   {
     q: "Who founded the Lucas Museum and when does it open?",
-    a: "The Lucas Museum of Narrative Art was founded by George Lucas and Mellody Hobson. It opens September 22, 2026 at Exposition Park — a ~$1B investment spanning 300,000+ sq ft across 11 acres with 40,000+ works of narrative art, two theaters, library, restaurant, café, and retail. Its arrival completes the two-anchor framework: Lucas Museum as the northern anchor, Hollywood Park as the southern anchor. Every neighborhood between them is now sitting between two major anchors.",
+    a: "The Lucas Museum of Narrative Art was founded by George Lucas and Mellody Hobson. It opens September 22, 2026 at Exposition Park — a ~$1B investment spanning 300,000+ sq ft across 11 acres with 40,000+ works of narrative art, two theaters, library, restaurant, café, and retail. With the Lucas Museum opening at the north end and Hollywood Park already running at the south, the corridor now has a major draw at each end. Every neighborhood in between is sitting between two of the biggest investments in Los Angeles.",
   },
   {
     q: "Why does the \"half-mile rule\" matter for South LA properties?",
@@ -22,10 +22,10 @@ const faqs = [
   },
   {
     q: "What is AB 1033 and why does it matter specifically in South LA?",
-    a: "AB 1033 is California legislation enabling homeowners to sell an ADU as a separate piece of real estate — entirely independent from the primary residence. For South LA homeowners in a corridor with $5B+ in flowing capital, this creates the ability to monetize a lot they already own: through ADU rental income today, or an ADU sale as a standalone asset tomorrow. With construction costs at ~$280/sq ft and 60–90 day permit timelines, the math is accessible for most existing owners.",
+    a: "AB 1033 is California legislation enabling homeowners to sell an ADU as a separate piece of real estate — entirely independent from the primary residence. For South LA homeowners in a corridor with $5B+ in active development, this means a lot you already own can generate rental income today or be sold as its own deed tomorrow. With construction costs at ~$280/sq ft and 60–90 day permit timelines, the math is accessible for most existing owners.",
   },
   {
-    q: "What does the FIFA/Super Bowl/Olympics pipeline mean for strategy?",
+    q: "What do the FIFA/Super Bowl/Olympics events mean for property owners?",
     a: "FIFA 2026, Super Bowl 2027, and the 2028 Olympics are fixed dates — not projections. They are concentrating global capital in Inglewood and creating predictable demand surges for hospitality, short-term rentals, and investor visibility. The Kali Hotel ($300M, Marriott Autograph Collection — the only hotel permitted in Hollywood Park zone), Hollywood Park Studios, and the Intuit Dome are part of a network built for international audiences. Properties in the area around Hollywood Park are not just benefiting from local growth — they're in the path of global event infrastructure. The time to get in front of this is before these events — not during.",
   },
 ];
