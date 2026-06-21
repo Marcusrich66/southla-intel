@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Reveal from "./Reveal";
 
@@ -41,23 +42,60 @@ const cardVariants = {
   visible: { opacity: 1, y: 0, transition: { type: "spring" as const, stiffness: 60, damping: 18 } },
 };
 
-function DevCards({ children }: { children: React.ReactNode }) {
+interface DevCardProps {
+  children: React.ReactNode;
+  index?: number;
+  openCard?: number | null;
+  setOpenCard?: (i: number | null) => void;
+}
+
+function DevCard({ children, index = 0, openCard = null, setOpenCard }: DevCardProps) {
+  const isOpen = openCard === index;
+  const childArray = React.Children.toArray(children);
+  const headerChildren = childArray.slice(0, 3);
+  const bodyChildren = childArray.slice(3);
+
+  function toggle() {
+    if (setOpenCard) setOpenCard(isOpen ? null : index);
+  }
+
   return (
-    <motion.div
-      className="dev-cards"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
-      {children}
+    <motion.div className={`dev-card${isOpen ? " dev-card--open" : ""}`} variants={cardVariants}>
+      <button className="dev-card-header" onClick={toggle} aria-expanded={isOpen}>
+        <div className="dev-card-header-content">{headerChildren}</div>
+        <span className={`dev-card-chevron${isOpen ? " dev-card-chevron--open" : ""}`} aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path d="M4 6L8 10L12 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div className="dev-card-collapse" style={{ maxHeight: isOpen ? "1000px" : "0" }}>
+        <div className="dev-card-collapse-inner">{bodyChildren}</div>
+      </div>
     </motion.div>
   );
 }
 
-function DevCard({ children }: { children: React.ReactNode }) {
+DevCard.displayName = "DevCard";
+
+interface DevCardsProps {
+  children: React.ReactNode;
+  openCard: number | null;
+  setOpenCard: (i: number | null) => void;
+}
+
+function DevCards({ children, openCard, setOpenCard }: DevCardsProps) {
+  let cardIndex = 0;
+  const enhanced = React.Children.map(children, (child) => {
+    if (React.isValidElement(child) && (child.type as React.FC).displayName === "DevCard") {
+      const idx = cardIndex++;
+      return React.cloneElement(child as React.ReactElement<DevCardProps>, { index: idx, openCard, setOpenCard });
+    }
+    return child;
+  });
   return (
-    <motion.div className="dev-card" variants={cardVariants}>
-      {children}
+    <motion.div className="dev-cards" variants={containerVariants} initial="hidden" animate="visible">
+      {enhanced}
     </motion.div>
   );
 }
@@ -75,7 +113,12 @@ function CorridorBand() {
 
 export default function Developments() {
   const [active, setActive] = useState("crenshaw");
+  const [openCard, setOpenCard] = useState<number | null>(null);
   const meta = chapterMeta[active];
+
+  useEffect(() => {
+    setOpenCard(null);
+  }, [active]);
 
   return (
     <section id="developments">
@@ -129,7 +172,7 @@ export default function Developments() {
           <div key={active}>
 
             {active === "crenshaw" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-active">Active · 2025–2026 Phased</div>
                   <div className="dev-card-title">Destination Crenshaw</div>
@@ -163,7 +206,7 @@ export default function Developments() {
             )}
 
             {active === "innovation" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-operational">Operational · Must-Add</div>
                   <div className="dev-card-title">The Beehive Campus — SoLa Impact</div>
@@ -182,7 +225,7 @@ export default function Developments() {
             )}
 
             {active === "exposition" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-construction">Opening September 22, 2026</div>
                   <div className="dev-card-title">Lucas Museum of Narrative Art</div>
@@ -201,7 +244,7 @@ export default function Developments() {
             )}
 
             {active === "baldwin" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-construction">Multi-Phase · Active Construction</div>
                   <div className="dev-card-title"><a className="copy-link" href="https://bhcppartnership.com" target="_blank" rel="noopener noreferrer">Baldwin Hills Crenshaw Plaza</a> Master Plan</div>
@@ -227,7 +270,7 @@ export default function Developments() {
             )}
 
             {active === "viewpark" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-active">Live · Adopted March 2025</div>
                   <div className="dev-card-title">Westside Area Plan — Opportunity Sites</div>
@@ -246,7 +289,7 @@ export default function Developments() {
             )}
 
             {active === "inglewood" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-construction">Phased Delivery Underway</div>
                   <div className="dev-card-title">Hollywood Park Mixed-Use District & Studios</div>
@@ -272,7 +315,7 @@ export default function Developments() {
             )}
 
             {active === "westadams" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-active">Delivered / Delivering · Institutional</div>
                   <div className="dev-card-title">CIM Group Mixed-Use Portfolio</div>
@@ -291,7 +334,7 @@ export default function Developments() {
             )}
 
             {active === "evermont" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-active">Move-Ins Underway · 2025</div>
                   <div className="dev-card-title">Evermont District — Luminus & Vista Affordable Housing</div>
@@ -310,7 +353,7 @@ export default function Developments() {
             )}
 
             {active === "watts" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Construction · Must-Add</div>
                   <div className="dev-card-title">Jordan Downs Redevelopment</div>
@@ -344,7 +387,7 @@ export default function Developments() {
             )}
 
             {active === "compton" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-construction">Under Construction · Strong Secondary</div>
                   <div className="dev-card-title">Compton Innovation Hub</div>
@@ -363,7 +406,7 @@ export default function Developments() {
             )}
 
             {active === "jefferson" && (
-              <DevCards>
+              <DevCards openCard={openCard} setOpenCard={setOpenCard}>
                 <DevCard>
                   <div className="dev-card-status s-active">Active · Transit-Adjacent Infill</div>
                   <div className="dev-card-title">2903 W. Jefferson — Mixed-Use Infill</div>
