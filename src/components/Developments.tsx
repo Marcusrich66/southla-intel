@@ -178,7 +178,7 @@ export default function Developments() {
                   <div className="dev-card-title">Destination Crenshaw</div>
                   <div className="dev-card-invest">$100–122M · 1.3-Mile Outdoor Museum · K Line Spine</div>
                   <div className="dev-card-body">The largest Black-focused public art program in the United States. Over 100 commissioned works by artists including Kehinde Wiley and Alison Saar. Sankofa Park at Leimert Park Village is the northern anchor with elevated viewing platforms and major sculptural installations.</div>
-                  <div className="dev-card-signal">Properties within half a mile of the corridor are positioned for long-term appreciation and short-term rental demand spikes during events.</div>
+                  <div className="dev-card-signal">Properties within half a mile of Destination Crenshaw are positioned for long-term appreciation and short-term rental demand spikes during events.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-active">Active · Fit-Out 2025–2026</div>
@@ -199,8 +199,8 @@ export default function Developments() {
                   <div className="dev-card-status s-planned">Phased · K Line Station Areas</div>
                   <div className="dev-card-title">Crenshaw Wall Pocket Parks</div>
                   <div className="dev-card-invest">Public Green Infrastructure · K Line At-Grade Stations</div>
-                  <div className="dev-card-body">A series of small-scale public plazas and pocket parks activating the at-grade K Line stations along the Crenshaw corridor. These third spaces increase walkability scores, reduce heat islands, and directly lift adjacent residential land values.</div>
-                  <div className="dev-card-signal">Green space at transit stops drives ADU demand — renters pay more to live near walkable, activated corridors.</div>
+                  <div className="dev-card-body">A series of small-scale public plazas and pocket parks activating the at-grade K Line stations along the Crenshaw route. These third spaces increase walkability scores, reduce heat islands, and directly lift adjacent residential land values.</div>
+                  <div className="dev-card-signal">Green space at transit stops drives ADU demand — renters pay more to live in walkable, activated neighborhoods.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -212,7 +212,7 @@ export default function Developments() {
                   <div className="dev-card-title">The Beehive Campus — SoLa Impact</div>
                   <div className="dev-card-invest">104,000 sq ft · 8 Red-Brick Warehouses · 961 E. 61st St, Goodyear Tract</div>
                   <div className="dev-card-body">Adaptive reuse Opportunity Zone business campus converting eight historic warehouse buildings into the flagship Black-led OZ innovation campus in the country. Incubates minority and women-owned businesses, provides tech training, and hosts cultural programming with on-campus bioswale and community gardens.</div>
-                  <div className="dev-card-signal">Proves that underused industrial land in South LA can be turned into high-value innovation campuses. Sets a model for future corridors off Slauson, Central, and Alameda.</div>
+                  <div className="dev-card-signal">Proves that underused industrial land in South LA can be turned into high-value innovation campuses. Sets a model for blocks off Slauson, Central, and Alameda.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-operational">Operational & Expanding · Flagship</div>
@@ -308,7 +308,7 @@ export default function Developments() {
                   <div className="dev-card-status s-operational">Operational · Year-Round Activation</div>
                   <div className="dev-card-title">Intuit Dome Arena — LA Clippers</div>
                   <div className="dev-card-invest">NBA Arena + Entertainment Complex · 41+ Home Games Annually</div>
-                  <div className="dev-card-body">The new home of the LA Clippers provides year-round activation for the Hollywood Park district, adding 41+ NBA regular season events annually to the already dense event calendar. The Three-Dome Effect: SoFi + Intuit Dome + Lucas Museum = three gravitational demand anchors pulling investment into a single corridor.</div>
+                  <div className="dev-card-body">The new home of the LA Clippers provides year-round activation for the Hollywood Park district, adding 41+ NBA regular season events annually to the already dense event calendar. The Three-Dome Effect: SoFi + Intuit Dome + Lucas Museum = three gravitational demand anchors pulling investment into one area.</div>
                   <div className="dev-card-signal">Fixed event dates (2026, 2027, 2028) create predictable windows — position before they price everyone else in.</div>
                 </DevCard>
               </DevCards>
@@ -320,8 +320,8 @@ export default function Developments() {
                   <div className="dev-card-status s-active">Delivered / Delivering · Institutional</div>
                   <div className="dev-card-title">CIM Group Mixed-Use Portfolio</div>
                   <div className="dev-card-invest">$2,450–$3,395/mo Rents · 5109 & 5201 W. Adams Blvd · Expo Line Transit Corridor</div>
-                  <div className="dev-card-body">CIM Group&apos;s sustained West Adams investment has established a new rent baseline for the corridor. Multiple delivered buildings at Expo Line stations proving that institutional-grade rental rates are achievable and sustainable in South LA. The cumulative density is transforming West Adams into a transit-dense, creative-class corridor.</div>
-                  <div className="dev-card-signal">West Adams has proven that $2,450–$3,395/mo is real and sustainable in South LA. Those numbers are now pulling rents up across the corridor — east and south.</div>
+                  <div className="dev-card-body">CIM Group&apos;s sustained West Adams investment has established a new rent baseline for the corridor. Multiple delivered buildings at Expo Line stations proving that institutional-grade rental rates are achievable and sustainable in South LA. The cumulative density is transforming West Adams into a transit-dense, creative-class neighborhood.</div>
+                  <div className="dev-card-signal">West Adams has proven that $2,450–$3,395/mo is real and sustainable in South LA. Those numbers are now pulling rents up across South LA — east and south.</div>
                 </DevCard>
                 <DevCard>
                   <div className="dev-card-status s-construction">Opening 2026</div>
@@ -381,7 +381,7 @@ export default function Developments() {
                   <div className="dev-card-title">Watts Civic Center — Serenity Greenway</div>
                   <div className="dev-card-invest">~$2.7M Safe Clean Water Funding · Green Infrastructure + Mobility</div>
                   <div className="dev-card-body">Green infrastructure and mobility project transforming an alley system near Watts Civic Center into a landscaped pedestrian and stormwater corridor connecting schools, civic center, parks, and the library.</div>
-                  <div className="dev-card-signal">Green corridor investments increase adjacent walkability scores and residential desirability — proven value drivers in comparable corridors across LA.</div>
+                  <div className="dev-card-signal">Green investments like this increase walkability scores and residential desirability — proven drivers of value in comparable neighborhoods across LA.</div>
                 </DevCard>
               </DevCards>
             )}
@@ -419,7 +419,7 @@ export default function Developments() {
                   <div className="dev-card-title">PCR Business Finance — New Crenshaw HQ</div>
                   <div className="dev-card-invest">$45.5M Distributed · ~500 Small Businesses Supported · CDFI Headquarters</div>
                   <div className="dev-card-body">PCR Business Finance, a CDFI that has distributed over $45.5M in grants to approximately 500 small businesses affected by Metro K Line construction, is building a permanent headquarters on Crenshaw. A CDFI headquarters like this keeps small business funding flowing into the neighborhood.</div>
-                  <div className="dev-card-signal">Where a CDFI anchors, commercial corridors stabilize and small business formation increases. This is infrastructure for the business community, not just real estate.</div>
+                  <div className="dev-card-signal">Where a CDFI anchors, commercial streets stabilize and small business formation increases. This is infrastructure for the business community, not just real estate.</div>
                 </DevCard>
               </DevCards>
             )}

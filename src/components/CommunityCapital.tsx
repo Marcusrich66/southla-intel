@@ -99,7 +99,7 @@ export default function CommunityCapital() {
               />
               <div className="cc-callout-heading">Two Minutes From My Front Door</div>
               <p>
-                PCR opened the doors to their new headquarters on Slauson Avenue in early June 2026 — strategically positioned to serve the Crenshaw District, Hyde Park, and Inglewood with a business center and community gathering space. I live close enough to walk there. I&apos;ve watched this building come to life in real time. That&apos;s how close this capital resource is to the corridor it serves.
+                PCR opened the doors to their new headquarters on Slauson Avenue in early June 2026 — strategically positioned to serve the Crenshaw District, Hyde Park, and Inglewood with a business center and community gathering space. I live close enough to walk there. I&apos;ve watched this building come to life in real time. That&apos;s how close this capital resource is to the community it serves.
               </p>
             </div>
           </Reveal>

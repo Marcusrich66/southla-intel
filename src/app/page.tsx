@@ -163,7 +163,7 @@ export default function Home() {
                   <div className="pain-icon">📍</div>
                   <div>
                     <div className="pain-title">The Half-Mile Rule</div>
-                    <div className="pain-desc">Zillow doesn&apos;t know the difference between a property half a mile from Leimert Park Station and one that&apos;s right on it. That half mile is everything in this corridor.</div>
+                    <div className="pain-desc">Zillow doesn&apos;t know the difference between a property half a mile from Leimert Park Station and one that&apos;s right on it. That half mile is everything in South LA.</div>
                   </div>
                 </li>
                 <li className="pain-item">
@@ -227,7 +227,7 @@ export default function Home() {
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">⚖️</span>
               <div className="homeowner-cell-title">AB 1033 Implications</div>
-              <div className="homeowner-cell-body">California&apos;s AB 1033 allows homeowners to sell an ADU as a legally separate piece of real estate. In a corridor where land values are rising and cultural infrastructure is being permanently anchored, this legislation transforms a backyard into a second deed — and a second generational asset.</div>
+              <div className="homeowner-cell-body">California&apos;s AB 1033 allows homeowners to sell an ADU as a legally separate piece of real estate. In a market where land values are rising and cultural infrastructure is being permanently built in, this legislation transforms a backyard into a second deed — and a second generational asset.</div>
             </div>
           </Reveal>
           <Reveal className="homeowner-closing" delay={0.22}>
@@ -340,7 +340,7 @@ export default function Home() {
             <Reveal>
               <div className="section-tag" style={{ color: "var(--gold-base)" }}>Homeowner Wealth Creation</div>
               <h2 className="section-headline light">AB 1033 Changes<br /><em className="gold-text" style={{ fontStyle: "italic" }}>Everything.</em></h2>
-              <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a corridor where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
+              <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a neighborhood where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
               <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay more to be close to the K Line — these are the reasons South LA ADUs make so much sense right now.</p>
               <MotionLink href="#final-cta" className="btn-primary">See What Your Lot Can Support →</MotionLink>
             </Reveal>

@@ -112,7 +112,7 @@ export default function PublishersLetter() {
                 {/* Body */}
                 <div className="pl-body">
                   <p className="pl-salutation">To Our Readers, Partners, and Community —</p>
-                  <p>My name is Marcus Rich. I was born and raised in South Los Angeles. I went to Foshay. I went to Washington High. I&apos;ve lived off 105th and Normandie. I&apos;ve lived near Vermont and 51st. I grew up on these streets, spent time in these community centers, and built my career in this corridor. I left for a few years — Ohio, San Diego, Berkeley, Oakland — and I came back every time. South LA isn&apos;t a beat I cover — it&apos;s the ground beneath my feet.</p>
+                  <p>My name is Marcus Rich. I was born and raised in South Los Angeles. I went to Foshay. I went to Washington High. I&apos;ve lived off 105th and Normandie. I&apos;ve lived near Vermont and 51st. I grew up on these streets, spent time in these community centers, and built my career in this community. I left for a few years — Ohio, San Diego, Berkeley, Oakland — and I came back every time. South LA isn&apos;t a beat I cover — it&apos;s the ground beneath my feet.</p>
                   <p>South LA Media exists because this moment demands a publication equal to it.</p>
                   <p>What is happening right now in South Los Angeles is the biggest transformation this community has seen in my lifetime. The Lucas Museum of Narrative Art. SoFi Stadium. The Intuit Dome. The Jordan Downs redevelopment. The Stocker Street Creative campus rising in Baldwin Hills. Sankofa Park along the Crenshaw Corridor. The K Line connecting communities from Expo to LAX.</p>
                   <p>But the story is bigger than any single project.</p>
