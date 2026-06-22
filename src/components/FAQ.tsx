@@ -9,8 +9,8 @@ const faqs = [
     a: "Stocker Street Creative is a $225M BIPOC-focused film production campus in Baldwin Hills — built to incubate Black and minority creators and shift the entertainment industry's center of gravity southward. Production campuses generate sustained high-income employment, which drives housing demand within the commute radius. This is the \"Burbank effect\" now happening in South LA. For homeowners and investors in the Baldwin Hills/Crenshaw area, it means sustained demand for housing that doesn't go away.",
   },
   {
-    q: "Who founded the Lucas Museum and when does it open?",
-    a: "The Lucas Museum of Narrative Art was founded by George Lucas and Mellody Hobson. It opens September 22, 2026 at Exposition Park — a ~$1B investment spanning 300,000+ sq ft across 11 acres with 40,000+ works of narrative art, two theaters, library, restaurant, café, and retail. With the Lucas Museum opening at the north end and Hollywood Park already running at the south, the corridor now has a major draw at each end. Every neighborhood in between is sitting between two of the biggest investments in Los Angeles.",
+    q: "If I buy now — or already own and build an ADU — what does this property look like in 10 years?",
+    a: "Sankofa Park, the Crenshaw Mall redevelopment, Stocker Street Creative — once these finish building out, this neighborhood doesn't look the same. We're already seeing the kind of appreciation that points toward 50% or more over the next decade, and AB 1033 means current homeowners and anyone building an ADU now are positioned to capture that early, not after it's priced in. For a lot of families in this community, that's not just equity — that's generational wealth that didn't exist here a decade ago.",
   },
   {
     q: "Why does the \"half-mile rule\" matter for South LA properties?",
