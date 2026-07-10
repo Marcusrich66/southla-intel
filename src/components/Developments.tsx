@@ -178,6 +178,7 @@ export default function Developments() {
                   <div className="dev-card-title">Destination Crenshaw</div>
                   <div className="dev-card-invest">$100–122M · 1.3-Mile Outdoor Museum · K Line Spine</div>
                   <div className="dev-card-body">The largest Black-focused public art program in the United States. Over 100 commissioned works by artists including Kehinde Wiley and Alison Saar. Sankofa Park at Leimert Park Village is the northern anchor with elevated viewing platforms and major sculptural installations.</div>
+                  <div className="dev-card-halfmile">&ldquo;Zillow doesn&apos;t know the difference between a property half a mile from Leimert Park Station and one that&apos;s right on it. That half mile is everything in South LA.&rdquo;</div>
                   <div className="dev-card-signal">Properties within half a mile of Destination Crenshaw are positioned for long-term appreciation and short-term rental demand spikes during events.</div>
                 </DevCard>
                 <DevCard>

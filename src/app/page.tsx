@@ -145,6 +145,7 @@ export default function Home() {
             <div className="ftp-name">Marcus Rich</div>
             <p className="ftp-body">My name is Marcus Rich. I grew up in South LA — Foshay Middle, Washington High, Challengers Boys &amp; Girls Club — and I&apos;ve been working this corridor as a real estate broker for over 20 years. I served in the Navy, spent time in Oakland, but I always came back. This is my city. What you&apos;re about to read is what&apos;s happening here right now — billions of dollars moving into South LA through culture, development, housing, and entertainment — told straight, from someone on the ground, so you know exactly where you stand and how to move.</p>
             <p className="ftp-closing">To read my full story and why I started South LA Media — open the Publisher&apos;s Letter on the left.</p>
+            <p className="ftp-urgency">The Westside Area Plan is live. Compton&apos;s TOD Specific Plan is in environmental review. There&apos;s still time to get in front of it — but not much.</p>
           </div>
         </div>
       </div>
@@ -339,6 +340,7 @@ export default function Home() {
           <div className="adu-inner">
             <Reveal>
               <div className="section-tag" style={{ color: "var(--gold-base)" }}>Homeowner Wealth Creation</div>
+              <p className="adu-teaser">AB 1033 just changed what a South LA homeowner can legally do with their backyard. This is the one piece of legislation most homeowners haven&apos;t caught up on yet — and it&apos;s worth real money.</p>
               <h2 className="section-headline light">AB 1033 Changes<br /><em className="gold-text" style={{ fontStyle: "italic" }}>Everything.</em></h2>
               <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a neighborhood where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
               <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay more to be close to the K Line — these are the reasons South LA ADUs make so much sense right now.</p>

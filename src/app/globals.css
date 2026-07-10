@@ -396,6 +396,12 @@ section { position: relative; }
   font-family: 'Montserrat', sans-serif; font-size: 0.85rem;
   color: #9F7A3A; font-style: italic; margin-top: 1rem;
 }
+.ftp-urgency {
+  font-family: 'Montserrat', sans-serif; font-size: 0.75rem; font-weight: 600;
+  color: #112030; letter-spacing: 0.03em; line-height: 1.6;
+  margin-top: 0.75rem; padding-top: 0.75rem;
+  border-top: 1px solid rgba(17,32,48,0.15);
+}
 
 /* PROBLEM */
 #problem { background: var(--off-white); padding: 2rem 0 100px; }
@@ -660,6 +666,13 @@ section { position: relative; }
   border-bottom: none;
 }
 .dev-card-body { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
+.dev-card-halfmile {
+  margin: 14px 0; padding: 10px 14px;
+  border-left: 2px solid #CFAE6D;
+  background: rgba(207,174,109,.06);
+  font-family: 'Cormorant Garamond', serif; font-style: italic;
+  font-size: 1rem; line-height: 1.65; color: #112030;
+}
 .dev-card-signal {
   margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(17,32,48,.08);
   font-size: 1.125rem; font-weight: 400; color: var(--navy); line-height: 1.75;
@@ -828,6 +841,11 @@ section { position: relative; }
 /* ADU */
 /* RHYTHM v4.1: was var(--navy) — medium navy creates break between How It Works and CommunityCapital */
 #adu { background: var(--navy-medium); padding: 100px 0; }
+.adu-teaser {
+  font-family: 'Cormorant Garamond', serif; font-style: italic;
+  font-size: 1.1rem; line-height: 1.7; color: rgba(240,237,232,.7);
+  margin-bottom: 1rem;
+}
 .adu-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .adu-numbers { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: rgba(207,174,109,.12); }
 /* RHYTHM v4.1: cells slightly darker than navy-medium section — creates depth */
@@ -1582,6 +1600,9 @@ footer {
   .chapter-meta-value   { font-size: 0.88rem !important; }
   .corridor-band        { padding: 20px 18px !important; }
   .corridor-band-text   { font-size: 1.125rem !important; line-height: 1.75 !important; }
+
+  /* ── PROBLEM SECTION — hidden on mobile, desktop unchanged ── */
+  #problem { display: none !important; }
 
   /* ── FROM THE PUBLISHER CALLOUT ─────────── */
   .ftp-callout { margin-bottom: 1.5rem; }
