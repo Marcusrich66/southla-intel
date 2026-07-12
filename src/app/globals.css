@@ -844,11 +844,14 @@ section { position: relative; }
 .step-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
 .step-desc { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 
-/* Two Anchors subtitle */
+/* Two Anchors — larger section tag + subtitle */
+#authority .section-tag {
+  font-size: 1rem; letter-spacing: .22em; margin-bottom: 14px;
+}
 .two-anchors-subtitle {
   font-family: 'Montserrat', sans-serif;
   font-size: .85rem; font-weight: 400; color: rgba(255,255,255,.6);
-  max-width: 560px; line-height: 1.65; margin-bottom: 40px; margin-top: -8px;
+  max-width: 560px; line-height: 1.65; margin-bottom: 40px; margin-top: 0;
 }
 
 /* ADU */
