@@ -990,7 +990,9 @@ section { position: relative; }
 @media(max-width:480px) {
   .cc-section { padding: 72px 0; }
   .cc-stats-grid { grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 44px; width: 100%; overflow: hidden; }
-  .cc-stat-card { padding: 16px 10px; min-width: 0; }
+  .cc-stat-card { padding: 12px 8px; min-width: 0; }
+  .cc-stat-value { font-size: 1.3rem !important; }
+  .cc-stat-label { font-size: .55rem !important; letter-spacing: .08em !important; }
   .cc-contact-grid { grid-template-columns: 1fr; gap: 24px; }
   .cc-cta-btn { width: 100%; text-align: center; display: block; padding: 16px 24px; }
 }

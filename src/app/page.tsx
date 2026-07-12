@@ -206,32 +206,6 @@ export default function Home() {
       {/* DEVELOPMENTS */}
       <Developments />
 
-      {/* HOMEOWNER CALLOUT */}
-      <section id="homeowner">
-        <div className="container">
-          <Reveal className="homeowner-intro">
-            <div className="section-tag" style={{ color: "var(--gold-base)" }}>Why This Matters for Homeowners</div>
-            <h2 className="section-headline light">Your Property.<br />Your Position.</h2>
-            <p className="section-body light">If you own property in South LA right now, this isn&apos;t just interesting news. This is about your specific property. Transit, new zoning, cultural anchors, and AB 1033 are all hitting at the same time — and they all connect back to what your land is worth and what you can do with it.</p>
-          </Reveal>
-          <Reveal className="homeowner-grid" delay={0.15}>
-            <div className="homeowner-cell">
-              <span className="homeowner-cell-icon">🏗️</span>
-              <div className="homeowner-cell-title">ADU Opportunity</div>
-              <div className="homeowner-cell-body">Building a backyard ADU in South LA starts around $280/sq ft and up, depending on size and finishes. With 60–90 day permit timelines, it&apos;s one of the most accessible development moves available to existing South LA homeowners right now.</div>
-            </div>
-            <div className="homeowner-cell">
-              <span className="homeowner-cell-icon">⚖️</span>
-              <div className="homeowner-cell-title">AB 1033 Strategy</div>
-              <div className="homeowner-cell-body">California&apos;s AB 1033 allows you to sell an ADU as a legally separate piece of real estate — independent from your primary residence. In a corridor where $5B+ is flowing in, this turns a backyard into a second deed and a generational wealth asset that didn&apos;t exist before.</div>
-            </div>
-          </Reveal>
-          <Reveal className="homeowner-closing" delay={0.22}>
-            <p>South LA homeownership has historically been undervalued relative to comparable Westside neighborhoods. $5B+ in real investment is correcting that gap right now — and for families with property already in hand, this is the moment that asset is worth understanding.</p>
-          </Reveal>
-        </div>
-      </section>
-
       {/* AUTHORITY */}
       <section id="authority">
         <div className="container">
@@ -299,7 +273,6 @@ export default function Home() {
             {/* BOTTOM LEFT — Quote + Body */}
             <Reveal className="brief-quote-block" delay={0.15}>
               <blockquote className="authority-quote">&ldquo;These aren&apos;t separate projects. Everything is landing at the same time.&rdquo;</blockquote>
-              <div className="authority-source">2026 South LA Growth &amp; Development Brief · Marcus Rich Realty</div>
               <p className="section-body light">Five years ago these would have been separate stories. The museum opening. A stadium district. A public housing rebuild. A transit line. Instead, they&apos;re all landing in the same eighteen months, in the same eleven-mile stretch. This isn&apos;t five separate things happening. This is everything happening, right now, in our time. Same as you, I&apos;m watching it unfold in real time — and you should be paying attention too.</p>
             </Reveal>
 
@@ -335,14 +308,13 @@ export default function Home() {
           <div className="adu-inner">
             <Reveal>
               <div className="section-tag" style={{ color: "var(--gold-base)" }}>Homeowner Wealth Creation</div>
-              <p className="adu-teaser">AB 1033 just changed what a South LA homeowner can legally do with their backyard. This is the one piece of legislation most homeowners haven&apos;t caught up on yet — and it&apos;s worth real money.</p>
               <h2 className="section-headline light">AB 1033 Changes<br /><em className="gold-text" style={{ fontStyle: "italic" }}>Everything.</em></h2>
               <p className="section-body light" style={{ marginBottom: "28px" }}>California&apos;s AB 1033, when fully implemented, allows homeowners to sell an Accessory Dwelling Unit as a separate piece of real estate — independent from the primary residence. In a neighborhood where $5B+ in public and private investment is flowing, this is a generational wealth creation window for those who already own here.</p>
               <p className="section-body light" style={{ marginBottom: "40px" }}>Parks at train stops, walkable blocks, and renters who will pay more to be close to the K Line — these are the reasons South LA ADUs make so much sense right now.</p>
               <MotionLink href="#final-cta" className="btn-primary">See What Your Lot Can Support →</MotionLink>
             </Reveal>
             <Reveal className="adu-numbers" delay={0.15}>
-              <div className="adu-num-cell"><div className="adu-num">$280–$400</div><div className="adu-num-label">Per sq ft<br />construction range</div></div>
+              <div className="adu-num-cell"><div className="adu-num">$280+</div><div className="adu-num-label">Per sq ft<br />construction range</div></div>
               <div className="adu-num-cell"><div className="adu-num">60–90</div><div className="adu-num-label">Day permit<br />timeline</div></div>
               <div className="adu-num-cell"><div className="adu-num">AB1033</div><div className="adu-num-label">Sell ADU as<br />separate property</div></div>
               <div className="adu-num-cell"><div className="adu-num">½ mi</div><div className="adu-num-label">Transit value<br />radius rule</div></div>
