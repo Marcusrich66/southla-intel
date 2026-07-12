@@ -844,9 +844,19 @@ section { position: relative; }
 .step-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
 .step-desc { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 
+/* Two Anchors subtitle */
+.two-anchors-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .85rem; font-weight: 400; color: rgba(255,255,255,.6);
+  max-width: 560px; line-height: 1.65; margin-bottom: 40px; margin-top: -8px;
+}
+
 /* ADU */
 /* RHYTHM v4.1: was var(--navy) — medium navy creates break between How It Works and CommunityCapital */
 #adu { background: var(--navy-medium); padding: 100px 0; }
+
+/* Homeowner Wealth Creation tag — larger, more dominant */
+#adu .section-tag { font-size: .8rem; letter-spacing: .28em; margin-bottom: 28px; }
 .adu-teaser {
   font-family: 'Cormorant Garamond', serif; font-style: italic;
   font-size: 1.1rem; line-height: 1.7; color: rgba(240,237,232,.7);
@@ -990,9 +1000,9 @@ section { position: relative; }
 @media(max-width:480px) {
   .cc-section { padding: 72px 0; }
   .cc-stats-grid { grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 44px; width: 100%; overflow: hidden; }
-  .cc-stat-card { padding: 12px 8px; min-width: 0; }
-  .cc-stat-value { font-size: 1.3rem !important; }
-  .cc-stat-label { font-size: .55rem !important; letter-spacing: .08em !important; }
+  .cc-stat-card { padding: 10px 6px; min-width: 0; }
+  .cc-stat-value { font-size: 1.1rem !important; }
+  .cc-stat-label { font-size: .5rem !important; letter-spacing: .06em !important; }
   .cc-contact-grid { grid-template-columns: 1fr; gap: 24px; }
   .cc-cta-btn { width: 100%; text-align: center; display: block; padding: 16px 24px; }
 }
@@ -1631,7 +1641,7 @@ footer {
 
   /* ── COMMUNITY CAPITAL / PCR ────────────── */
   .cc-subhead           { color: #ffffff !important; font-size: 1rem !important; }
-  .cc-stat-label        { color: #ffffff !important; font-size: 0.9rem !important; }
+  .cc-stat-label        { color: #ffffff !important; font-size: 0.7rem !important; }
   .cc-service-item span:last-child { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
   .cc-serve-text        { color: #ffffff !important; font-size: 1.125rem !important; line-height: 1.75 !important; }
   .cc-callout p         { font-size: 1.125rem !important; line-height: 1.75 !important; }
