@@ -100,16 +100,6 @@ function DevCards({ children, openCard, setOpenCard }: DevCardsProps) {
   );
 }
 
-function CorridorBand() {
-  return (
-    <div className="corridor-band">
-      <div className="corridor-band-label">CORRIDOR READING</div>
-      <p className="corridor-band-text">
-        This isn&apos;t just one project. It&apos;s multiple investments showing up in the same area at the same time — cultural infrastructure, transit, public money, and private capital, all together.
-      </p>
-    </div>
-  );
-}
 
 export default function Developments() {
   const [active, setActive] = useState("crenshaw");
@@ -195,7 +185,6 @@ export default function Developments() {
                   <div className="dev-card-body">The 20/20 Vision Initiative has officially branded Leimert Park as a protected hub for Black creatives. Anchor institutions include the World Stage, Degnan gallery row, and Hilltop Coffee + Kitchen (co-owned by Issa Rae) — a FUBU economic network that sets the neighborhood&apos;s cultural floor.</div>
                   <div className="dev-card-signal">Creative-class anchor businesses function as neighborhood quality signals to buyers and investors — and as a permanent barrier to cultural erasure.</div>
                 </DevCard>
-                <CorridorBand />
                 <DevCard>
                   <div className="dev-card-status s-planned">Phased · K Line Station Areas</div>
                   <div className="dev-card-title">Crenshaw Wall Pocket Parks</div>
@@ -376,7 +365,6 @@ export default function Developments() {
                   <div className="dev-card-body">Multi-project climate and community resilience initiative funded by California&apos;s Transformative Climate Communities program. Covers solar installation, green infrastructure, affordable housing support, and small business development in Watts and adjacent South LA.</div>
                   <div className="dev-card-signal">Public climate equity funding is flowing into infrastructure, not just buildings — a sustained investment signal that moves beyond a single development cycle.</div>
                 </DevCard>
-                <CorridorBand />
                 <DevCard>
                   <div className="dev-card-status s-active">Funded · Green Infrastructure</div>
                   <div className="dev-card-title">Watts Civic Center — Serenity Greenway</div>

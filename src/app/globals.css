@@ -610,21 +610,27 @@ section { position: relative; }
   -webkit-tap-highlight-color: rgba(207,174,109,.15);
 }
 .dev-card-header-content { flex: 1; min-width: 0; }
+@keyframes chevron-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(207,174,109,.5); }
+  60%       { box-shadow: 0 0 0 6px rgba(207,174,109,0); }
+}
 .dev-card-chevron {
   flex-shrink: 0; margin-top: 2px;
-  width: 28px; height: 28px;
+  width: 32px; height: 32px;
   display: flex; align-items: center; justify-content: center;
   border-radius: 50%;
-  color: var(--gold-base);
-  border: 1.5px solid rgba(207,174,109,.35);
-  background: rgba(207,174,109,.06);
-  transition: transform .28s ease, background .2s, border-color .2s, color .2s;
+  color: var(--gold-hi);
+  border: 1.5px solid rgba(207,174,109,.6);
+  background: rgba(207,174,109,.12);
+  transition: transform .28s ease, background .2s, border-color .2s, color .2s, box-shadow .2s;
+  animation: chevron-pulse 2s ease-out infinite;
 }
-.dev-card-chevron svg { width: 14px; height: 14px; }
+.dev-card-chevron svg { width: 16px; height: 16px; }
 .dev-card-chevron--open {
   transform: rotate(180deg);
-  background: rgba(207,174,109,.18);
-  border-color: var(--gold-base);
+  background: rgba(207,174,109,.22);
+  border-color: var(--gold-hi);
+  animation: none;
 }
 /* Desktop hover */
 @media (hover: hover) and (pointer: fine) {

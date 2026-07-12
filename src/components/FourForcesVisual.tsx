@@ -11,7 +11,7 @@ export default function FourForcesVisual() {
           <div className="ff-kicker">The Solution</div>
           <h2 className="ff-title" id="four-forces-title">
             Four Things Moving<br />
-            The Corridor.<br />
+            South LA.<br />
             One Report That Maps<br />
             All Of It.
           </h2>

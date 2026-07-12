@@ -214,21 +214,16 @@ export default function Home() {
             <h2 className="section-headline light">Your Property.<br />Your Position.</h2>
             <p className="section-body light">If you own property in South LA right now, this isn&apos;t just interesting news. This is about your specific property. Transit, new zoning, cultural anchors, and AB 1033 are all hitting at the same time — and they all connect back to what your land is worth and what you can do with it.</p>
           </Reveal>
-          <Reveal className="homeowner-grid homeowner-grid--three" delay={0.15}>
+          <Reveal className="homeowner-grid" delay={0.15}>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">🏗️</span>
               <div className="homeowner-cell-title">ADU Opportunity</div>
-              <div className="homeowner-cell-body">Construction costs at $280–$400/sq ft and 60–90 day permit timelines make ADU development accessible for most existing South LA owners. AB 1033 now opens the option to sell that unit as a standalone asset — a wealth-building tool that didn&apos;t exist before.</div>
-            </div>
-            <div className="homeowner-cell">
-              <span className="homeowner-cell-icon">📈</span>
-              <div className="homeowner-cell-title">Rental Demand Growth</div>
-              <div className="homeowner-cell-body">West Adams has established a new rental ceiling of $2,450–$3,395/mo for transit-adjacent units. That number is moving east and south. If you own in Jefferson Park, Leimert Park, or Watts — you&apos;re ahead of the market shift. Not behind it.</div>
+              <div className="homeowner-cell-body">Building a backyard ADU in South LA starts around $280/sq ft and up, depending on size and finishes. With 60–90 day permit timelines, it&apos;s one of the most accessible development moves available to existing South LA homeowners right now.</div>
             </div>
             <div className="homeowner-cell">
               <span className="homeowner-cell-icon">⚖️</span>
-              <div className="homeowner-cell-title">AB 1033 Implications</div>
-              <div className="homeowner-cell-body">California&apos;s AB 1033 allows homeowners to sell an ADU as a legally separate piece of real estate. In a market where land values are rising and cultural infrastructure is being permanently built in, this legislation transforms a backyard into a second deed — and a second generational asset.</div>
+              <div className="homeowner-cell-title">AB 1033 Strategy</div>
+              <div className="homeowner-cell-body">California&apos;s AB 1033 allows you to sell an ADU as a legally separate piece of real estate — independent from your primary residence. In a corridor where $5B+ is flowing in, this turns a backyard into a second deed and a generational wealth asset that didn&apos;t exist before.</div>
             </div>
           </Reveal>
           <Reveal className="homeowner-closing" delay={0.22}>
