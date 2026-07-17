@@ -351,7 +351,6 @@ export default function Home() {
               <div className="step-number">03</div>
               <div className="step-title">Strategic Roadmap</div>
               <div className="step-desc">Whether you&apos;re a homeowner, buyer, or investor — we tell you straight: what to do, when to do it, and what you&apos;re leaving on the table if you wait.</div>
-              <div style={{ fontSize: ".7rem", color: "rgba(74,90,109,.9)", marginTop: "10px", lineHeight: 1.6, fontWeight: 400 }}>Full brokerage services — including buyer representation, listings, and investment acquisition — are available through Cal Estate Brokers, DRE #01808336.</div>
             </Reveal>
             <Reveal className="step-item" delay={0.3}>
               <div className="step-number">04</div>
@@ -359,6 +358,7 @@ export default function Home() {
               <div className="step-desc">South LA keeps moving. So does this report. We&apos;ll keep you ahead of what&apos;s coming — not catching up to what already happened.</div>
             </Reveal>
           </div>
+          <p className="brokerage-disclosure">Full brokerage services — including buyer representation, listings, and investment acquisition — are available through Cal Estate Brokers, DRE #01808336.</p>
         </div>
       </section>
 
@@ -407,6 +407,7 @@ export default function Home() {
               </div>
             </div>
           </Reveal>
+          <p className="brokerage-disclosure cta-brokerage-disclosure">Marcus Rich Realty · DRE #01497912 · Brokerage services provided through Cal Estate Brokers · DRE #01808336</p>
         </div>
       </section>
 
@@ -414,7 +415,6 @@ export default function Home() {
       <footer>
         <div className="footer-dre">
           © 2026 South LA Media · Produced by Marcus Rich Realty · DRE #01497912 · Equal Housing Opportunity<br />
-          <span style={{ color: "rgba(255,255,255,.35)", fontSize: ".6rem", letterSpacing: ".08em" }}>Marcus Rich Realty · DRE #01497912 · Brokerage services provided through Cal Estate Brokers · DRE #01808336</span><br />
           <span style={{ color: "rgba(207,174,109,.35)", letterSpacing: ".12em" }}>Research &amp; Editorial Direction by South LA Media</span>
         </div>
         <div className="footer-disc">This page is for informational purposes only and does not constitute legal, financial, or investment advice. Timelines, costs, and project details are based on publicly available information as of May 2026 and are subject to change. Always consult qualified professionals before making investment decisions.</div>
