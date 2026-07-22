@@ -1,4 +1,5 @@
 import Developments from "@/components/Developments";
+import Culture from "@/components/Culture";
 import CommunityCapital from "@/components/CommunityCapital";
 import FourForcesVisual from "@/components/FourForcesVisual";
 import BackToTop from "@/components/BackToTop";
@@ -204,6 +205,9 @@ export default function Home() {
 
       {/* DEVELOPMENTS */}
       <Developments />
+
+      {/* CULTURE */}
+      <Culture />
 
       {/* AUTHORITY */}
       <section id="authority">

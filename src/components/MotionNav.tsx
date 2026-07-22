@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const links = [
   { href: "#developments", label: "All Developments" },
+  { href: "#culture", label: "Culture" },
   { href: "#authority", label: "The Brief" },
   { href: "#adu", label: "ADU Strategy" },
   { href: "#community-capital", label: "PCR Business Finance" },

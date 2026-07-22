@@ -854,6 +854,67 @@ section { position: relative; }
 .step-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 700; color: var(--navy); margin-bottom: 10px; }
 .step-desc { font-size: 1.125rem; font-weight: 400; color: var(--steel); line-height: 1.75; }
 
+/* ── CULTURE SECTION ──────────────────────────────────────── */
+#culture { background: var(--off-white); padding: 100px 0; }
+.culture-header { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: end; margin-bottom: 56px; }
+#culture .dev-card { background: var(--white); }
+
+/* Featured South LA Café card */
+.culture-feature {
+  background: var(--navy);
+  border-top: 3px solid var(--gold-base);
+  padding: 56px 60px;
+  margin-bottom: 64px;
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 60px;
+  align-items: start;
+}
+.culture-feature-kicker {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .6rem; font-weight: 700; letter-spacing: .25em; text-transform: uppercase;
+  color: var(--gold-base); display: flex; align-items: center; gap: 14px; margin-bottom: 16px;
+}
+.culture-feature-kicker::before { content: ''; display: block; width: 30px; height: 1px; background: var(--gold-base); }
+.culture-feature-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 700; line-height: 1.1; color: var(--white); margin-bottom: 10px;
+}
+.culture-feature-meta {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .68rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--gold-lo); margin-bottom: 28px; line-height: 1.6;
+}
+.culture-feature-body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .95rem; font-weight: 400; color: rgba(255,255,255,.72); line-height: 1.85; margin-bottom: 16px;
+}
+.culture-feature-signal {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .88rem; font-weight: 400; color: rgba(255,255,255,.5);
+  line-height: 1.8; border-top: 1px solid rgba(207,174,109,.18); padding-top: 20px; margin-top: 8px;
+}
+.culture-feature-aside {
+  background: rgba(255,255,255,.04); border: 1px solid rgba(207,174,109,.18); padding: 28px 24px;
+}
+.culture-feature-stat { padding: 12px 0; border-bottom: 1px solid rgba(207,174,109,.1); }
+.culture-feature-stat:last-child { border-bottom: none; }
+.culture-feature-stat-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .52rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--gold-base); margin-bottom: 5px;
+}
+.culture-feature-stat-value {
+  font-family: 'Montserrat', sans-serif; font-size: .82rem; font-weight: 400;
+  color: rgba(255,255,255,.75); line-height: 1.5;
+}
+.culture-feature-link {
+  font-family: 'Montserrat', sans-serif; font-size: .82rem; font-weight: 600;
+  color: var(--gold-base); text-decoration: none; letter-spacing: .05em;
+  border-bottom: 1px solid rgba(207,174,109,.4); transition: color .2s, border-color .2s;
+}
+.culture-feature-link:hover { color: var(--gold-hi); border-color: var(--gold-hi); }
+
 /* Two Anchors — larger section tag + subtitle */
 #authority .section-tag {
   font-size: 1rem; letter-spacing: .22em; margin-bottom: 14px;
@@ -1353,7 +1414,9 @@ footer {
   .hero-view-btn-mobile { display: none !important; }
   .container { padding: 0 24px; }
   #solution { padding: 72px 24px; }
-  #homeowner,#developments,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
+  #homeowner,#developments,#culture,#authority,#how-it-works,#adu,#faq,#final-cta { padding: 72px 0; }
+  .culture-header { grid-template-columns: 1fr; gap: 20px; }
+  .culture-feature { grid-template-columns: 1fr; gap: 32px; padding: 36px 28px; }
   #problem { padding: 36px 0 72px; }
   .section-headline { font-size: clamp(1.8rem,6vw,2.6rem); }
   .section-body { font-size: 1.125rem; }
